@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>eersi.tn</title>
+</head>
+<body>
+  <script type="module">
+    import { getToken, getUser } from "./js/api.js";
+    const token = getToken();
+    const u = getUser();
+    if (!token || !u) location.href = "./login.html";
+    else if (u.role === "vendor") location.href = "./vendor-dashboard.html";
+    else if (u.role === "admin") location.href = "./admin.html";
+    else location.href = "./client-dashboard.html";
+  </script>
+</body>
+</html>

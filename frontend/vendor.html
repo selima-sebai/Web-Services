@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vendor — eersi.tn</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="vendor-page">
+  <div class="container">
+
+
+    <div class="hero">
+      <h2 id="vendorName">Loading…</h2>
+      <p id="vendorMeta"></p>
+    </div>
+
+    <div class="grid">
+      <div class="card vendor-card" style="grid-column: span 12;">
+        <div class="inner">
+
+          <div class="row vendor-top">
+            <span class="badge" id="vendorCategory"></span>
+            <span class="price" id="vendorPrice"></span>
+          </div>
+
+          <p id="vendorDesc" class="vendor-description"></p>
+
+          <!-- IMPORTANT: removed inline font-size and colors so CSS can control size -->
+          <div id="vendorInfo" class="vendor-info"></div>
+
+          <hr class="sep"/>
+
+          <h3 class="section-title">Book an appointment</h3>
+
+          <div class="row book-row">
+            <input class="input" id="date" type="date" />
+            <select id="timeSlot"></select>
+            <button class="btn primary" id="bookBtn" type="button">Book</button>
+          </div>
+
+          <p id="msg" class="vendor-message"></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="./js/vendor.js"></script>
+</body>
+</html>

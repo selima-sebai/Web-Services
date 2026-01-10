@@ -1,0 +1,126 @@
+ [
+{
+  "id": 1,
+  "title": "Henna Night (Leilat el Henna)",
+  "region": "Tunis",
+  "summary": "A festive pre-wedding night where the bride is adorned with henna as a symbol of luck and happiness.",
+  "details": "Time for some traditional charm! Henna Night is one of the most anticipated moments before the wedding. Surrounded by female relatives and close friends, the bride steps into the spotlight wearing a stunning red or traditional outfit. Music fills the room, hands clap to the rhythm, and ululations echo as henna is carefully applied to her hands and sometimes her feet. This ritual is more than just decoration — henna is believed to bring good luck, protection, and blessings for the bride’s new life as a wife. The atmosphere is warm, joyful, and emotional, marking the transition from single life to marriage.",
+  "images": ["/traditions/henna-tunis.jpeg"]
+},
+{
+  "id": 2,
+  "title": "Khotba Ceremony (Formal Engagement)",
+  "region": "Nationwide",
+  "summary": "A formal family gathering where the marriage proposal is officially accepted.",
+  "details": "Let the official journey begin! The Khotba Ceremony marks the moment when the groom’s family pays a formal visit to the bride’s home to ask for her hand in marriage. This is a respectful and meaningful event where families meet, exchange warm conversations, and celebrate the agreement between both sides. Gifts such as pastries, flowers, and sometimes gold jewelry are presented as a sign of goodwill and commitment. Religious verses or prayers may be recited to bless the union, and discussions often turn to wedding plans, including setting a date. The atmosphere is elegant, joyful, and filled with anticipation for what’s to come.",
+  "images": ["/traditions/khotba.jpeg"]
+},
+  {
+  "id": 3,
+  "title": "Hammam el Aroussa",
+  "region": "Tunis",
+  "summary": "A ceremonial hammam visit where the bride is purified and celebrated before the wedding.",
+  "details": "Pampering time has arrived! Hammam el Aroussa is a cherished pre-wedding ritual where the bride is accompanied by her closest female relatives and friends to a traditional public hammam. Often veiled and surrounded by singing, clapping, and joyful ululations, the bride is treated to an intense cleansing experience with scrubs, steam, masks, and hair care. Beyond relaxation, this ritual symbolizes both physical and spiritual purification, preparing the bride for her new life as a married woman. The atmosphere is lively, intimate, and filled with laughter, making it a beautiful blend of self-care and celebration.",
+  "images": ["/traditions/hammem.jpeg"]
+},
+  
+
+ {
+  "id": 4,
+  "title": "Zaghrit",
+  "region": "Nationwide",
+  "summary": "High-pitched ululations used to express joy and celebration during weddings.",
+  "details": "Let the celebration be heard! Zaghrit are high-pitched ululations traditionally performed by women to mark joyful and emotional moments throughout the wedding festivities. They can be heard during entrances, dances, outfit changes, and major highlights of the celebration. More than just a sound, zaghrit express collective happiness, pride, and blessing, filling the space with energy and excitement. Their rhythm and timing add to the festive atmosphere and signal that a special moment is taking place.",
+  "images": ["/traditions/zaghrouta.jpg"]
+},
+{
+  "id": 5,
+  "title": "Bkhour",
+  "region": "Nationwide",
+  "summary": "A traditional ritual using bkhour to bless and protect the bride.",
+  "details": "A moment filled with scent and symbolism. Bkhour, a type of traditional incense, is gently passed around the bride to protect her from envy and negative energy. The fragrant smoke surrounds her as prayers and blessings are quietly shared, creating a calm and meaningful atmosphere. This ritual is commonly performed at key moments of the wedding celebrations, such as before major ceremonies or transitions, and is believed to bring peace, protection, and positive energy to the bride as she begins her new life.",
+  "images": ["/traditions/bkhour.jpeg"]
+},
+  
+  {
+    "id": 6,
+    "title": "Gold Display for the Bride",
+    "region": "Nationwide",
+    "summary": "A symbolic presentation of gold jewelry gifted to the bride.",
+    "details": "A moment of pride and sparkle! The gold display highlights the jewelry gifted to the bride, often by the groom and his family. Necklaces, bracelets, earrings, and sometimes belts are carefully presented and worn by the bride during the celebrations. Beyond beauty, this tradition symbolizes commitment, financial security, and respect. Guests admire the pieces as part of the bride’s overall look, making it both meaningful and celebratory.",
+    "images": ["/traditions/gold.jpeg"]
+  },
+  {
+    "id": 7,
+    "title": "Saboun (Trousseau Preparation)",
+    "region": "Nationwide",
+    "summary": "A collective preparation of the bride’s trousseau.",
+    "details": "It all begins with teamwork and excitement! Saboun brings together the bride’s aunts, cousins, and close friends to prepare her trousseau. Household linen, kitchen items, decorations, and essentials for the new home are ironed, folded, decorated, and packed with care. This joyful gathering strengthens family bonds and marks the bride’s transition into married life.",
+    "images": ["/traditions/saboun.jpeg"]
+  },
+  {
+    "id": 8,
+    "title": "Farchen el Farch",
+    "region": "Nationwide",
+    "summary": "The unveiling and arrangement of the bride’s trousseau.",
+    "details": "The excitement continues as the trousseau takes center stage. During Farchen el Farch, the items prepared earlier are unpacked and proudly displayed to family members. Everyone joins in to arrange linens, household items, and furniture, transforming the space into the future marital home. This tradition symbolizes readiness, cooperation, and collective support.",
+    "images": ["/traditions/farchen.jpeg"]
+  },
+  {
+    "id": 9,
+    "title": "Outeya (Laaroussa Party)",
+    "region": "Nationwide",
+    "summary": "A women-only celebration showcasing the bride.",
+    "details": "Now for the showstopper moment! Outeya, also known as the Laaroussa Party, is a women-only celebration where the bride dazzles guests by wearing several traditional outfits. Each look highlights different styles, jewelry, and cultural influences. The atmosphere is glamorous and joyful, filled with admiration, photos, and celebration of the bride’s elegance.",
+    "images": ["/traditions/outeya.jpeg"]
+  },
+  {
+    "id": 10,
+    "title": "Fouta et Blouza",
+    "region": "Nationwide",
+    "summary": "A classic traditional outfit worn by the bride.",
+    "details": "A timeless favorite! Fouta et Blouza is one of the most iconic traditional outfits worn by Tunisian brides. Made of rich fabrics and often paired with a decorative belt, this ensemble highlights elegance, heritage, and craftsmanship. It is commonly worn during key moments of the wedding celebrations.",
+    "images": ["/traditions/foutawblouza.jpeg"]
+  },
+  {
+    "id": 11,
+    "title": "Kholkhal",
+    "region": "Nationwide",
+    "summary": "Traditional anklets worn by the bride.",
+    "details": "A subtle yet meaningful detail. Kholkhal are traditional anklets, usually worn in pairs, that add rhythm and charm to the bride’s movements. Often made of gold or silver, they symbolize femininity, beauty, and marriage, even when hidden beneath the dress.",
+    "images": ["/traditions/kholkhal.jpeg"]
+  },
+  {
+    "id": 12,
+    "title": "Giving Money to the Bride",
+    "region": "Nationwide",
+    "summary": "A gesture of financial support and blessing.",
+    "details": "A meaningful gesture of generosity. Family members and guests offer money to the bride as a way of wishing her prosperity and supporting her new life. This tradition reflects solidarity, care, and communal support surrounding the bride.",
+    "images": ["/traditions/flous.jpeg"]
+  },
+  {
+    "id": 13,
+    "title": "Jelwa",
+    "region": "Nationwide",
+    "summary": "The ceremonial presentation of the bride.",
+    "details": "A moment filled with elegance and anticipation. Jelwa refers to the ceremonial unveiling of the bride, often seated or elevated, fully dressed and adorned. Guests admire her attire and jewelry as she is officially presented, symbolizing pride and celebration.",
+    "images": ["/traditions/jelwa.jpeg"]
+  },
+  {
+    "id": 14,
+    "title": "Mezwed Music",
+    "region": "Nationwide",
+    "summary": "Lively traditional music played during weddings.",
+    "details": "Time to energize the celebration! Mezwed music brings powerful rhythms and lively beats that encourage dancing and collective joy. It plays a key role in keeping the wedding atmosphere vibrant and bringing guests together on the dance floor.",
+    "images": ["/traditions/mezwed.jpg"]
+  },
+  {
+    "id": 15,
+    "title": "Tabbel",
+    "region": "Nationwide",
+    "summary": "Traditional drumming used during wedding celebrations.",
+    "details": "Let the drums announce the joy! Tabbel refers to traditional drumming that accompanies entrances, processions, and major wedding moments. Its strong rhythms create excitement, draw attention, and add grandeur to the celebration.",
+    "images": ["http://localhost:3000/traditions/tabbel.jpeg"]
+  }
+
+]

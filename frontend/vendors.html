@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vendors — eersi.tn</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <header class="site-header">
+  <div class="logo-area">
+    <img class="logo-img" src="./assets/logo.png" alt="eersi logo">
+
+    <div class="logo-frame" aria-hidden="true">
+      <span class="deco-img left l1"></span>
+      <span class="deco-img left l2"></span>
+      <span class="deco-img left l3"></span>
+      <span class="deco-img left l4"></span>
+
+      <span class="deco-img right r1"></span>
+      <span class="deco-img right r2"></span>
+      <span class="deco-img right r3"></span>
+      <span class="deco-img right r4"></span>
+    </div>
+  </div>
+
+  <nav class="site-nav">
+    <a href="./index.html">Home</a>
+    <a href="./vendors.html">Vendors</a>
+    <a href="./traditions.html">Traditions</a>
+    <a href="./bookings.html">My bookings</a>
+    <a href="./budget.html">Budget</a>
+  </nav>
+</header>
+
+    <!-- HERO -->
+    <div class="hero">
+      <h2 id="title">Vendors</h2>
+      <p id="subtitle">Choose a category to start browsing.</p>
+
+      <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="btn" id="backBtn" href="./vendors.html" style="display:none;">← Back to categories</a>
+      </div>
+    </div>
+
+    <!-- CATEGORIES (same card style as your vendor items) -->
+    <div class="grid" id="categoriesWrap">
+      <div class="list" id="categories"></div>
+    </div>
+
+    <!-- VENDORS LIST VIEW (your old layout style) -->
+    <div class="grid" id="vendorsWrap" style="display:none;">
+      <div class="filters">
+        <select id="region">
+          <option value="">All regions</option>
+          <option>Tunis</option><option>Sfax</option><option>Sousse</option>
+          <option>Nabeul</option><option>Bizerte</option><option>Kairouan</option>
+          <option>Monastir</option><option>Hammamet</option><option>Djerba</option>
+          <option>Gabes</option>
+        </select>
+
+        <input class="input" id="maxPrice" type="number" placeholder="Max price" />
+        <button class="btn primary" id="apply" type="button">Apply</button>
+        <button class="btn" id="clear" type="button">Clear</button>
+      </div>
+
+      <div class="list" id="list"></div>
+    </div>
+
+  </div>
+
+  <script type="module" src="./js/vendors.js"></script>
+</body>
+</html>
+

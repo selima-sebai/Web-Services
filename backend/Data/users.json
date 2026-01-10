@@ -1,0 +1,30 @@
+[
+  {
+    "id": "22dd0879-c28c-418a-a0e1-cae4d6996046",
+    "email": "admin@eersi.tn",
+    "passwordHash": "$2b$10$KxS3KxSi8PykZ...gwUoS.4fR3zqE1K.KAA2vYhZ3LwCru5Q4cIaC",
+    "role": "admin",
+    "createdAt": "2026-01-10T18:10:40.599Z"
+  },
+  {
+    "id": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "passwordHash": "$2b$10$i//ATO.wuDw9uy343AmIcOFsKvh4ePtpCsSmjXbDTjVQtgm4FGVli",
+    "role": "client",
+    "createdAt": "2026-01-10T18:18:25.552Z"
+  },
+  {
+    "id": "6a2d77cb-5b35-479e-9550-aab6d3aa9854",
+    "email": "fleur@gmail.com",
+    "passwordHash": "$2b$10$f6o.HMDUsOvDIL3p0lhUd.9TLAG1679.qDMvCI/5zbcWi7/H17cvy",
+    "role": "vendor",
+    "createdAt": "2026-01-10T19:39:51.583Z"
+  },
+  {
+    "id": "6692da87-8b06-491e-811e-19a8c1ef4d13",
+    "email": "selima.sebai@tbs.u-tunis.tn",
+    "passwordHash": "$2b$10$i/JFEfYqDKkG3T07jwT5gu2KkPbO8Z0hs1I.9xFhWogITg/0gIbcS",
+    "role": "vendor",
+    "createdAt": "2026-01-10T19:40:32.403Z"
+  }
+]

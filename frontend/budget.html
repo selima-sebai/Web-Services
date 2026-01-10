@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Budget — eersi.tn</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HEADER (ONLY ONCE) -->
+    <header class="site-header">
+      <div class="logo-area">
+        <img class="logo-img" src="./assets/logo.png" alt="eersi logo">
+
+        <div class="logo-frame" aria-hidden="true">
+          <span class="deco-img left l1"></span>
+          <span class="deco-img left l2"></span>
+          <span class="deco-img left l3"></span>
+          <span class="deco-img left l4"></span>
+
+          <span class="deco-img right r1"></span>
+          <span class="deco-img right r2"></span>
+          <span class="deco-img right r3"></span>
+          <span class="deco-img right r4"></span>
+        </div>
+      </div>
+
+      <nav class="site-nav">
+        <a href="./index.html">Home</a>
+        <a href="./vendors.html">Vendors</a>
+        <a href="./traditions.html">Traditions</a>
+        <a href="./bookings.html">My bookings</a>
+        <a class="active" href="./budget.html">Budget</a>
+      </nav>
+    </header>
+
+    <!-- PAGE CONTENT -->
+    <div class="hero">
+      <h2>Budget</h2>
+      <p>Define your total wedding budget, allocate by category, and track actual spending from confirmed bookings.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card" style="grid-column: span 6;">
+        <div class="inner">
+          <h3>Total Budget</h3>
+          <div style="display:flex;gap:8px;align-items:center">
+            <input id="totalInput" type="number" placeholder="0" />
+            <button id="saveTotal" class="btn">Save</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column: span 6;">
+        <div class="inner">
+          <h3>Summary</h3>
+          <div id="summary"></div>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column: span 12;">
+        <div class="inner">
+          <h3>Allocations</h3>
+          <div id="allocations"></div>
+          <div style="margin-top:12px;">
+            <input id="allocCategory" placeholder="category (e.g. hairdresser)" />
+            <input id="allocAmount" type="number" placeholder="amount" />
+            <button id="addAlloc" class="btn">Add / Update</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column: span 12;">
+        <div class="inner">
+          <h3>Records</h3>
+          <div id="records"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="./js/budget.js"></script>
+</body>
+</html>

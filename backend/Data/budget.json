@@ -1,0 +1,12 @@
+{
+  "total": 50000,
+  "allocations": {
+    "hairdresser": 3000,
+    "photograpger": 2000
+  },
+  "actuals": {
+    "hairdresser": 0,
+    "photograpger": 0
+  },
+  "records": []
+}

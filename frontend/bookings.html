@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Bookings — eersi.tn</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HEADER (ONLY ONCE) -->
+    <header class="site-header">
+      <div class="logo-area">
+        <img class="logo-img" src="./assets/logo.png" alt="eersi logo">
+
+        <div class="logo-frame" aria-hidden="true">
+          <span class="deco-img left l1"></span>
+          <span class="deco-img left l2"></span>
+          <span class="deco-img left l3"></span>
+          <span class="deco-img left l4"></span>
+
+          <span class="deco-img right r1"></span>
+          <span class="deco-img right r2"></span>
+          <span class="deco-img right r3"></span>
+          <span class="deco-img right r4"></span>
+        </div>
+      </div>
+
+      <nav class="site-nav">
+        <a href="./index.html">Home</a>
+        <a href="./vendors.html">Vendors</a>
+        <a href="./traditions.html">Traditions</a>
+        <a class="active" href="./bookings.html">My bookings</a>
+        <a href="./budget.html">Budget</a>
+      </nav>
+    </header>
+
+    <!-- PAGE CONTENT -->
+    <div class="hero">
+      <h2>My Bookings</h2>
+      <p>See all your bookings and cancel requests if needed.</p>
+    </div>
+
+    <div class="grid">
+      <div class="filters" style="display:flex;align-items:center;gap:10px;">
+        <input class="input" id="search" placeholder="Search bookings or vendor..." />
+        <select id="statusFilter">
+          <option value="">All statuses</option>
+          <option value="requested">Requested</option>
+          <option value="cancelled">Cancelled</option>
+        </select>
+        <button class="btn" id="refresh" type="button">Refresh</button>
+      </div>
+
+      <div class="list" id="bookingsList"></div>
+    </div>
+
+  </div>
+
+  <script type="module" src="./js/bookings.js"></script>
+</body>
+</html>

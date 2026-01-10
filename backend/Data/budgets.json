@@ -1,0 +1,18 @@
+[
+  {
+    "clientId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "total": 0,
+    "allocations": {},
+    "actuals": {},
+    "records": [],
+    "updatedAt": "2026-01-10T19:20:19.751Z"
+  },
+  {
+    "clientId": "6692da87-8b06-491e-811e-19a8c1ef4d13",
+    "total": 0,
+    "allocations": {},
+    "actuals": {},
+    "records": [],
+    "updatedAt": "2026-01-10T19:41:09.962Z"
+  }
+]

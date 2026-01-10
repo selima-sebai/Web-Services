@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <header class="site-header">
+  <div class="logo-area">
+    <img class="logo-img" src="./assets/logo.png" alt="eersi logo">
+
+    <div class="logo-frame" aria-hidden="true">
+      <span class="deco-img left l1"></span>
+      <span class="deco-img left l2"></span>
+      <span class="deco-img left l3"></span>
+      <span class="deco-img left l4"></span>
+
+      <span class="deco-img right r1"></span>
+      <span class="deco-img right r2"></span>
+      <span class="deco-img right r3"></span>
+      <span class="deco-img right r4"></span>
+    </div>
+  </div>
+
+  <nav class="site-nav">
+    <a href="./index.html">Home</a>
+    <a href="./vendors.html">Vendors</a>
+    <a href="./traditions.html">Traditions</a>
+    <a href="./bookings.html">My bookings</a>
+    <a href="./budget.html">Budget</a>
+  </nav>
+</header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — eersi.tn</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>eersi.tn</h1>
+      <p>Login to plan your Tunisian wedding or manage your vendor services.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card" style="grid-column: span 12;">
+        <div class="inner" style="max-width:520px;">
+          <div style="display:grid;gap:10px;">
+            <input class="input" id="email" placeholder="Email" />
+            <input class="input" id="password" type="password" placeholder="Password" />
+
+            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+              <button class="btn primary" id="loginBtn" type="button">Login</button>
+              <button class="btn" id="registerClientBtn" type="button">Register as Client</button>
+              <button class="btn" id="registerVendorBtn" type="button">Register as Vendor</button>
+            </div>
+
+            <div id="msg" style="color:var(--muted)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p style="opacity:.7;margin-top:14px;">
+      Admin accounts require a registration key (backend env).
+    </p>
+  </div>
+
+  <script type="module" src="./js/login.js"></script>
+</body>
+</html>

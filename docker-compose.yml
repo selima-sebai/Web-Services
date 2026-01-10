@@ -1,0 +1,11 @@
+services:
+  eersi:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      JWT_SECRET: "super_secret_change_me"
+      ADMIN_REGISTRATION_KEY: "make_admin_key_123"
+    volumes:
+      # Persist your JSON "database" outside the container (nice & realistic)
+      - ./backend/Data:/app/backend/Data
