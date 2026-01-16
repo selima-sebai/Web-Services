@@ -1,19 +1,21 @@
+<!-- index.html -->
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>eersi.tn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Planner</title>
 </head>
 <body>
-  <script type="module">
-    import { getToken, getUser } from "./js/api.js";
-    const token = getToken();
-    const u = getUser();
-    if (!token || !u) location.href = "./login.html";
-    else if (u.role === "vendor") location.href = "./vendor-dashboard.html";
-    else if (u.role === "admin") location.href = "./admin.html";
-    else location.href = "./client-dashboard.html";
+  <script>
+    // If user is logged in (token exists), go to dashboard. Otherwise go to login.
+    const token = localStorage.getItem("token");
+
+    if (token) {
+      window.location.replace("clientDashboard.html"); // <-- change to your dashboard page name
+    } else {
+      window.location.replace("login.html"); // <-- change to your login page name
+    }
   </script>
 </body>
 </html>

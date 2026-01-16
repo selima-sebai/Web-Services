@@ -1,4 +1,8 @@
-import { apiGet, resolveUrl } from "./api.js";
+import { apiGet, resolveUrl, getUser } from "./api.js";
+
+const u = getUser();
+if (u?.role === "vendor") location.href = "./vendor-dashboard.html";
+if (u?.role === "admin") location.href = "./admin.html";
 
 function qs(name) {
   return new URLSearchParams(location.search).get(name);
@@ -23,10 +27,7 @@ if (!id) {
       const images = Array.isArray(t.images) ? t.images : [];
       if (images.length) {
         galleryEl.innerHTML = images
-          .map(
-            (src) =>
-              `<img class="gallery-img" src="${resolveUrl(src)}" alt="${t.title || "Tradition"}">`
-          )
+          .map((src) => `<img class="gallery-img" src="${resolveUrl(src)}" alt="${t.title || "Tradition"}">`)
           .join("");
       } else {
         galleryEl.innerHTML = "";

@@ -1,4 +1,11 @@
 import { apiPost, setSession } from "./api.js";
+// Clear login fields on page load
+document.addEventListener("DOMContentLoaded", () => {
+  const email = document.getElementById("email");
+  const password = document.getElementById("password");
+  if (email) email.value = "";
+  if (password) password.value = "";
+});
 
 const emailEl = document.getElementById("email");
 const passEl = document.getElementById("password");

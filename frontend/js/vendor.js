@@ -1,4 +1,13 @@
-import { apiGet, apiPost } from "./api.js";
+import { apiGet, apiPost, getUser, getToken } from "./api.js";
+
+// Debug (optional)
+console.log("USER:", getUser());
+console.log("TOKEN exists?", !!getToken(), "len:", (getToken() || "").length);
+
+// If logged in as vendor/admin, force dashboard-only experience
+const u = getUser();
+if (u?.role === "vendor") location.href = "./vendor-dashboard.html";
+if (u?.role === "admin") location.href = "./admin.html";
 
 async function apiGetRetry(path, retries = 1, delayMs = 600) {
   try {
@@ -30,15 +39,11 @@ let vendorHasSlots = false;
 
 function setMsg(text, type = "info") {
   msgEl.textContent = text;
-  msgEl.style.color =
-    type === "ok" ? "green" : type === "err" ? "crimson" : "";
+  msgEl.style.color = type === "ok" ? "green" : type === "err" ? "crimson" : "";
 }
 
 function saveMsg(text, type) {
-  sessionStorage.setItem(
-    "lastBookingMsg",
-    JSON.stringify({ text, type, ts: Date.now() })
-  );
+  sessionStorage.setItem("lastBookingMsg", JSON.stringify({ text, type, ts: Date.now() }));
 }
 
 function restoreMsg() {
@@ -46,7 +51,6 @@ function restoreMsg() {
   if (!raw) return;
   try {
     const { text, type, ts } = JSON.parse(raw);
-    // keep it for 30 seconds
     if (Date.now() - ts < 30000) setMsg(text, type);
     else sessionStorage.removeItem("lastBookingMsg");
   } catch {
@@ -64,63 +68,47 @@ function fillSlots(timeSlots = []) {
   }
 
   slotEl.disabled = false;
-  slotEl.innerHTML = timeSlots
-    .map((t) => `<option value="${t}">${t}</option>`)
-    .join("");
+  slotEl.innerHTML = timeSlots.map((t) => `<option value="${t}">${t}</option>`).join("");
   vendorHasSlots = true;
   btnEl.disabled = false;
+}
+
+/**
+ * Render ONLY public, human-friendly "extra info".
+ * This prevents internal fields (ownerId, vendorProfileId, listingType, etc.)
+ * from showing in the UI.
+ */
+function renderPublicExtraInfo(v) {
+  const lines = [];
+
+  if (v.specialties) {
+    const s = Array.isArray(v.specialties) ? v.specialties.join(", ") : String(v.specialties);
+    lines.push(`<div><strong>Specialties:</strong> ${s}</div>`);
+  }
+
+  if (typeof v.homeService === "boolean") {
+    lines.push(`<div><strong>Home service:</strong> ${v.homeService ? "Yes" : "No"}</div>`);
+  }
+
+  if (v.durationMinutes) {
+    lines.push(`<div><strong>Duration:</strong> ${v.durationMinutes} min</div>`);
+  }
+
+  return lines.join("");
 }
 
 async function loadVendor() {
   if (!id) throw new Error("Missing vendor id in URL.");
 
-  // ✅ use retry here
   vendor = await apiGetRetry(`/vendors/${id}`, 1, 700);
 
-  nameEl.textContent = vendor.name;
-  metaEl.textContent = `${vendor.region} • ${vendor.category}`;
-  catEl.textContent = vendor.category;
-  priceEl.textContent = `${vendor.price} TND`;
+  nameEl.textContent = vendor.name || "Vendor";
+  metaEl.textContent = `${vendor.region || ""} • ${vendor.category || ""}`;
+  catEl.textContent = vendor.category || "";
+  priceEl.textContent = `${vendor.price ?? ""} TND`;
   descEl.textContent = vendor.description || "";
 
-  // Display extra vendor info fields dynamically
-  const fieldsToExclude = [
-    "id",
-    "name",
-    "category",
-    "region",
-    "price",
-    "description",
-    "timeSlots",
-  ];
-  const infoLines = [];
-
-  const formatKey = (k) =>
-    k
-      .replace(/([A-Z])/g, " $1")
-      .trim()
-      .toLowerCase()
-      .split(" ")
-      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-      .join(" ");
-
-  for (const [key, value] of Object.entries(vendor)) {
-    if (fieldsToExclude.includes(key) || value === null || value === undefined || value === "")
-      continue;
-
-    if (Array.isArray(value)) {
-      if (!value.length) continue;
-      infoLines.push(
-        `<div><strong>${formatKey(key)}:</strong> ${value.join(", ")}</div>`
-      );
-    } else if (typeof value === "object") {
-      continue;
-    } else {
-      infoLines.push(`<div><strong>${formatKey(key)}:</strong> ${value}</div>`);
-    }
-  }
-
-  infoEl.innerHTML = infoLines.length > 0 ? infoLines.join("") : "";
+  infoEl.innerHTML = renderPublicExtraInfo(vendor);
 
   fillSlots(vendor.timeSlots || []);
 }
@@ -131,14 +119,8 @@ btnEl.addEventListener("click", async (e) => {
   const date = dateEl.value;
   const timeSlot = slotEl.value;
 
-  if (!date) {
-    setMsg("Please select a date.", "err");
-    return;
-  }
-  if (vendorHasSlots && !timeSlot) {
-    setMsg("Please select a time slot.", "err");
-    return;
-  }
+  if (!date) return setMsg("Please select a date.", "err");
+  if (vendorHasSlots && !timeSlot) return setMsg("Please select a time slot.", "err");
 
   btnEl.disabled = true;
   setMsg("Booking…");
@@ -154,10 +136,6 @@ btnEl.addEventListener("click", async (e) => {
     const text = `✅ Booking confirmed (ID: ${created.id}).`;
     setMsg(text, "ok");
     saveMsg(text, "ok");
-
-    // Optional: refresh vendor after booking (with retry) if you need it:
-    // vendor = await apiGetRetry(`/vendors/${id}`, 1, 700);
-
     btnEl.disabled = true;
   } catch (err) {
     const text = `❌ ${err.message}`;

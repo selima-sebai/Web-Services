@@ -18,12 +18,16 @@
   </div>
 
   <nav class="site-nav">
-    <a href="./index.html">Home</a>
-    <a href="./vendors.html">Vendors</a>
-    <a href="./traditions.html">Traditions</a>
-    <a href="./bookings.html">My bookings</a>
-    <a href="./budget.html">Budget</a>
-  </nav>
+  <a href="./index.html">Home</a>
+  <a href="./client-dashboard.html">Dashboard</a>
+  <a href="./vendors.html">Vendors</a>
+  <a href="./traditions.html">Traditions</a>
+  <a href="./bookings.html">My bookings</a>
+  <a href="./budget.html">Budget</a>
+
+  <!-- logout button -->
+  <button class="btn" id="logoutBtn" type="button" style="margin-left:10px;">Logout</button>
+</nav>
 </header>
 
 <head>
@@ -64,5 +68,15 @@
   </div>
 
   <script type="module" src="./js/login.js"></script>
+  <script type="module" src="./js/logoutButton.js"></script>
+  <script>
+  // Force-clear login fields on every load
+  const email = document.getElementById("email");
+  const password = document.getElementById("password");
+
+  if (email) email.value = "";
+  if (password) password.value = "";
+</script>
+
 </body>
 </html>

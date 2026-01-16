@@ -1,4 +1,9 @@
-import { apiGet } from "./api.js";
+import { apiGet, getUser } from "./api.js";
+
+// If logged in as vendor, force dashboard-only experience
+const u = getUser();
+if (u?.role === "vendor") location.href = "./vendor-dashboard.html";
+if (u?.role === "admin") location.href = "./admin.html";
 
 const params = new URLSearchParams(location.search);
 const category = params.get("category") || "";
@@ -24,7 +29,6 @@ function esc(s) {
     .replaceAll(">", "&gt;");
 }
 
-// Optional: icons per category (safe fallback)
 function iconFor(key) {
   const map = {
     hairdresser: "💇‍♀️",
@@ -82,7 +86,6 @@ async function loadVendors() {
   categoriesWrap.style.display = "none";
   vendorsWrap.style.display = "";
 
-  // Nice title/subtitle from categories (optional)
   try {
     const cats = await apiGet("/categories");
     const found = cats.find((x) => x.key === category);
@@ -98,14 +101,75 @@ async function loadVendors() {
   if (regionEl?.value) q.set("region", regionEl.value);
   if (maxPriceEl?.value) q.set("maxPrice", maxPriceEl.value);
 
-  const vendors = await apiGet(`/vendors?${q.toString()}`);
+  const listings = await apiGet(`/vendors?${q.toString()}`);
 
-  if (!vendors.length) {
+  if (!listings.length) {
     listEl.innerHTML = `<div class="item" style="grid-column: span 12;">No vendors found for this category.</div>`;
     return;
   }
 
-  listEl.innerHTML = vendors
+  // Split legacy vs services
+  const legacy = listings.filter((x) => x.listingType !== "service" || !x.vendorProfileId);
+  const services = listings.filter((x) => x.listingType === "service" && x.vendorProfileId);
+
+  // Group services by vendorProfileId
+  const groups = new Map();
+  for (const s of services) {
+    const key = s.vendorProfileId;
+    if (!groups.has(key)) {
+      // storeName is the first part before " — "
+      const storeName = String(s.name || "").split(" — ")[0] || "Vendor";
+      groups.set(key, {
+        vendorProfileId: key,
+        storeName,
+        region: s.region,
+        services: [],
+      });
+    }
+    groups.get(key).services.push(s);
+  }
+
+  const groupedCardsHtml = Array.from(groups.values())
+    .map((g) => {
+      const serviceRows = g.services
+        .map((s) => {
+          // service title is the part after " — "
+          const title = (String(s.name || "").split(" — ")[1] || s.category || "Service").trim();
+          return `
+            <div style="display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 0;border-top:1px solid rgba(0,0,0,0.06);">
+              <div>
+                <div style="font-weight:800">${esc(title || "Service")}</div>
+                <div class="meta">${esc(s.category)} • <strong>${esc(s.price)} TND</strong></div>
+                ${s.timeSlots?.length ? `<div class="meta">${esc(s.timeSlots.join(", "))}</div>` : ""}
+              </div>
+              <a class="card-btn" style="min-width:110px;text-align:center" href="./vendor.html?id=${encodeURIComponent(s.id)}">View</a>
+            </div>
+          `;
+        })
+        .join("");
+
+      return `
+        <div class="item">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;">
+            <div class="title">${esc(g.storeName)}</div>
+            <span class="badge">store</span>
+          </div>
+
+          <div class="region-pill">${esc(g.region || "Region")}</div>
+
+          <div class="description">
+            Services (${g.services.length})
+          </div>
+
+          <div>
+            ${serviceRows}
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+
+  const legacyCardsHtml = legacy
     .map(
       (v) => `
       <div class="item">
@@ -115,7 +179,6 @@ async function loadVendors() {
         </div>
 
         <div class="region-pill">${esc(v.region || "Region")}</div>
-
         <div class="meta"><strong>${esc(v.price)} TND</strong></div>
 
         <div class="description">
@@ -123,15 +186,17 @@ async function loadVendors() {
         </div>
 
         <a class="card-btn" href="./vendor.html?id=${encodeURIComponent(v.id)}">
-          Book now
+          View
         </a>
       </div>
     `
     )
     .join("");
+
+  // Show grouped services first, then legacy
+  listEl.innerHTML = groupedCardsHtml + legacyCardsHtml;
 }
 
-// Buttons
 document.getElementById("apply")?.addEventListener("click", () => {
   loadVendors().catch((err) => {
     listEl.innerHTML = `<div class="item" style="grid-column: span 12;">Error: ${esc(err.message)}</div>`;
@@ -146,7 +211,6 @@ document.getElementById("clear")?.addEventListener("click", () => {
   });
 });
 
-// Boot
 (async () => {
   try {
     if (!category) await loadCategories();
@@ -156,4 +220,3 @@ document.getElementById("clear")?.addEventListener("click", () => {
     listEl.innerHTML = `<div class="item" style="grid-column: span 12;">Error: ${esc(err.message)}</div>`;
   }
 })();
-

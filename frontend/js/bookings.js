@@ -1,4 +1,7 @@
+import { requireRole } from "./authGate.js";
 import { apiGet, apiDelete, apiPost } from "./api.js";
+
+requireRole("client");
 
 const listEl = document.getElementById("bookingsList");
 const statusFilter = document.getElementById("statusFilter");
@@ -64,7 +67,6 @@ function render(bookings) {
     `;
   }).join("");
 
-  // attach cancel handlers
   document.querySelectorAll('button[data-action="cancel"]').forEach(btn => {
     btn.addEventListener("click", async () => {
       const id = btn.getAttribute("data-id");
@@ -72,7 +74,7 @@ function render(bookings) {
       btn.disabled = true;
       try {
         await apiDelete(`/bookings/${id}`);
-        await load(); // reload list
+        await load();
       } catch (err) {
         alert("Cancel failed: " + err.message);
         btn.disabled = false;
@@ -80,7 +82,6 @@ function render(bookings) {
     });
   });
 
-  // attach confirm handlers
   document.querySelectorAll('button[data-action="confirm"]').forEach(btn => {
     btn.addEventListener("click", async () => {
       const id = btn.getAttribute("data-id");

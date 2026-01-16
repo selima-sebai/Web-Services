@@ -9,40 +9,39 @@
 <body>
   <div class="container">
     <header class="site-header">
-  <div class="logo-area">
-    <img class="logo-img" src="./assets/logo.png" alt="eersi logo">
+      <div class="logo-area">
+        <img class="logo-img" src="./assets/logo.png" alt="eersi logo">
 
-    <div class="logo-frame" aria-hidden="true">
-      <span class="deco-img left l1"></span>
-      <span class="deco-img left l2"></span>
-      <span class="deco-img left l3"></span>
-      <span class="deco-img left l4"></span>
+        <div class="logo-frame" aria-hidden="true">
+          <span class="deco-img left l1"></span>
+          <span class="deco-img left l2"></span>
+          <span class="deco-img left l3"></span>
+          <span class="deco-img left l4"></span>
 
-      <span class="deco-img right r1"></span>
-      <span class="deco-img right r2"></span>
-      <span class="deco-img right r3"></span>
-      <span class="deco-img right r4"></span>
-    </div>
-  </div>
+          <span class="deco-img right r1"></span>
+          <span class="deco-img right r2"></span>
+          <span class="deco-img right r3"></span>
+          <span class="deco-img right r4"></span>
+        </div>
+      </div>
 
-  <nav class="site-nav">
-    <a href="./index.html">Home</a>
-    <a href="./vendors.html">Vendors</a>
-    <a href="./traditions.html">Traditions</a>
-    <a href="./bookings.html">My bookings</a>
-    <a href="./budget.html">Budget</a>
-  </nav>
-</header>
+      <!-- Vendor-only navigation -->
+      <nav class="site-nav">
+        <a href="./vendor-dashboard.html" class="active">Dashboard</a>
+      </nav>
+    </header>
+
     <div class="hero">
       <h2>Vendor Dashboard</h2>
       <p id="who" class="user-identity"></p>
       <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">
-        <a class="btn" href="./vendors.html">Public Vendors View</a>
         <button class="btn" id="logout">Logout</button>
       </div>
     </div>
 
     <div class="grid">
+
+      <!-- Vendor profile -->
       <div class="card" style="grid-column: span 12;">
         <div class="inner">
           <h3>1) Vendor Profile (Store)</h3>
@@ -50,14 +49,17 @@
             <input class="input" id="storeName" placeholder="Store name" />
             <input class="input" id="region" placeholder="Region (e.g., Tunis)" />
             <textarea class="input" id="description" placeholder="Description"></textarea>
+
             <button class="btn primary" id="applyBtn">Apply / Create Profile</button>
             <button class="btn" id="updateBtn">Update Profile</button>
-            <div id="profileMsg"></div>
-            <pre id="profileBox" style="white-space:pre-wrap;opacity:.85"></pre>
+
+            <!-- Status message only (no raw JSON) -->
+            <div id="profileMsg" class="meta"></div>
           </div>
         </div>
       </div>
 
+      <!-- Services -->
       <div class="card" style="grid-column: span 12;">
         <div class="inner">
           <h3>2) Add Service</h3>
@@ -66,24 +68,29 @@
             <input class="input" id="svcCategory" placeholder="Category (e.g., hairdresser, photographer...)" />
             <input class="input" id="svcPrice" placeholder="Price (TND)" />
             <textarea class="input" id="svcDesc" placeholder="Service description"></textarea>
-            <input class="input" id="svcSlots" placeholder='Time slots CSV (e.g., 10:00,12:00,14:00)' />
+            <input class="input" id="svcSlots" placeholder="Time slots CSV (e.g., 10:00,12:00,14:00)" />
+
             <button class="btn primary" id="addSvcBtn">Add Service</button>
-            <div id="svcMsg"></div>
+            <div id="svcMsg" class="meta"></div>
+
             <h4>Your Services</h4>
             <div id="svcList"></div>
           </div>
         </div>
       </div>
 
+      <!-- Booking requests -->
       <div class="card" style="grid-column: span 12;">
         <div class="inner">
           <h3>3) Booking Requests</h3>
           <div id="bookingsList"></div>
         </div>
       </div>
+
     </div>
   </div>
 
   <script type="module" src="./js/vendorDashboard.js"></script>
 </body>
 </html>
+

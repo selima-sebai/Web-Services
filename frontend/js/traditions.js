@@ -1,4 +1,8 @@
-import { apiGet, resolveUrl } from "./api.js";
+import { apiGet, resolveUrl, getUser } from "./api.js";
+
+const u = getUser();
+if (u?.role === "vendor") location.href = "./vendor-dashboard.html";
+if (u?.role === "admin") location.href = "./admin.html";
 
 const listEl = document.getElementById("traditionsList");
 

@@ -2,7 +2,9 @@ import { apiGet, apiPost, apiPatch, logout } from "./api.js";
 import { requireRole } from "./authGate.js";
 
 const u = requireRole("vendor");
-document.getElementById("who").textContent = u ? `Logged in as: ${u.email}` : "";
+if (!u) throw new Error("Unauthorized");
+
+document.getElementById("who").textContent = `Logged in as: ${u.email}`;
 
 document.getElementById("logout").addEventListener("click", () => {
   logout();
@@ -15,7 +17,6 @@ const description = document.getElementById("description");
 const applyBtn = document.getElementById("applyBtn");
 const updateBtn = document.getElementById("updateBtn");
 const profileMsg = document.getElementById("profileMsg");
-const profileBox = document.getElementById("profileBox");
 
 const svcTitle = document.getElementById("svcTitle");
 const svcCategory = document.getElementById("svcCategory");
@@ -28,22 +29,71 @@ const svcList = document.getElementById("svcList");
 
 const bookingsList = document.getElementById("bookingsList");
 
+// Helper to show small status messages
 function msg(el, t, ok = true) {
   el.textContent = t;
   el.style.color = ok ? "green" : "crimson";
 }
 
+// Enable/disable the whole services section
+function setServicesEnabled(enabled) {
+  const inputs = [svcTitle, svcCategory, svcPrice, svcDesc, svcSlots, addSvcBtn];
+  inputs.forEach((x) => (x.disabled = !enabled));
+  if (!enabled) {
+    svcList.innerHTML = `<div class="meta">Create a profile first.</div>`;
+  }
+}
+
+let currentProfile = null;
+
 async function loadProfile() {
   try {
     const p = await apiGet("/vendor/me");
-    profileBox.textContent = JSON.stringify(p, null, 2);
+    currentProfile = p;
+
+    // Fill inputs
     storeName.value = p.storeName || "";
     region.value = p.region || "";
     description.value = p.description || "";
-    msg(profileMsg, `Status: ${p.status}`, true);
+
+    // UX logic
+    if (p.status === "approved") {
+      msg(profileMsg, "Status: approved ✅", true);
+      applyBtn.style.display = "none";     // existing vendor doesn't need "apply"
+      updateBtn.style.display = "inline-block";
+      setServicesEnabled(true);
+    } else if (p.status === "pending") {
+      msg(profileMsg, "Status: pending approval ⏳ (admin must approve)", true);
+      applyBtn.style.display = "none";     // already applied
+      updateBtn.style.display = "inline-block";
+      setServicesEnabled(false);           // realistic: don't allow services until approved
+    } else if (p.status === "rejected") {
+      msg(profileMsg, "Status: rejected ❌ (update info then re-apply)", false);
+      applyBtn.style.display = "inline-block"; // allow re-apply
+      updateBtn.style.display = "inline-block";
+      setServicesEnabled(false);
+    } else {
+      msg(profileMsg, `Status: ${p.status}`, true);
+      applyBtn.style.display = "inline-block";
+      updateBtn.style.display = "inline-block";
+      setServicesEnabled(false);
+    }
+
+    return p;
   } catch (e) {
-    profileBox.textContent = "";
-    msg(profileMsg, e.message, false);
+    // No profile exists yet
+    currentProfile = null;
+    msg(profileMsg, "No profile yet — please Apply/Create Profile first.", false);
+
+    storeName.value = "";
+    region.value = "";
+    description.value = "";
+
+    applyBtn.style.display = "inline-block";
+    updateBtn.style.display = "none";
+    setServicesEnabled(false);
+
+    return null;
   }
 }
 
@@ -54,8 +104,8 @@ applyBtn.addEventListener("click", async () => {
       region: region.value,
       description: description.value,
     });
-    profileBox.textContent = JSON.stringify(p, null, 2);
     msg(profileMsg, `Applied. Status: ${p.status}`, true);
+    await loadProfile();
   } catch (e) {
     msg(profileMsg, e.message, false);
   }
@@ -68,8 +118,8 @@ updateBtn.addEventListener("click", async () => {
       region: region.value,
       description: description.value,
     });
-    profileBox.textContent = JSON.stringify(p, null, 2);
     msg(profileMsg, `Updated. Status: ${p.status}`, true);
+    await loadProfile();
   } catch (e) {
     msg(profileMsg, e.message, false);
   }
@@ -79,13 +129,17 @@ async function loadServices() {
   try {
     const services = await apiGet("/vendor/services");
     svcList.innerHTML = services.length
-      ? services.map(s => `
+      ? services
+          .map(
+            (s) => `
         <div class="item">
           <div style="font-weight:800">${s.title}</div>
           <div class="meta">${s.category} • ${s.price} TND</div>
-          <div class="meta">${(s.timeSlots||[]).join(", ")}</div>
+          <div class="meta">${(s.timeSlots || []).join(", ")}</div>
         </div>
-      `).join("")
+      `
+          )
+          .join("")
       : `<div class="meta">No services yet.</div>`;
   } catch (e) {
     svcList.innerHTML = `<div class="meta">Error: ${e.message}</div>`;
@@ -96,7 +150,7 @@ addSvcBtn.addEventListener("click", async () => {
   try {
     const slots = (svcSlots.value || "")
       .split(",")
-      .map(s => s.trim())
+      .map((s) => s.trim())
       .filter(Boolean);
 
     await apiPost("/vendor/services", {
@@ -107,12 +161,13 @@ addSvcBtn.addEventListener("click", async () => {
       timeSlots: slots,
     });
 
-    msg(svcMsg, "Service added", true);
+    msg(svcMsg, "Service added ✅", true);
     svcTitle.value = "";
     svcCategory.value = "";
     svcPrice.value = "";
     svcDesc.value = "";
     svcSlots.value = "";
+
     await loadServices();
   } catch (e) {
     msg(svcMsg, e.message, false);
@@ -122,26 +177,80 @@ addSvcBtn.addEventListener("click", async () => {
 async function loadVendorBookings() {
   try {
     const bks = await apiGet("/vendor/bookings");
-    if (!bks.length) {
-      bookingsList.innerHTML = `<div class="meta">No booking requests yet.</div>`;
-      return;
-    }
-    bookingsList.innerHTML = bks.map(b => `
-      <div class="item">
-        <div class="row" style="justify-content:space-between;">
-          <span class="badge">${b.status}</span>
-          <span class="meta">${b.date} ${b.timeSlot ? "• "+b.timeSlot : ""}</span>
-        </div>
-        <div class="meta">Type: ${b.type}</div>
-        <div style="display:flex;gap:8px;margin-top:10px;">
-          <button class="btn" data-id="${b.id}" data-status="accepted">Accept</button>
-          <button class="btn" data-id="${b.id}" data-status="declined">Decline</button>
-          <button class="btn" data-id="${b.id}" data-status="completed">Mark completed</button>
-        </div>
-      </div>
-    `).join("");
 
-    document.querySelectorAll("button[data-status]").forEach(btn => {
+    const requested = bks.filter(b => b.status === "requested");
+    const accepted = bks.filter(b => b.status === "accepted" || b.status === "confirmed");
+    const completed = bks.filter(b => b.status === "completed");
+    const declined = bks.filter(b => b.status === "declined");
+    const cancelled = bks.filter(b => b.status === "cancelled");
+
+    function renderSection(title, arr, renderer) {
+      if (!arr.length) return "";
+      return `
+        <div style="margin:18px 0 10px;">
+          <h4 style="margin:0 0 10px;">${title} (${arr.length})</h4>
+          <div style="display:grid;gap:10px;">
+            ${arr.map(renderer).join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    function baseCard(b) {
+      const who = b.clientEmail ? b.clientEmail : (b.clientId ? `Client: ${b.clientId}` : "Client: Unknown");
+      return `
+        <div class="item">
+          <div class="row" style="justify-content:space-between;">
+            <span class="badge">${b.status}</span>
+            <span class="meta">${b.date} ${b.timeSlot ? "• " + b.timeSlot : ""}</span>
+          </div>
+          <div class="meta"><strong>Booked by:</strong> ${who}</div>
+          <div class="meta"><strong>Type:</strong> ${b.type || "appointment"}</div>
+        </div>
+      `;
+    }
+
+    function actions(b, buttonsHtml) {
+      return `
+        <div class="item">
+          <div class="row" style="justify-content:space-between;">
+            <span class="badge">${b.status}</span>
+            <span class="meta">${b.date} ${b.timeSlot ? "• " + b.timeSlot : ""}</span>
+          </div>
+          <div class="meta"><strong>Booked by:</strong> ${b.clientEmail || b.clientId || "Unknown"}</div>
+          <div class="meta"><strong>Type:</strong> ${b.type || "appointment"}</div>
+          <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;">
+            ${buttonsHtml}
+          </div>
+        </div>
+      `;
+    }
+
+    bookingsList.innerHTML =
+      (bks.length === 0)
+        ? `<div class="meta">No bookings yet.</div>`
+        : `
+          ${renderSection("Requested", requested, (b) =>
+            actions(b, `
+              <button class="btn" data-id="${b.id}" data-status="accepted">Accept</button>
+              <button class="btn" data-id="${b.id}" data-status="declined">Decline</button>
+            `)
+          )}
+
+          ${renderSection("Accepted / Upcoming", accepted, (b) =>
+            actions(b, `
+              <button class="btn" data-id="${b.id}" data-status="completed">Mark completed</button>
+              <button class="btn" data-id="${b.id}" data-status="declined">Decline</button>
+            `)
+          )}
+
+          ${renderSection("Completed", completed, (b) => baseCard(b))}
+          ${renderSection("Declined", declined, (b) => baseCard(b))}
+          ${renderSection("Cancelled", cancelled, (b) => baseCard(b))}
+        `;
+
+    // bind actions
+    document.querySelectorAll("button[data-status]").forEach((btn) => {
       btn.addEventListener("click", async () => {
         btn.disabled = true;
         try {
@@ -159,5 +268,10 @@ async function loadVendorBookings() {
 }
 
 await loadProfile();
-await loadServices();
-await loadVendorBookings();
+if (currentProfile && currentProfile.status === "approved") {
+  await loadServices();
+  await loadVendorBookings();
+} else {
+  // still show bookings if you want, but usually vendors can't until approved
+  bookingsList.innerHTML = `<div class="meta">Bookings will appear after approval.</div>`;
+}

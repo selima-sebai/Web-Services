@@ -20,6 +20,7 @@ const app = express();
 
 const corsOptions = {
   origin: true, // allow all origins
+  credentials: true, // allow credentials (e.g., Authorization header)
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Notifications — eersi.tn</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <div class="logo-area">
+        <img class="logo-img" src="./assets/logo.png" alt="eersi logo">
+        <div class="logo-frame" aria-hidden="true">
+          <span class="deco-img left l1"></span><span class="deco-img left l2"></span>
+          <span class="deco-img left l3"></span><span class="deco-img left l4"></span>
+          <span class="deco-img right r1"></span><span class="deco-img right r2"></span>
+          <span class="deco-img right r3"></span><span class="deco-img right r4"></span>
+        </div>
+      </div>
+
+      <nav class="site-nav">
+        <a href="./index.html">Home</a>
+        <a href="./client-dashboard.html">Dashboard</a>
+        <a href="./vendors.html">Vendors</a>
+        <a href="./traditions.html">Traditions</a>
+        <a href="./bookings.html">My bookings</a>
+        <a href="./budget.html">Budget</a>
+        <a href="./notifications.html" class="active">Notifications</a>
+
+        <button class="btn" id="logoutBtn" type="button" style="margin-left:10px;">Logout</button>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h2>Notifications</h2>
+      <p class="meta">In-app Notification Center (connected to the API).</p>
+
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+        <button class="btn primary" id="refresh" type="button">Refresh</button>
+        <button class="btn" id="readAll" type="button">Mark all as read</button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="list" id="notifList"></div>
+    </div>
+
+  </div>
+
+  <script type="module" src="./js/notifications.js"></script>
+  <script type="module" src="./js/logoutButton.js"></script>
+</body>
+</html>

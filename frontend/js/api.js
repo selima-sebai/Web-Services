@@ -1,10 +1,23 @@
+// frontend/js/api.js
+
 const BACKEND_ORIGIN =
   location.origin === "null"
     ? "http://localhost:3000"
-    : `${location.protocol}//${location.hostname}:3000`;
+    : location.port === "3000"
+    ? ""
+    : "http://localhost:3000";
+
 
 const TOKEN_KEY = "eersi_token";
 const USER_KEY = "eersi_user";
+
+// OPTIONAL: migrate old keys to new keys (to avoid breaking older pages)
+(function migrateOldKeys() {
+  const oldToken = localStorage.getItem("token");
+  const oldUser = localStorage.getItem("user");
+  if (!localStorage.getItem(TOKEN_KEY) && oldToken) localStorage.setItem(TOKEN_KEY, oldToken);
+  if (!localStorage.getItem(USER_KEY) && oldUser) localStorage.setItem(USER_KEY, oldUser);
+})();
 
 export function setSession(token, user) {
   if (!token) localStorage.removeItem(TOKEN_KEY);
@@ -20,11 +33,20 @@ export function getToken() {
 
 export function getUser() {
   const raw = localStorage.getItem(USER_KEY);
-  try { return raw ? JSON.parse(raw) : null; } catch { return null; }
+  try {
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
 }
 
 export function logout() {
-  setSession("", null);
+  // clear BOTH new and old keys (important!)
+  localStorage.removeItem(TOKEN_KEY);
+  localStorage.removeItem(USER_KEY);
+  localStorage.removeItem("token");
+  localStorage.removeItem("user");
+  localStorage.removeItem("role");
 }
 
 export function resolveUrl(src) {
@@ -51,7 +73,9 @@ async function request(path, options = {}) {
 
   const contentType = res.headers.get("content-type") || "";
   const isJson = contentType.includes("application/json");
-  const payload = isJson ? await res.json().catch(() => null) : await res.text().catch(() => "");
+  const payload = isJson
+    ? await res.json().catch(() => null)
+    : await res.text().catch(() => "");
 
   if (!res.ok) {
     const msg =
@@ -59,13 +83,16 @@ async function request(path, options = {}) {
       (typeof payload === "string" && payload) ||
       res.statusText ||
       "Request failed";
-    throw new Error(`API ${res.status}: ${msg}`);
+    throw new Error(msg);
   }
 
   return payload;
 }
 
-export function apiGet(path) { return request(path); }
+export function apiGet(path) {
+  return request(path);
+}
+
 export function apiPost(path, body) {
   return request(path, {
     method: "POST",
@@ -73,6 +100,7 @@ export function apiPost(path, body) {
     body: JSON.stringify(body ?? {}),
   });
 }
+
 export function apiPut(path, body) {
   return request(path, {
     method: "PUT",
@@ -80,6 +108,7 @@ export function apiPut(path, body) {
     body: JSON.stringify(body ?? {}),
   });
 }
+
 export function apiPatch(path, body) {
   return request(path, {
     method: "PATCH",
@@ -87,4 +116,7 @@ export function apiPatch(path, body) {
     body: JSON.stringify(body ?? {}),
   });
 }
-export function apiDelete(path) { return request(path, { method: "DELETE" }); }
+
+export function apiDelete(path) {
+  return request(path, { method: "DELETE" });
+}
