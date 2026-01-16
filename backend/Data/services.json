@@ -1,0 +1,2281 @@
+[
+  {
+    "id": "41441a74-af69-4336-ab22-20c4f8ca1591",
+    "vendorProfileId": "53fa8386-9c25-43eb-b3bc-15ac3d4b1b02",
+    "title": "bridal makeup",
+    "category": "haidresser",
+    "price": 200,
+    "description": "",
+    "timeSlots": [
+      "10:00 12:00 13:00"
+    ],
+    "createdAt": "2026-01-14T11:43:05.712Z",
+    "updatedAt": "2026-01-14T11:43:05.712Z"
+  },
+  {
+    "id": "57523bfd-65ce-4076-a895-b50fca0b4e4b",
+    "vendorProfileId": "258f2e40-6066-4659-85c2-998792dc1912",
+    "title": "",
+    "category": "hairdresser",
+    "price": 180,
+    "description": "Bridal hair and makeup packages.\n\nSpecialties: [\"bridal\",\"henna-night\"] | Home service: true | Duration: 120 min",
+    "timeSlots": [
+      "10:00",
+      "12:00",
+      "15:00",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:10.682Z",
+    "updatedAt": "2026-01-14T12:18:10.682Z",
+    "migratedFromVendorId": "1"
+  },
+  {
+    "id": "3ac794fc-18b8-43c2-a303-60b594b42304",
+    "vendorProfileId": "5c3c918f-803b-4369-8f9a-e5c83ea2c4db",
+    "title": "",
+    "category": "hairdresser",
+    "price": 150,
+    "description": "Hair styling and makeup services.\n\nSpecialties: [\"bridal\",\"makeup\"] | Home service: false | Duration: 90 min",
+    "timeSlots": [
+      "09:00",
+      "11:00",
+      "14:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:10.752Z",
+    "updatedAt": "2026-01-14T12:18:10.752Z",
+    "migratedFromVendorId": "2"
+  },
+  {
+    "id": "d4ccf152-5eb1-43e4-a46e-602f8292c922",
+    "vendorProfileId": "d2470973-5f8e-4cf3-974a-dc93ea449cf9",
+    "title": "",
+    "category": "hairdresser",
+    "price": 220,
+    "description": "Premium bridal packages with hair treatments.\n\nSpecialties: [\"bridal\",\"hair-treatment\"] | Home service: true | Duration: 150 min",
+    "timeSlots": [
+      "10:30",
+      "13:00",
+      "15:30",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:10.820Z",
+    "updatedAt": "2026-01-14T12:18:10.820Z",
+    "migratedFromVendorId": "3"
+  },
+  {
+    "id": "dfdf9032-61b2-4762-ad35-f2eebc17d51b",
+    "vendorProfileId": "3cf08190-3f5a-4e89-b7c0-73e80e119d98",
+    "title": "",
+    "category": "hairdresser",
+    "price": 130,
+    "description": "Henna-night styling and braids.\n\nSpecialties: [\"henna-night\",\"braids\"] | Home service: false | Duration: 75 min",
+    "timeSlots": [
+      "10:00",
+      "12:30",
+      "15:00",
+      "17:30"
+    ],
+    "createdAt": "2026-01-14T12:18:10.887Z",
+    "updatedAt": "2026-01-14T12:18:10.887Z",
+    "migratedFromVendorId": "4"
+  },
+  {
+    "id": "f475566f-cfa2-4b55-b4ff-a3a87ea6a52f",
+    "vendorProfileId": "bdc76295-37a7-447d-8bac-4c946686ee6e",
+    "title": "",
+    "category": "hairdresser",
+    "price": 170,
+    "description": "Natural bridal makeup and styling.\n\nSpecialties: [\"bridal\",\"natural-makeup\"] | Home service: true | Duration: 105 min",
+    "timeSlots": [
+      "09:30",
+      "12:00",
+      "14:30",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:10.956Z",
+    "updatedAt": "2026-01-14T12:18:10.956Z",
+    "migratedFromVendorId": "5"
+  },
+  {
+    "id": "2d4ce7cb-6084-4e4d-94fa-7e437f09f02b",
+    "vendorProfileId": "644116fd-09ff-4a91-b2c4-0d0bc6d0f926",
+    "title": "",
+    "category": "hairdresser",
+    "price": 140,
+    "description": "Bridal hair and henna-night styling packages.\n\nSpecialties: [\"bridal\",\"henna-night\"] | Home service: false | Duration: 90 min",
+    "timeSlots": [
+      "09:00",
+      "11:00",
+      "14:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.024Z",
+    "updatedAt": "2026-01-14T12:18:11.024Z",
+    "migratedFromVendorId": "36"
+  },
+  {
+    "id": "544350a1-25c5-4d92-bae7-3f0df8c81feb",
+    "vendorProfileId": "c3316593-15b9-4986-85c8-0c81146e8f36",
+    "title": "",
+    "category": "hairdresser",
+    "price": 155,
+    "description": "Bridal hair and makeup packages with home service available.\n\nSpecialties: [\"bridal\",\"natural-makeup\"] | Home service: true | Duration: 95 min",
+    "timeSlots": [
+      "09:00",
+      "11:30",
+      "14:30",
+      "17:30"
+    ],
+    "createdAt": "2026-01-14T12:18:11.093Z",
+    "updatedAt": "2026-01-14T12:18:11.093Z",
+    "migratedFromVendorId": "37"
+  },
+  {
+    "id": "6e0b7bbc-5b70-42db-a79a-d1626379a27f",
+    "vendorProfileId": "6f04f0a1-4222-4134-982d-b00611fd172d",
+    "title": "",
+    "category": "hairdresser",
+    "price": 200,
+    "description": "Bridal hair and hair treatments packages.\n\nSpecialties: [\"bridal\",\"hair-treatment\"] | Home service: false | Duration: 130 min",
+    "timeSlots": [
+      "10:00",
+      "12:30",
+      "15:30",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.161Z",
+    "updatedAt": "2026-01-14T12:18:11.161Z",
+    "migratedFromVendorId": "38"
+  },
+  {
+    "id": "0b67a375-9922-4ece-903c-f041415af21f",
+    "vendorProfileId": "5c8b3afd-3b9a-439a-9695-83b7960e3332",
+    "title": "",
+    "category": "hairdresser",
+    "price": 160,
+    "description": "Bridal hair and makeup packages with home service available.\n\nSpecialties: [\"bridal\",\"makeup\"] | Home service: true | Duration: 100 min",
+    "timeSlots": [
+      "10:00",
+      "12:00",
+      "15:00",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.230Z",
+    "updatedAt": "2026-01-14T12:18:11.230Z",
+    "migratedFromVendorId": "39"
+  },
+  {
+    "id": "78b682c5-2fed-426a-9df0-99dc2d442664",
+    "vendorProfileId": "388c5874-466e-4f27-9abc-4a9ddf27d4af",
+    "title": "",
+    "category": "hairdresser",
+    "price": 210,
+    "description": "Bridal hair and makeup packages with home service available.\n\nSpecialties: [\"bridal\",\"makeup\"] | Home service: true | Duration: 120 min",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00",
+      "18:30"
+    ],
+    "createdAt": "2026-01-14T12:18:11.299Z",
+    "updatedAt": "2026-01-14T12:18:11.299Z",
+    "migratedFromVendorId": "40"
+  },
+  {
+    "id": "2d9b59c4-c452-44b7-ad81-38e2666073de",
+    "vendorProfileId": "2c45c0c8-76ab-45b1-928a-23ebd1e72074",
+    "title": "",
+    "category": "hairdresser",
+    "price": 120,
+    "description": "Henna-night styling and braids packages.\n\nSpecialties: [\"braids\",\"henna-night\"] | Home service: false | Duration: 70 min",
+    "timeSlots": [
+      "09:30",
+      "11:30",
+      "14:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:11.368Z",
+    "updatedAt": "2026-01-14T12:18:11.368Z",
+    "migratedFromVendorId": "41"
+  },
+  {
+    "id": "aec05670-c121-42ff-9d9d-105af95e4cec",
+    "vendorProfileId": "da1c9d4f-22aa-4e2c-8410-0c6927019c59",
+    "title": "",
+    "category": "hairdresser",
+    "price": 145,
+    "description": "Bridal hair and makeup packages.\n\nSpecialties: [\"bridal\",\"natural-makeup\"] | Home service: false | Duration: 90 min",
+    "timeSlots": [
+      "09:30",
+      "12:00",
+      "14:30",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.437Z",
+    "updatedAt": "2026-01-14T12:18:11.437Z",
+    "migratedFromVendorId": "42"
+  },
+  {
+    "id": "7ad08983-5f09-48b7-b8ef-d5e60cd649b4",
+    "vendorProfileId": "fb121ee1-5b75-45e1-9bda-50f4ff2ea042",
+    "title": "",
+    "category": "hairdresser",
+    "price": 170,
+    "description": "Bridal hair and makeup packages with home service available.\n\nSpecialties: [\"bridal\",\"makeup\"] | Home service: true | Duration: 110 min",
+    "timeSlots": [
+      "10:00",
+      "12:30",
+      "15:30",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.505Z",
+    "updatedAt": "2026-01-14T12:18:11.505Z",
+    "migratedFromVendorId": "43"
+  },
+  {
+    "id": "ad78ce12-02cb-4398-9515-9ed812bac2e8",
+    "vendorProfileId": "6f25996b-a5c4-46ae-9819-dfc5c507d306",
+    "title": "",
+    "category": "hairdresser",
+    "price": 135,
+    "description": "Makeup and henna-night styling packages with home service available.\n\nSpecialties: [\"henna-night\",\"makeup\"] | Home service: true | Duration: 85 min",
+    "timeSlots": [
+      "10:00",
+      "12:00",
+      "15:00",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.573Z",
+    "updatedAt": "2026-01-14T12:18:11.573Z",
+    "migratedFromVendorId": "44"
+  },
+  {
+    "id": "04cab22e-b032-4a52-96d5-f4fc78f2db96",
+    "vendorProfileId": "5f26a170-1b52-4730-9776-de6f69f0a40f",
+    "title": "",
+    "category": "hairdresser",
+    "price": 150,
+    "description": "Henna-night styling and braids packages.\n\nSpecialties: [\"henna-night\",\"braids\"] | Home service: false | Duration: 80 min",
+    "timeSlots": [
+      "10:00",
+      "12:00",
+      "15:00",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.641Z",
+    "updatedAt": "2026-01-14T12:18:11.641Z",
+    "migratedFromVendorId": "45"
+  },
+  {
+    "id": "8663b523-4824-415a-842b-d2a53c58a8c1",
+    "vendorProfileId": "f5e4043b-fbba-4362-aa75-803c6104b4ea",
+    "title": "",
+    "category": "hairdresser",
+    "price": 190,
+    "description": "Bridal hair and makeup packages.\n\nSpecialties: [\"bridal\",\"makeup\"] | Home service: false | Duration: 120 min",
+    "timeSlots": [
+      "09:00",
+      "11:30",
+      "14:30",
+      "17:30"
+    ],
+    "createdAt": "2026-01-14T12:18:11.709Z",
+    "updatedAt": "2026-01-14T12:18:11.709Z",
+    "migratedFromVendorId": "46"
+  },
+  {
+    "id": "476cb0a2-5bf3-4a58-b272-027dda065a0c",
+    "vendorProfileId": "d170faca-6364-43ed-a26f-10d229a97e39",
+    "title": "",
+    "category": "hairdresser",
+    "price": 125,
+    "description": "Makeup and braids packages.\n\nSpecialties: [\"braids\",\"natural-makeup\"] | Home service: false | Duration: 75 min",
+    "timeSlots": [
+      "09:00",
+      "11:00",
+      "14:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.778Z",
+    "updatedAt": "2026-01-14T12:18:11.778Z",
+    "migratedFromVendorId": "47"
+  },
+  {
+    "id": "c459e4f6-da60-4957-b4a3-20b22dc99db2",
+    "vendorProfileId": "9ae59655-6748-4814-b26e-df0c4f0445dc",
+    "title": "",
+    "category": "hairdresser",
+    "price": 130,
+    "description": "Bridal hair and henna-night styling packages with home service available.\n\nSpecialties: [\"bridal\",\"henna-night\"] | Home service: true | Duration: 95 min",
+    "timeSlots": [
+      "09:30",
+      "12:00",
+      "14:30",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.845Z",
+    "updatedAt": "2026-01-14T12:18:11.845Z",
+    "migratedFromVendorId": "48"
+  },
+  {
+    "id": "6cbfbef2-ffdc-4899-9861-54f6b4150bde",
+    "vendorProfileId": "d64a5d63-0677-4688-ba7e-4fce6c9654bd",
+    "title": "",
+    "category": "hairdresser",
+    "price": 175,
+    "description": "Bridal hair and hair treatments packages with home service available.\n\nSpecialties: [\"bridal\",\"hair-treatment\"] | Home service: true | Duration: 125 min",
+    "timeSlots": [
+      "10:30",
+      "13:00",
+      "15:30",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.913Z",
+    "updatedAt": "2026-01-14T12:18:11.913Z",
+    "migratedFromVendorId": "49"
+  },
+  {
+    "id": "cdf209a2-92ee-4de8-864f-35d478b0c1f6",
+    "vendorProfileId": "5fb7bbdf-6898-4d8c-b60a-2aafaa4e083a",
+    "title": "",
+    "category": "hairdresser",
+    "price": 160,
+    "description": "Bridal hair and makeup packages.\n\nSpecialties: [\"bridal\",\"natural-makeup\"] | Home service: false | Duration: 105 min",
+    "timeSlots": [
+      "09:00",
+      "11:30",
+      "14:30",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:11.981Z",
+    "updatedAt": "2026-01-14T12:18:11.981Z",
+    "migratedFromVendorId": "50"
+  },
+  {
+    "id": "bb492546-b9d3-4af7-a2da-474d63680efb",
+    "vendorProfileId": "7d8a8d3c-089e-4c18-91d5-2272d6f259c1",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 450,
+    "description": "Traditional women's outfits for rental with try-on appointments.",
+    "timeSlots": [
+      "11:00",
+      "14:00",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.049Z",
+    "updatedAt": "2026-01-14T12:18:12.049Z",
+    "migratedFromVendorId": "6"
+  },
+  {
+    "id": "cd83008c-d0c9-4262-9f84-738331ac699f",
+    "vendorProfileId": "85e39988-d847-4710-8137-b60acd41e5b3",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 700,
+    "description": "Custom tailoring available for purchase.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.118Z",
+    "updatedAt": "2026-01-14T12:18:12.118Z",
+    "migratedFromVendorId": "7"
+  },
+  {
+    "id": "1e5844d6-f168-433e-b6da-db6c417c765b",
+    "vendorProfileId": "7395748b-0b21-4afc-8300-489794987009",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 500,
+    "description": "Rental boutique with multiple styles and colors.",
+    "timeSlots": [
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.189Z",
+    "updatedAt": "2026-01-14T12:18:12.189Z",
+    "migratedFromVendorId": "8"
+  },
+  {
+    "id": "543849d7-608a-449d-bfcd-2d40e104bbad",
+    "vendorProfileId": "932a4e20-7431-4efd-bb04-5fa134584f55",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 650,
+    "description": "Handmade traditional pieces for purchase.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.259Z",
+    "updatedAt": "2026-01-14T12:18:12.259Z",
+    "migratedFromVendorId": "9"
+  },
+  {
+    "id": "75a8a7ee-0751-4e52-91bd-4e6844b54916",
+    "vendorProfileId": "4ed3c4a7-f835-42c4-8b49-bd28ce189afc",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 480,
+    "description": "Island-inspired traditional outfits with try-on slots.",
+    "timeSlots": [
+      "11:30",
+      "14:30",
+      "17:30"
+    ],
+    "createdAt": "2026-01-14T12:18:12.333Z",
+    "updatedAt": "2026-01-14T12:18:12.333Z",
+    "migratedFromVendorId": "10"
+  },
+  {
+    "id": "6cb2dd0f-8f5b-447e-8cff-1c013a696fba",
+    "vendorProfileId": "a2cd171a-ce03-420f-82d0-dfc5b4ab5dae",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 620,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.409Z",
+    "updatedAt": "2026-01-14T12:18:12.409Z",
+    "migratedFromVendorId": "51"
+  },
+  {
+    "id": "54d9346e-3213-4524-84d3-cabef7c72ecb",
+    "vendorProfileId": "a88e58be-4889-420e-a549-866995af8579",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 520,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.478Z",
+    "updatedAt": "2026-01-14T12:18:12.478Z",
+    "migratedFromVendorId": "52"
+  },
+  {
+    "id": "2b543d87-3751-4d46-949e-88f1e7fd3967",
+    "vendorProfileId": "f99da05e-b95a-4102-a2f5-b37bca703c0d",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 480,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.545Z",
+    "updatedAt": "2026-01-14T12:18:12.545Z",
+    "migratedFromVendorId": "53"
+  },
+  {
+    "id": "13eb75b5-dc1a-4941-b50c-5aac43b70c39",
+    "vendorProfileId": "9b5cec95-c6d8-4f02-8ec6-f812b34ade9a",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 450,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.613Z",
+    "updatedAt": "2026-01-14T12:18:12.613Z",
+    "migratedFromVendorId": "54"
+  },
+  {
+    "id": "b3fe0aa1-e9f5-44ee-9bbe-5b18da5e0a16",
+    "vendorProfileId": "5c7bffa6-5e5b-4f50-a1b1-b290fa0c5c31",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 560,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.681Z",
+    "updatedAt": "2026-01-14T12:18:12.681Z",
+    "migratedFromVendorId": "55"
+  },
+  {
+    "id": "b4a4f9f7-86f1-4beb-88bc-11ed1fc76e5b",
+    "vendorProfileId": "c1e67853-5b9d-4b4f-bcf4-62f4dddf519b",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 700,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.748Z",
+    "updatedAt": "2026-01-14T12:18:12.748Z",
+    "migratedFromVendorId": "56"
+  },
+  {
+    "id": "3fb5b871-90d3-48ec-8068-3144ce598e1c",
+    "vendorProfileId": "5f1ab38d-77a8-4610-b86f-d3af8f690922",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 500,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.817Z",
+    "updatedAt": "2026-01-14T12:18:12.817Z",
+    "migratedFromVendorId": "57"
+  },
+  {
+    "id": "9990c401-9a15-4bad-a98c-396d392086e5",
+    "vendorProfileId": "f0deba80-154d-4eee-9428-dd5aa102f98c",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 540,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.884Z",
+    "updatedAt": "2026-01-14T12:18:12.884Z",
+    "migratedFromVendorId": "58"
+  },
+  {
+    "id": "ca14566a-abe1-46b1-9119-ca285f8f0701",
+    "vendorProfileId": "43abde8d-9150-4fdf-8299-fd56d6a090d2",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 650,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:12.952Z",
+    "updatedAt": "2026-01-14T12:18:12.952Z",
+    "migratedFromVendorId": "59"
+  },
+  {
+    "id": "f052412d-c857-4e72-bf5f-ed7487a2296c",
+    "vendorProfileId": "0163bdae-e9d8-4106-90ce-a64c89e3ccc2",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 590,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.022Z",
+    "updatedAt": "2026-01-14T12:18:13.022Z",
+    "migratedFromVendorId": "60"
+  },
+  {
+    "id": "c0042466-b690-42d9-a160-08c1a3034936",
+    "vendorProfileId": "8e3035be-9a76-49da-93a9-8c93eb221e8f",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 480,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.090Z",
+    "updatedAt": "2026-01-14T12:18:13.090Z",
+    "migratedFromVendorId": "61"
+  },
+  {
+    "id": "6a6a6471-a302-4c9c-b4b5-4d0ae2297028",
+    "vendorProfileId": "d0d83663-8bef-4013-8e88-2ed348668eb6",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 600,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.158Z",
+    "updatedAt": "2026-01-14T12:18:13.158Z",
+    "migratedFromVendorId": "62"
+  },
+  {
+    "id": "adb9d1a7-098a-407d-9dd9-083b581cf9d9",
+    "vendorProfileId": "8b81d5ed-72b9-4380-bfd3-905f7904315a",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 510,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.226Z",
+    "updatedAt": "2026-01-14T12:18:13.226Z",
+    "migratedFromVendorId": "63"
+  },
+  {
+    "id": "c03e3112-f0f0-460a-8952-cbf85c318009",
+    "vendorProfileId": "8d8e969e-6385-40c2-8ab9-468a27eddb35",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 530,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.293Z",
+    "updatedAt": "2026-01-14T12:18:13.293Z",
+    "migratedFromVendorId": "64"
+  },
+  {
+    "id": "13b017ed-68f3-4d43-a241-a0ae951f998f",
+    "vendorProfileId": "77d77d8f-70a8-4e6e-a967-72d1e3f10730",
+    "title": "",
+    "category": "traditional_clothes_women",
+    "price": 470,
+    "description": "Traditional women's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.375Z",
+    "updatedAt": "2026-01-14T12:18:13.375Z",
+    "migratedFromVendorId": "65"
+  },
+  {
+    "id": "ad2a48ec-0e17-4201-ad31-387ad22c2f65",
+    "vendorProfileId": "425f5e69-904c-47be-954b-5db2c7eb7bc0",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 350,
+    "description": "Traditional men's outfits for rental with try-on appointments.",
+    "timeSlots": [
+      "10:00",
+      "13:00",
+      "16:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.445Z",
+    "updatedAt": "2026-01-14T12:18:13.445Z",
+    "migratedFromVendorId": "11"
+  },
+  {
+    "id": "91ee815d-dfc9-431e-94ae-6cabf3ca19d8",
+    "vendorProfileId": "749ab87e-88e8-40f3-a9ae-60ed83118a66",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 520,
+    "description": "Purchase + tailoring options for traditional men's wear.",
+    "timeSlots": [
+      "11:00",
+      "14:00",
+      "17:00"
+    ],
+    "createdAt": "2026-01-14T12:18:13.513Z",
+    "updatedAt": "2026-01-14T12:18:13.513Z",
+    "migratedFromVendorId": "12"
+  },
+  {
+    "id": "7d49d55c-a5f5-42e0-89d0-5a2a040e3545",
+    "vendorProfileId": "9d81a566-4bd7-4db1-bf26-1ed95881a5ff",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 380,
+    "description": "Rental boutique with multiple sizes and styles.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:13.581Z",
+    "updatedAt": "2026-01-14T12:18:13.581Z",
+    "migratedFromVendorId": "13"
+  },
+  {
+    "id": "00953c62-bd18-4cb7-aa3e-e0683a535b3f",
+    "vendorProfileId": "50fee006-874a-4669-a25f-b1f72a4d63b5",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 600,
+    "description": "Premium handmade pieces for purchase.",
+    "timeSlots": [
+      "09:30",
+      "12:30",
+      "15:30"
+    ],
+    "createdAt": "2026-01-14T12:18:13.649Z",
+    "updatedAt": "2026-01-14T12:18:13.649Z",
+    "migratedFromVendorId": "14"
+  },
+  {
+    "id": "e62cb752-a710-42ea-96ca-e353092d9fb6",
+    "vendorProfileId": "98e4693d-4fae-4819-97e4-78961a6872ba",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 420,
+    "description": "Rental wear with quick try-on appointments.",
+    "timeSlots": [
+      "11:30",
+      "14:30",
+      "17:30"
+    ],
+    "createdAt": "2026-01-14T12:18:13.717Z",
+    "updatedAt": "2026-01-14T12:18:13.717Z",
+    "migratedFromVendorId": "15"
+  },
+  {
+    "id": "db10dd8c-f084-4659-8c07-19df4e7f3333",
+    "vendorProfileId": "09205aaa-856d-46db-8b24-b5f076707a66",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 480,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:13.785Z",
+    "updatedAt": "2026-01-14T12:18:13.785Z",
+    "migratedFromVendorId": "66"
+  },
+  {
+    "id": "49107bdd-c17d-4df3-9166-8c540225b33b",
+    "vendorProfileId": "15363847-e93d-4f21-9d68-412e666c1fb5",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 560,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:13.853Z",
+    "updatedAt": "2026-01-14T12:18:13.853Z",
+    "migratedFromVendorId": "67"
+  },
+  {
+    "id": "e87d6f38-1590-40ce-adc7-d39eb9412fa5",
+    "vendorProfileId": "92659251-b5d7-491d-9f53-8ffad73008b0",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 420,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:13.921Z",
+    "updatedAt": "2026-01-14T12:18:13.921Z",
+    "migratedFromVendorId": "68"
+  },
+  {
+    "id": "83cfdce7-f103-4377-aa50-857e82aebb3c",
+    "vendorProfileId": "9e881f58-8e74-468e-80be-ce26b60e54e2",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 600,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:13.988Z",
+    "updatedAt": "2026-01-14T12:18:13.988Z",
+    "migratedFromVendorId": "69"
+  },
+  {
+    "id": "1c14f6d9-5ce8-4ec6-a88c-bdb3d9915fc9",
+    "vendorProfileId": "c3cbbb5b-ee13-44e8-8e3e-00d92d5bfe2d",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 390,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.056Z",
+    "updatedAt": "2026-01-14T12:18:14.056Z",
+    "migratedFromVendorId": "70"
+  },
+  {
+    "id": "3bc7a71c-21dd-470b-9f9f-c5ac94380fd9",
+    "vendorProfileId": "5ba9537c-9afc-45e1-8986-8f97ae8363e6",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 450,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.124Z",
+    "updatedAt": "2026-01-14T12:18:14.124Z",
+    "migratedFromVendorId": "71"
+  },
+  {
+    "id": "dfd121b9-b299-4fdc-a63e-1927eab59d23",
+    "vendorProfileId": "bf6a9a66-c862-4449-8354-cf716811f0e7",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 620,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.193Z",
+    "updatedAt": "2026-01-14T12:18:14.193Z",
+    "migratedFromVendorId": "72"
+  },
+  {
+    "id": "7a322d6a-2103-4c84-b9a9-442321f5e995",
+    "vendorProfileId": "d1476241-8c62-4752-8d65-4947440878a9",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 410,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.261Z",
+    "updatedAt": "2026-01-14T12:18:14.261Z",
+    "migratedFromVendorId": "73"
+  },
+  {
+    "id": "d7ea45e0-df16-46a4-869f-0649c66fb6c7",
+    "vendorProfileId": "0c288624-2bfa-477d-85cb-088ef16ec5b8",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 440,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.329Z",
+    "updatedAt": "2026-01-14T12:18:14.329Z",
+    "migratedFromVendorId": "74"
+  },
+  {
+    "id": "eb1aa87e-09d4-4f86-8dd0-ee5b012efb11",
+    "vendorProfileId": "4d4359d3-749f-45de-8132-425431083864",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 580,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.400Z",
+    "updatedAt": "2026-01-14T12:18:14.400Z",
+    "migratedFromVendorId": "75"
+  },
+  {
+    "id": "7d69da1d-d881-4bd3-82cc-c9da51d8bc24",
+    "vendorProfileId": "586baafd-feac-4d58-91e1-5ec6ef9167c8",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 360,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.478Z",
+    "updatedAt": "2026-01-14T12:18:14.478Z",
+    "migratedFromVendorId": "76"
+  },
+  {
+    "id": "92498d69-cab3-46d5-b799-ac810d58a503",
+    "vendorProfileId": "e856777b-abac-40cd-9137-f572b76a303f",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 520,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.547Z",
+    "updatedAt": "2026-01-14T12:18:14.547Z",
+    "migratedFromVendorId": "77"
+  },
+  {
+    "id": "2755def8-9eea-4d96-b5fe-9d7549bd8145",
+    "vendorProfileId": "4f18ea5b-8e0f-4be0-bef2-0dee9595641c",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 500,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.615Z",
+    "updatedAt": "2026-01-14T12:18:14.615Z",
+    "migratedFromVendorId": "78"
+  },
+  {
+    "id": "3849c047-fd42-4ebf-a56b-cea04ea08f21",
+    "vendorProfileId": "2f3b7016-9beb-4b9d-91b1-f716a591a3f8",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 430,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.686Z",
+    "updatedAt": "2026-01-14T12:18:14.686Z",
+    "migratedFromVendorId": "79"
+  },
+  {
+    "id": "770d96ea-1a3d-4736-9f15-59a49c7e7dd3",
+    "vendorProfileId": "d146518f-166b-4768-ae06-4f704b271f7f",
+    "title": "",
+    "category": "traditional_clothes_men",
+    "price": 650,
+    "description": "Traditional men's outfits with fittings and tailoring options.",
+    "timeSlots": [
+      "10:30",
+      "13:30",
+      "16:30"
+    ],
+    "createdAt": "2026-01-14T12:18:14.754Z",
+    "updatedAt": "2026-01-14T12:18:14.754Z",
+    "migratedFromVendorId": "80"
+  },
+  {
+    "id": "974f328a-b838-4078-9dfd-5227e26c5c5a",
+    "vendorProfileId": "d310047f-d38f-4acf-b89c-1746a9e0f7d3",
+    "title": "",
+    "category": "photographer",
+    "price": 1200,
+    "description": "Wedding photography with album options.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:14.824Z",
+    "updatedAt": "2026-01-14T12:18:14.824Z",
+    "migratedFromVendorId": "16"
+  },
+  {
+    "id": "703f4fb4-f0a3-40b8-a288-58bfd852ffdd",
+    "vendorProfileId": "08237c8c-7d25-46fb-ad48-e81cb62b86c2",
+    "title": "",
+    "category": "photographer",
+    "price": 1500,
+    "description": "Photo + video coverage with highlight reel.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:14.892Z",
+    "updatedAt": "2026-01-14T12:18:14.892Z",
+    "migratedFromVendorId": "17"
+  },
+  {
+    "id": "2e52801d-6f21-4fe9-a4c5-ddcd1c2b9dfe",
+    "vendorProfileId": "6dbeeacc-216d-4c36-992a-0406a0bd655f",
+    "title": "",
+    "category": "photographer",
+    "price": 1000,
+    "description": "Classic traditional wedding photo coverage.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:14.961Z",
+    "updatedAt": "2026-01-14T12:18:14.961Z",
+    "migratedFromVendorId": "18"
+  },
+  {
+    "id": "862d9a4e-1f0a-41b8-80cb-ae7ea4b766c7",
+    "vendorProfileId": "c3887282-fb51-42c9-938a-5e29e8fc0fc5",
+    "title": "",
+    "category": "photographer",
+    "price": 1800,
+    "description": "Cinematic package including drone shots.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.028Z",
+    "updatedAt": "2026-01-14T12:18:15.028Z",
+    "migratedFromVendorId": "19"
+  },
+  {
+    "id": "61f0c3ee-24ab-4f49-a56a-fba0d48b0fbf",
+    "vendorProfileId": "14e3e1ff-aa5f-4c3e-8524-eb8edcf6eca1",
+    "title": "",
+    "category": "photographer",
+    "price": 1300,
+    "description": "Modern editorial style with album.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.096Z",
+    "updatedAt": "2026-01-14T12:18:15.096Z",
+    "migratedFromVendorId": "20"
+  },
+  {
+    "id": "7f6141ac-78df-4296-a705-9cf8fbf7254b",
+    "vendorProfileId": "78ebd23f-145c-4132-b6a8-4747a449991e",
+    "title": "",
+    "category": "photographer",
+    "price": 1100,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.164Z",
+    "updatedAt": "2026-01-14T12:18:15.164Z",
+    "migratedFromVendorId": "81"
+  },
+  {
+    "id": "4e3fb792-53cc-4880-a85b-d94d92f77587",
+    "vendorProfileId": "c58d4176-d243-42c9-850a-b531eefa7c39",
+    "title": "",
+    "category": "photographer",
+    "price": 1400,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.232Z",
+    "updatedAt": "2026-01-14T12:18:15.232Z",
+    "migratedFromVendorId": "82"
+  },
+  {
+    "id": "84d1c670-9816-415c-b16c-e83ce16b2527",
+    "vendorProfileId": "298270b5-ba91-42bb-a0d4-ca5482f6fe97",
+    "title": "",
+    "category": "photographer",
+    "price": 1600,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.300Z",
+    "updatedAt": "2026-01-14T12:18:15.300Z",
+    "migratedFromVendorId": "83"
+  },
+  {
+    "id": "6ee8891a-632e-420c-943c-4e9d8d8512af",
+    "vendorProfileId": "25885e83-0a91-4ac6-872e-29f79ce1afb9",
+    "title": "",
+    "category": "photographer",
+    "price": 1900,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.372Z",
+    "updatedAt": "2026-01-14T12:18:15.372Z",
+    "migratedFromVendorId": "84"
+  },
+  {
+    "id": "b5ccd6ed-eda9-49ef-ad10-6b0215b4cb24",
+    "vendorProfileId": "60951afa-a1ab-4981-8625-0076b2d73d34",
+    "title": "",
+    "category": "photographer",
+    "price": 950,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.440Z",
+    "updatedAt": "2026-01-14T12:18:15.440Z",
+    "migratedFromVendorId": "85"
+  },
+  {
+    "id": "c9a5275a-647b-4526-9c7f-dc98cbe95b23",
+    "vendorProfileId": "f39a1588-493e-4353-b494-5786aa316405",
+    "title": "",
+    "category": "photographer",
+    "price": 1050,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.508Z",
+    "updatedAt": "2026-01-14T12:18:15.508Z",
+    "migratedFromVendorId": "86"
+  },
+  {
+    "id": "db4a009c-56b7-4268-ad65-81f03c8bf1aa",
+    "vendorProfileId": "c3fd463c-a071-4ce6-bbaa-082e5cf9081a",
+    "title": "",
+    "category": "photographer",
+    "price": 900,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.576Z",
+    "updatedAt": "2026-01-14T12:18:15.576Z",
+    "migratedFromVendorId": "87"
+  },
+  {
+    "id": "64f206e2-4c93-4a17-8db7-6d96a8fb67f2",
+    "vendorProfileId": "ff173ea2-5db3-45eb-a6ec-042d77e79afc",
+    "title": "",
+    "category": "photographer",
+    "price": 1250,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.644Z",
+    "updatedAt": "2026-01-14T12:18:15.644Z",
+    "migratedFromVendorId": "88"
+  },
+  {
+    "id": "0fa3d0b0-5732-48d2-90c5-c0ccebffaafc",
+    "vendorProfileId": "90338d22-44ef-417e-88db-9ce50fb05338",
+    "title": "",
+    "category": "photographer",
+    "price": 1150,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.711Z",
+    "updatedAt": "2026-01-14T12:18:15.711Z",
+    "migratedFromVendorId": "89"
+  },
+  {
+    "id": "ebae40c5-49a3-4f6b-a71f-1e342b01522f",
+    "vendorProfileId": "052e3d54-7e4b-47f1-b191-50d992c15c51",
+    "title": "",
+    "category": "photographer",
+    "price": 1000,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.780Z",
+    "updatedAt": "2026-01-14T12:18:15.780Z",
+    "migratedFromVendorId": "90"
+  },
+  {
+    "id": "c5542528-010a-4ac7-b49b-f3fb235dd3a1",
+    "vendorProfileId": "e1fa7c83-bb6d-451e-8dfb-f0cab5f6da5d",
+    "title": "",
+    "category": "photographer",
+    "price": 1300,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.848Z",
+    "updatedAt": "2026-01-14T12:18:15.848Z",
+    "migratedFromVendorId": "91"
+  },
+  {
+    "id": "1cbe4a8d-8100-4451-b6f4-c79ee9b05b5b",
+    "vendorProfileId": "a2765b1c-42e7-40d5-83c1-ebccf5f1abfa",
+    "title": "",
+    "category": "photographer",
+    "price": 1700,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.915Z",
+    "updatedAt": "2026-01-14T12:18:15.915Z",
+    "migratedFromVendorId": "92"
+  },
+  {
+    "id": "b7668adb-df1e-4885-97ce-813d666a51b2",
+    "vendorProfileId": "c8a52d7c-6c35-455e-9031-35b2bccbad7a",
+    "title": "",
+    "category": "photographer",
+    "price": 1200,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:15.984Z",
+    "updatedAt": "2026-01-14T12:18:15.984Z",
+    "migratedFromVendorId": "93"
+  },
+  {
+    "id": "90038cbc-ba80-47a9-bb1a-e7983c735009",
+    "vendorProfileId": "2a59ed23-a4b9-46a8-b563-731958d7e073",
+    "title": "",
+    "category": "photographer",
+    "price": 1500,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.052Z",
+    "updatedAt": "2026-01-14T12:18:16.052Z",
+    "migratedFromVendorId": "94"
+  },
+  {
+    "id": "c3b4516a-2796-4842-bf33-d07a60a145c1",
+    "vendorProfileId": "8086cf6e-a5ec-4d3f-be2f-40481d25181a",
+    "title": "",
+    "category": "photographer",
+    "price": 980,
+    "description": "Wedding photo/video coverage with flexible packages.",
+    "timeSlots": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.119Z",
+    "updatedAt": "2026-01-14T12:18:16.119Z",
+    "migratedFromVendorId": "95"
+  },
+  {
+    "id": "d84a3e40-23c1-4d26-95da-8785535764b7",
+    "vendorProfileId": "71dca443-e5d2-40e6-885c-1315abcdde38",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 8000,
+    "description": "Spacious venue suitable for large weddings.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.187Z",
+    "updatedAt": "2026-01-14T12:18:16.187Z",
+    "migratedFromVendorId": "21"
+  },
+  {
+    "id": "5ad37c34-83cf-4a14-8566-43b80f9c62b3",
+    "vendorProfileId": "bc5f8710-7a8c-44f6-9be8-3e8693262a79",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 6500,
+    "description": "Wedding hall with sound system included.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.256Z",
+    "updatedAt": "2026-01-14T12:18:16.256Z",
+    "migratedFromVendorId": "22"
+  },
+  {
+    "id": "dbef7499-a29d-453f-8ca4-647cf83bd0e8",
+    "vendorProfileId": "be3ec696-3a34-4784-9d8e-19343442ff7a",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 7000,
+    "description": "Elegant hall with lighting and tables.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.324Z",
+    "updatedAt": "2026-01-14T12:18:16.324Z",
+    "migratedFromVendorId": "23"
+  },
+  {
+    "id": "04e66565-66b3-4cb9-ac8b-437b9f7ffbc7",
+    "vendorProfileId": "948fbe00-dc31-48d9-8150-5b24cb9dca76",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 12000,
+    "description": "Resort venue with sea view and large capacity.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.394Z",
+    "updatedAt": "2026-01-14T12:18:16.394Z",
+    "migratedFromVendorId": "24"
+  },
+  {
+    "id": "e975908d-cc60-417c-9c68-3e0d41739db5",
+    "vendorProfileId": "c63c6260-8c6c-49fa-b46e-27b5be8c1df4",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 9500,
+    "description": "Hotel venue with garden space.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.462Z",
+    "updatedAt": "2026-01-14T12:18:16.462Z",
+    "migratedFromVendorId": "25"
+  },
+  {
+    "id": "623dadfc-2d38-47ee-9074-92d0417a55b9",
+    "vendorProfileId": "b5103541-1c4b-4868-ad83-ab35d26193ec",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 9000,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.530Z",
+    "updatedAt": "2026-01-14T12:18:16.530Z",
+    "migratedFromVendorId": "96"
+  },
+  {
+    "id": "153cf542-bcc2-453d-adfd-b077c498f627",
+    "vendorProfileId": "c5421ba7-0885-4068-8eae-9ac87bde3fd3",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 8500,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.597Z",
+    "updatedAt": "2026-01-14T12:18:16.597Z",
+    "migratedFromVendorId": "97"
+  },
+  {
+    "id": "44c7dff8-fafa-4370-aa7d-1b0243a4d805",
+    "vendorProfileId": "2f417e35-a254-41e6-96ab-eb84a387a991",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 10500,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.665Z",
+    "updatedAt": "2026-01-14T12:18:16.665Z",
+    "migratedFromVendorId": "98"
+  },
+  {
+    "id": "e2dad0ab-9e7d-4859-8d80-8c47f8dac064",
+    "vendorProfileId": "42fdacbb-5449-47af-aabf-b83d4eaa4a38",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 6800,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.732Z",
+    "updatedAt": "2026-01-14T12:18:16.732Z",
+    "migratedFromVendorId": "99"
+  },
+  {
+    "id": "eef5c4f0-6b17-4395-be85-cb196ca7f0e8",
+    "vendorProfileId": "5f5e3de3-7748-4918-92b9-41763344d6a7",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 11500,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.800Z",
+    "updatedAt": "2026-01-14T12:18:16.800Z",
+    "migratedFromVendorId": "100"
+  },
+  {
+    "id": "c5b3b7e8-29fb-43f7-bc5b-cb88724459e1",
+    "vendorProfileId": "5caa5693-6dac-4793-bd84-9573152f7e9e",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 6200,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.868Z",
+    "updatedAt": "2026-01-14T12:18:16.868Z",
+    "migratedFromVendorId": "101"
+  },
+  {
+    "id": "a53df502-a65d-4e0a-8b70-e9b0ea9e3f5b",
+    "vendorProfileId": "3c2c2913-134d-4084-b1f7-2c06e6efacbb",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 9800,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:16.935Z",
+    "updatedAt": "2026-01-14T12:18:16.935Z",
+    "migratedFromVendorId": "102"
+  },
+  {
+    "id": "0372be70-5729-4a35-95c5-a2abffd104b7",
+    "vendorProfileId": "59cdcdcb-239a-40ca-89e3-737ec84bce4e",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 11000,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.003Z",
+    "updatedAt": "2026-01-14T12:18:17.003Z",
+    "migratedFromVendorId": "103"
+  },
+  {
+    "id": "7c87dc5b-469d-4d33-8708-1dca821a851c",
+    "vendorProfileId": "e0083aee-1274-4851-9507-8a46b1fc98f1",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 7500,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.070Z",
+    "updatedAt": "2026-01-14T12:18:17.070Z",
+    "migratedFromVendorId": "104"
+  },
+  {
+    "id": "fb15e313-7d98-4805-b942-8223a2e79c1e",
+    "vendorProfileId": "2da45527-6799-4a41-8e6a-dbc5090a5628",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 12000,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.138Z",
+    "updatedAt": "2026-01-14T12:18:17.138Z",
+    "migratedFromVendorId": "105"
+  },
+  {
+    "id": "4e7caed9-0f4f-431f-897e-8b0c5fd8845c",
+    "vendorProfileId": "8f17e04d-b421-4daf-9066-bf5a06ec8ec6",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 9000,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.207Z",
+    "updatedAt": "2026-01-14T12:18:17.207Z",
+    "migratedFromVendorId": "106"
+  },
+  {
+    "id": "c1c2d55e-7f0d-49ca-b99e-8e44c88f9d40",
+    "vendorProfileId": "6e42ea91-84f4-4787-a833-6ea6ff1df5aa",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 6000,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.274Z",
+    "updatedAt": "2026-01-14T12:18:17.274Z",
+    "migratedFromVendorId": "107"
+  },
+  {
+    "id": "a4a2d833-fede-486b-9eb7-73dd7a3bb774",
+    "vendorProfileId": "5480178d-7996-4f80-b802-028eca31e12d",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 5800,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.344Z",
+    "updatedAt": "2026-01-14T12:18:17.344Z",
+    "migratedFromVendorId": "108"
+  },
+  {
+    "id": "78539684-b547-49c2-adf5-e66315d07d35",
+    "vendorProfileId": "c147448c-52e3-4394-bea7-00d37f33c36e",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 13000,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.419Z",
+    "updatedAt": "2026-01-14T12:18:17.419Z",
+    "migratedFromVendorId": "109"
+  },
+  {
+    "id": "3800e144-d8bb-43c9-b4c7-ff1cd30df357",
+    "vendorProfileId": "c7422587-d161-41ce-a173-f98d70254b8c",
+    "title": "",
+    "category": "wedding_venue",
+    "price": 8800,
+    "description": "Event venue suitable for weddings with on-site amenities.",
+    "timeSlots": [
+      "10:00",
+      "14:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.492Z",
+    "updatedAt": "2026-01-14T12:18:17.492Z",
+    "migratedFromVendorId": "110"
+  },
+  {
+    "id": "643b1829-884f-40b6-8be8-a4f33c8d6d8f",
+    "vendorProfileId": "9a134e82-1469-475a-ae38-cc9f380cd195",
+    "title": "",
+    "category": "band",
+    "price": 2000,
+    "description": "Traditional band for weddings and celebrations.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.567Z",
+    "updatedAt": "2026-01-14T12:18:17.567Z",
+    "migratedFromVendorId": "26"
+  },
+  {
+    "id": "cc2825f0-e5d8-449e-8fa1-0171e905ea78",
+    "vendorProfileId": "02a3e273-e42b-4080-b31f-68328aad034f",
+    "title": "",
+    "category": "band",
+    "price": 1700,
+    "description": "Classic traditional wedding music.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.639Z",
+    "updatedAt": "2026-01-14T12:18:17.639Z",
+    "migratedFromVendorId": "27"
+  },
+  {
+    "id": "8935fbe7-9600-41b1-9bca-09f0c785be24",
+    "vendorProfileId": "6aeee2ee-5a8e-41a2-9ca4-2c5282e94f8d",
+    "title": "",
+    "category": "band",
+    "price": 2500,
+    "description": "Modern entertainment with DJ-style set.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.710Z",
+    "updatedAt": "2026-01-14T12:18:17.710Z",
+    "migratedFromVendorId": "28"
+  },
+  {
+    "id": "293a9ee6-a173-484f-9d29-a44fba80642d",
+    "vendorProfileId": "08ca4e30-a9d1-474f-a85f-38b637d8191e",
+    "title": "",
+    "category": "band",
+    "price": 1600,
+    "description": "Regional traditional music performance.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.781Z",
+    "updatedAt": "2026-01-14T12:18:17.781Z",
+    "migratedFromVendorId": "29"
+  },
+  {
+    "id": "908b5d73-22a8-4e8e-b6d3-e2a19445d567",
+    "vendorProfileId": "8c0a4693-6c09-40bc-93c4-627878170b2f",
+    "title": "",
+    "category": "band",
+    "price": 2200,
+    "description": "Folk and traditional wedding sets.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.849Z",
+    "updatedAt": "2026-01-14T12:18:17.849Z",
+    "migratedFromVendorId": "30"
+  },
+  {
+    "id": "78648d5f-ef6e-42a6-998b-13e53fa9e555",
+    "vendorProfileId": "176d70d9-90ec-44b4-b495-9b6539560378",
+    "title": "",
+    "category": "band",
+    "price": 2600,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.918Z",
+    "updatedAt": "2026-01-14T12:18:17.918Z",
+    "migratedFromVendorId": "111"
+  },
+  {
+    "id": "251e0602-1704-49e4-9b00-15e49effdbfb",
+    "vendorProfileId": "bd937b8b-dcce-458e-8b71-74fb9012d314",
+    "title": "",
+    "category": "band",
+    "price": 1800,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:17.986Z",
+    "updatedAt": "2026-01-14T12:18:17.986Z",
+    "migratedFromVendorId": "112"
+  },
+  {
+    "id": "53bf23de-684f-4d09-81e2-3a74769824ce",
+    "vendorProfileId": "09ea0220-834e-4fcc-8f42-9dfb0d3e638b",
+    "title": "",
+    "category": "band",
+    "price": 2400,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.054Z",
+    "updatedAt": "2026-01-14T12:18:18.054Z",
+    "migratedFromVendorId": "113"
+  },
+  {
+    "id": "361eb3f0-450e-4a3b-bb05-d4808057ee4b",
+    "vendorProfileId": "7f8b4370-bd31-4eb6-97b6-ba4a6136a6a4",
+    "title": "",
+    "category": "band",
+    "price": 1900,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.122Z",
+    "updatedAt": "2026-01-14T12:18:18.122Z",
+    "migratedFromVendorId": "114"
+  },
+  {
+    "id": "90243ee7-ac8d-4acc-9751-e686333b7794",
+    "vendorProfileId": "73db0dbc-9866-4727-ac82-c3038736a0af",
+    "title": "",
+    "category": "band",
+    "price": 2100,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.192Z",
+    "updatedAt": "2026-01-14T12:18:18.192Z",
+    "migratedFromVendorId": "115"
+  },
+  {
+    "id": "3d4241cb-6b34-4a6b-95b9-31077fd18722",
+    "vendorProfileId": "17234a2d-0ffe-4757-a797-55ef626a84a7",
+    "title": "",
+    "category": "band",
+    "price": 2300,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.263Z",
+    "updatedAt": "2026-01-14T12:18:18.263Z",
+    "migratedFromVendorId": "116"
+  },
+  {
+    "id": "df97b7c5-7295-4a34-97b3-3d0262b4e606",
+    "vendorProfileId": "92af0bcc-d05d-4a72-be70-35ba6f8829e4",
+    "title": "",
+    "category": "band",
+    "price": 2000,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.331Z",
+    "updatedAt": "2026-01-14T12:18:18.331Z",
+    "migratedFromVendorId": "117"
+  },
+  {
+    "id": "a0d94b85-55d7-4ac4-8a90-37a7805894fd",
+    "vendorProfileId": "684aa357-112b-46a6-990c-f9005d105443",
+    "title": "",
+    "category": "band",
+    "price": 1750,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.399Z",
+    "updatedAt": "2026-01-14T12:18:18.399Z",
+    "migratedFromVendorId": "118"
+  },
+  {
+    "id": "dfa08815-a68d-476b-8af5-34419efe6a7a",
+    "vendorProfileId": "efbf6087-7780-4cd6-bc03-e6501f7ea59c",
+    "title": "",
+    "category": "band",
+    "price": 2200,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.467Z",
+    "updatedAt": "2026-01-14T12:18:18.467Z",
+    "migratedFromVendorId": "119"
+  },
+  {
+    "id": "83c59417-5b3a-4530-80b2-e43d58a13ca3",
+    "vendorProfileId": "ec05e609-e3eb-42bb-bc02-2ce8934357c5",
+    "title": "",
+    "category": "band",
+    "price": 1950,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.535Z",
+    "updatedAt": "2026-01-14T12:18:18.535Z",
+    "migratedFromVendorId": "120"
+  },
+  {
+    "id": "17e72e3f-1d09-43fd-b678-713b3555941a",
+    "vendorProfileId": "84105bde-ca94-483c-b868-e4f9137ee7b7",
+    "title": "",
+    "category": "band",
+    "price": 2550,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.602Z",
+    "updatedAt": "2026-01-14T12:18:18.602Z",
+    "migratedFromVendorId": "121"
+  },
+  {
+    "id": "ff57f4d2-e040-469e-bcea-a4c6bf8a0b37",
+    "vendorProfileId": "250930be-d60a-4b9b-b403-27a0c7633223",
+    "title": "",
+    "category": "band",
+    "price": 1850,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.670Z",
+    "updatedAt": "2026-01-14T12:18:18.670Z",
+    "migratedFromVendorId": "122"
+  },
+  {
+    "id": "f501519f-1a8d-4d91-8d44-5246fe4ece95",
+    "vendorProfileId": "b7cb73d5-61a9-4ac5-8652-7acd826e7f38",
+    "title": "",
+    "category": "band",
+    "price": 2000,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.741Z",
+    "updatedAt": "2026-01-14T12:18:18.741Z",
+    "migratedFromVendorId": "123"
+  },
+  {
+    "id": "b863bdb2-e070-4afd-92b3-5018b5803b6d",
+    "vendorProfileId": "37d00cd4-d3ec-42e2-a812-0ef24ae182d9",
+    "title": "",
+    "category": "band",
+    "price": 1700,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.809Z",
+    "updatedAt": "2026-01-14T12:18:18.809Z",
+    "migratedFromVendorId": "124"
+  },
+  {
+    "id": "22f5fac5-52b0-4477-965e-957fb932dba8",
+    "vendorProfileId": "913068a2-f809-451e-8782-c05bbf1bb331",
+    "title": "",
+    "category": "band",
+    "price": 2400,
+    "description": "Live wedding entertainment with customizable setlists.",
+    "timeSlots": [
+      "18:00",
+      "20:00",
+      "22:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.877Z",
+    "updatedAt": "2026-01-14T12:18:18.877Z",
+    "migratedFromVendorId": "125"
+  },
+  {
+    "id": "3a985afc-0c60-4b11-9dfd-c66116dac766",
+    "vendorProfileId": "631e0d37-bc19-44f7-a293-158d672923b3",
+    "title": "",
+    "category": "caterer",
+    "price": 45,
+    "description": "Traditional menus with flexible packages.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:18.945Z",
+    "updatedAt": "2026-01-14T12:18:18.945Z",
+    "migratedFromVendorId": "31"
+  },
+  {
+    "id": "ccaef6cd-ec20-4f97-867d-a8d5a0638b32",
+    "vendorProfileId": "45f5a511-0024-4a4e-bb0e-beaf4686f64c",
+    "title": "",
+    "category": "caterer",
+    "price": 35,
+    "description": "Traditional catering packages for weddings.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.013Z",
+    "updatedAt": "2026-01-14T12:18:19.013Z",
+    "migratedFromVendorId": "32"
+  },
+  {
+    "id": "a44c8803-9db9-4277-8d6a-0d53b38651a2",
+    "vendorProfileId": "c6d5b128-23ab-45fb-b8d4-3b105bf8bf99",
+    "title": "",
+    "category": "caterer",
+    "price": 55,
+    "description": "Modern catering options with mixed menus.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.081Z",
+    "updatedAt": "2026-01-14T12:18:19.081Z",
+    "migratedFromVendorId": "33"
+  },
+  {
+    "id": "bd28b557-efe2-4042-bce0-85d768be7f92",
+    "vendorProfileId": "30d92f57-1613-4f56-b842-e8120bf58ce6",
+    "title": "",
+    "category": "caterer",
+    "price": 40,
+    "description": "Balanced packages for small and large weddings.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.149Z",
+    "updatedAt": "2026-01-14T12:18:19.149Z",
+    "migratedFromVendorId": "34"
+  },
+  {
+    "id": "3b87dbb9-4430-424b-92a3-0450ffd95270",
+    "vendorProfileId": "e87daacf-0967-4dfc-a88f-f2486c4d33a1",
+    "title": "",
+    "category": "caterer",
+    "price": 60,
+    "description": "Island-style menus including seafood options.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.217Z",
+    "updatedAt": "2026-01-14T12:18:19.217Z",
+    "migratedFromVendorId": "35"
+  },
+  {
+    "id": "9ec8d218-8817-484b-817a-f800484fc541",
+    "vendorProfileId": "3c64f86a-dfdd-4e52-886f-b722a44a63ce",
+    "title": "",
+    "category": "caterer",
+    "price": 65,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.285Z",
+    "updatedAt": "2026-01-14T12:18:19.285Z",
+    "migratedFromVendorId": "126"
+  },
+  {
+    "id": "b7d0dc48-d5a3-447c-a289-062904e8eacc",
+    "vendorProfileId": "8d2e1c54-051c-4945-bf28-e97f9db59793",
+    "title": "",
+    "category": "caterer",
+    "price": 55,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.352Z",
+    "updatedAt": "2026-01-14T12:18:19.352Z",
+    "migratedFromVendorId": "127"
+  },
+  {
+    "id": "d987f33b-2fa3-4588-b77e-9ad90339eb0c",
+    "vendorProfileId": "b1be73e7-3743-4f8b-8297-229c78caabcf",
+    "title": "",
+    "category": "caterer",
+    "price": 42,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.420Z",
+    "updatedAt": "2026-01-14T12:18:19.420Z",
+    "migratedFromVendorId": "128"
+  },
+  {
+    "id": "2d3b6368-7a16-4538-bbcb-91643745409e",
+    "vendorProfileId": "6624fc37-3d71-4db4-9e6f-7f671ce2ec25",
+    "title": "",
+    "category": "caterer",
+    "price": 50,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.491Z",
+    "updatedAt": "2026-01-14T12:18:19.491Z",
+    "migratedFromVendorId": "129"
+  },
+  {
+    "id": "0f1a16dd-b20e-4598-bf94-1c055b1a07ef",
+    "vendorProfileId": "bb23948b-1cdd-4d83-ae01-ee5221d3ff04",
+    "title": "",
+    "category": "caterer",
+    "price": 38,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.563Z",
+    "updatedAt": "2026-01-14T12:18:19.563Z",
+    "migratedFromVendorId": "130"
+  },
+  {
+    "id": "8b056357-4797-4a56-bcf8-92acdef47edc",
+    "vendorProfileId": "6476474f-dbe3-4c15-9cbd-a9ca46dfd88e",
+    "title": "",
+    "category": "caterer",
+    "price": 58,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.635Z",
+    "updatedAt": "2026-01-14T12:18:19.635Z",
+    "migratedFromVendorId": "131"
+  },
+  {
+    "id": "316f2a3e-720f-4d8f-acad-96f672e67383",
+    "vendorProfileId": "22954a99-bde1-4cee-88f9-7b276626ef07",
+    "title": "",
+    "category": "caterer",
+    "price": 45,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.707Z",
+    "updatedAt": "2026-01-14T12:18:19.707Z",
+    "migratedFromVendorId": "132"
+  },
+  {
+    "id": "fcb29ca9-bfbe-411c-849e-88c13df52ad2",
+    "vendorProfileId": "c32ee5ab-561f-42f4-ac9d-900ad0d150c9",
+    "title": "",
+    "category": "caterer",
+    "price": 60,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.778Z",
+    "updatedAt": "2026-01-14T12:18:19.778Z",
+    "migratedFromVendorId": "133"
+  },
+  {
+    "id": "376704be-acff-437e-8676-fec0fc561216",
+    "vendorProfileId": "3483c6e4-ff6c-4702-96e1-8d1226dcc00a",
+    "title": "",
+    "category": "caterer",
+    "price": 52,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.847Z",
+    "updatedAt": "2026-01-14T12:18:19.847Z",
+    "migratedFromVendorId": "134"
+  },
+  {
+    "id": "1cb4196e-6a3d-4b3b-92e5-62c73316b11b",
+    "vendorProfileId": "09589bd8-bf8d-4ad1-b6c1-c8e529b94fa2",
+    "title": "",
+    "category": "caterer",
+    "price": 40,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.915Z",
+    "updatedAt": "2026-01-14T12:18:19.915Z",
+    "migratedFromVendorId": "135"
+  },
+  {
+    "id": "61fb4e75-10fd-4416-bcea-bc213025b931",
+    "vendorProfileId": "ab21e814-dea8-4767-bf97-65e7524d393f",
+    "title": "",
+    "category": "caterer",
+    "price": 48,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:19.984Z",
+    "updatedAt": "2026-01-14T12:18:19.984Z",
+    "migratedFromVendorId": "136"
+  },
+  {
+    "id": "adcebb3d-3af7-4110-b65b-396b8c9e28f4",
+    "vendorProfileId": "d570b711-da21-4a1d-8457-67d55803ad3b",
+    "title": "",
+    "category": "caterer",
+    "price": 46,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:20.054Z",
+    "updatedAt": "2026-01-14T12:18:20.054Z",
+    "migratedFromVendorId": "137"
+  },
+  {
+    "id": "7fae7701-87b2-4dec-9ccb-44f2c8ff7003",
+    "vendorProfileId": "b6e5dd4a-5f6e-46a5-9475-7f2c5585e552",
+    "title": "",
+    "category": "caterer",
+    "price": 37,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:20.125Z",
+    "updatedAt": "2026-01-14T12:18:20.125Z",
+    "migratedFromVendorId": "138"
+  },
+  {
+    "id": "d43694d2-b56f-4e01-9cde-a67681e9ab0a",
+    "vendorProfileId": "c31ab4c9-c94c-4ae7-b683-09bdea4b086a",
+    "title": "",
+    "category": "caterer",
+    "price": 39,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:20.195Z",
+    "updatedAt": "2026-01-14T12:18:20.195Z",
+    "migratedFromVendorId": "139"
+  },
+  {
+    "id": "eb4cead7-49cf-436f-8008-2d291e59d9c8",
+    "vendorProfileId": "50843452-ae69-43dd-8182-45701128f4ae",
+    "title": "",
+    "category": "caterer",
+    "price": 62,
+    "description": "Wedding catering packages with customizable menus and service.",
+    "timeSlots": [
+      "12:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-14T12:18:20.265Z",
+    "updatedAt": "2026-01-14T12:18:20.265Z",
+    "migratedFromVendorId": "140"
+  },
+  {
+    "id": "4ee4d4b3-8663-4f8f-bd82-153b5f9d6eb7",
+    "vendorProfileId": "258f2e40-6066-4659-85c2-998792dc1912",
+    "title": "makeupp",
+    "category": "makeup",
+    "price": 200,
+    "description": "",
+    "timeSlots": [],
+    "createdAt": "2026-01-14T15:37:26.474Z",
+    "updatedAt": "2026-01-14T15:37:26.474Z"
+  },
+  {
+    "id": "0e4d0d3d-5d1f-4409-8a65-dcec550dcb05",
+    "vendorProfileId": "258f2e40-6066-4659-85c2-998792dc1912",
+    "title": "spa",
+    "category": "hairdresser",
+    "price": 0,
+    "description": "hammam and spa",
+    "timeSlots": [
+      "10:00",
+      "12:00",
+      "15:00"
+    ],
+    "createdAt": "2026-01-14T17:46:51.995Z",
+    "updatedAt": "2026-01-14T17:46:51.995Z"
+  }
+]

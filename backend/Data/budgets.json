@@ -1,11 +1,24 @@
 [
   {
     "clientId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
-    "total": 0,
-    "allocations": {},
-    "actuals": {},
-    "records": [],
-    "updatedAt": "2026-01-10T19:20:19.751Z"
+    "total": 5000,
+    "allocations": {
+      "hairdresses": 100
+    },
+    "actuals": {
+      "hairdresser": 150
+    },
+    "records": [
+      {
+        "id": "cb644261-4e8e-4545-b492-53d7de03d382",
+        "date": "2026-01-14",
+        "category": "hairdresser",
+        "amount": 150,
+        "bookingId": "74884348-3909-41d6-adbb-0708aadb2041",
+        "vendorId": 2
+      }
+    ],
+    "updatedAt": "2026-01-14T15:49:49.651Z"
   },
   {
     "clientId": "6692da87-8b06-491e-811e-19a8c1ef4d13",
@@ -14,5 +27,13 @@
     "actuals": {},
     "records": [],
     "updatedAt": "2026-01-10T19:41:09.962Z"
+  },
+  {
+    "clientId": "cc4bfd23-9f6b-4622-9899-8146aaa737f9",
+    "total": 0,
+    "allocations": {},
+    "actuals": {},
+    "records": [],
+    "updatedAt": "2026-01-14T15:54:34.077Z"
   }
 ]

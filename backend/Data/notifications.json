@@ -1,0 +1,773 @@
+[
+  {
+    "id": "254c8308-a011-4c84-b418-04df7d4d93ef",
+    "userId": "7da03513-75f4-4dc7-9323-5455e4f8d47d",
+    "email": "nabeulbroderie@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-20\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 1f545e79-eaa6-4fb8-80c2-adb0b8fe7adf\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "1f545e79-eaa6-4fb8-80c2-adb0b8fe7adf",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:45:17.914Z"
+  },
+  {
+    "id": "de92049c-4806-47ba-9b4e-ee9275245eda",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Nabeul Broderie\nDate: 2026-01-20\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 1f545e79-eaa6-4fb8-80c2-adb0b8fe7adf\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "1f545e79-eaa6-4fb8-80c2-adb0b8fe7adf",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:45:17.704Z"
+  },
+  {
+    "id": "1184f41f-8baa-4bf7-8401-c5e4520fdba8",
+    "userId": "699cf7a7-d8fb-48f0-8406-9d6b988ecd77",
+    "email": "maisonturkie@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-21\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 397d5e48-ae2f-4d67-bfea-8d3b3e435a87\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "397d5e48-ae2f-4d67-bfea-8d3b3e435a87",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:44:47.142Z"
+  },
+  {
+    "id": "156c8248-ab7c-458a-aad2-5485d4a6f4c7",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Maison Turkie\nDate: 2026-01-21\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 397d5e48-ae2f-4d67-bfea-8d3b3e435a87\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "397d5e48-ae2f-4d67-bfea-8d3b3e435a87",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:44:46.912Z"
+  },
+  {
+    "id": "c3e405e7-7370-45c0-a69b-c0b2c200865e",
+    "userId": "e8895e34-a898-4b6b-a5d0-fefce88c77f8",
+    "email": "lemiroirdor@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-21\nTime: 10:00\nType: hairdresser\nBooking ID: b2a46eb8-83a2-4124-a780-3556430bb873\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "b2a46eb8-83a2-4124-a780-3556430bb873",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:42:23.997Z"
+  },
+  {
+    "id": "5c5cacfc-7beb-4183-a095-ee43d8ecce65",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Le Miroir Doré\nDate: 2026-01-21\nTime: 10:00\nType: hairdresser\nBooking ID: b2a46eb8-83a2-4124-a780-3556430bb873\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "b2a46eb8-83a2-4124-a780-3556430bb873",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:42:23.492Z"
+  },
+  {
+    "id": "c0be5b94-53e5-4464-a51a-59ac06f0c325",
+    "userId": "e8895e34-a898-4b6b-a5d0-fefce88c77f8",
+    "email": "lemiroirdor@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-06\nTime: 10:00\nType: hairdresser\nBooking ID: bc8c31c5-e497-409c-8ffe-429c9159ebe7\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "bc8c31c5-e497-409c-8ffe-429c9159ebe7",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:41:00.913Z"
+  },
+  {
+    "id": "d0890a8f-2032-4e25-bb59-5d82c460339b",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Le Miroir Doré\nDate: 2026-01-06\nTime: 10:00\nType: hairdresser\nBooking ID: bc8c31c5-e497-409c-8ffe-429c9159ebe7\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "bc8c31c5-e497-409c-8ffe-429c9159ebe7",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:41:00.654Z"
+  },
+  {
+    "id": "11611c1f-59d2-478b-afa6-b255e748ac2b",
+    "userId": "e8895e34-a898-4b6b-a5d0-fefce88c77f8",
+    "email": "lemiroirdor@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-05\nTime: 10:00\nType: hairdresser\nBooking ID: 2da7296e-a585-466a-bf81-a08c2bde6c4a\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "2da7296e-a585-466a-bf81-a08c2bde6c4a",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:40:54.168Z"
+  },
+  {
+    "id": "018521b1-04f7-454c-9c48-2236fbe49c86",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Le Miroir Doré\nDate: 2026-01-05\nTime: 10:00\nType: hairdresser\nBooking ID: 2da7296e-a585-466a-bf81-a08c2bde6c4a\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "2da7296e-a585-466a-bf81-a08c2bde6c4a",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:40:53.920Z"
+  },
+  {
+    "id": "19e07861-8621-45db-b360-95e4a4ff0844",
+    "userId": "e8895e34-a898-4b6b-a5d0-fefce88c77f8",
+    "email": "lemiroirdor@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-13\nTime: 10:00\nType: hairdresser\nBooking ID: 5a423fc2-ae13-4be4-b9b3-673fd0ca7bfc\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "5a423fc2-ae13-4be4-b9b3-673fd0ca7bfc",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:38:30.016Z"
+  },
+  {
+    "id": "3fa90af5-e339-402a-bd80-3af570588c55",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Le Miroir Doré\nDate: 2026-01-13\nTime: 10:00\nType: hairdresser\nBooking ID: 5a423fc2-ae13-4be4-b9b3-673fd0ca7bfc\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "5a423fc2-ae13-4be4-b9b3-673fd0ca7bfc",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:38:29.779Z"
+  },
+  {
+    "id": "b820373c-70bd-4ed3-917d-b6748466f2d9",
+    "userId": "c7e1f33e-5b90-44a9-b688-a17fa4fbca18",
+    "email": "marsatraditionalboutique@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-22\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: ae14524a-61c2-4af0-9c1d-f310cfd097d1\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "ae14524a-61c2-4af0-9c1d-f310cfd097d1",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:27:27.870Z"
+  },
+  {
+    "id": "b9fbcdea-da98-41c5-8c50-f136f36eb568",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Marsa Traditional Boutique\nDate: 2026-01-22\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: ae14524a-61c2-4af0-9c1d-f310cfd097d1\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "ae14524a-61c2-4af0-9c1d-f310cfd097d1",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:27:27.663Z"
+  },
+  {
+    "id": "ec39d473-978e-49d4-b929-1982d45ed5e3",
+    "userId": "c7e1f33e-5b90-44a9-b688-a17fa4fbca18",
+    "email": "marsatraditionalboutique@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-21\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 7bb5e54c-794e-4e64-9026-285a01f0c58d\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "7bb5e54c-794e-4e64-9026-285a01f0c58d",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:19:49.162Z"
+  },
+  {
+    "id": "dfa49d39-df4e-4840-abdd-13bb91060603",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Marsa Traditional Boutique\nDate: 2026-01-21\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 7bb5e54c-794e-4e64-9026-285a01f0c58d\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "7bb5e54c-794e-4e64-9026-285a01f0c58d",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T18:19:48.911Z"
+  },
+  {
+    "id": "56667c66-7ec4-4f35-bfe9-cc03c7126241",
+    "userId": "e390955f-0e38-4caf-9fb9-4f3bc6024d3e",
+    "email": "fatmabouchiba@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-28\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: b459b13b-d108-48f8-a950-d90e134a6f10\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "b459b13b-d108-48f8-a950-d90e134a6f10",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T17:45:46.989Z"
+  },
+  {
+    "id": "7e1467d6-c70c-4523-8add-31599e9ea9de",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Fatma Bouchiba\nDate: 2026-01-28\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: b459b13b-d108-48f8-a950-d90e134a6f10\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "b459b13b-d108-48f8-a950-d90e134a6f10",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T17:45:46.720Z"
+  },
+  {
+    "id": "af43070b-987a-4171-9787-37d4e7a7cfee",
+    "userId": "e390955f-0e38-4caf-9fb9-4f3bc6024d3e",
+    "email": "fatmabouchiba@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-20\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: 348ee9e4-dba8-4e34-8d50-aa9991f2c6e3\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "348ee9e4-dba8-4e34-8d50-aa9991f2c6e3",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T17:37:19.780Z"
+  },
+  {
+    "id": "a832b0d8-3645-43b7-afb2-3da6b198bb38",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Fatma Bouchiba\nDate: 2026-01-20\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: 348ee9e4-dba8-4e34-8d50-aa9991f2c6e3\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "348ee9e4-dba8-4e34-8d50-aa9991f2c6e3",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T17:37:19.535Z"
+  },
+  {
+    "id": "0bc00592-08d0-4fcc-9be6-fb76d6f6ba91",
+    "userId": "7da03513-75f4-4dc7-9323-5455e4f8d47d",
+    "email": "nabeulbroderie@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-07\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 2c23963b-b173-4ef0-9468-fc1a804541b8\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "2c23963b-b173-4ef0-9468-fc1a804541b8",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T17:15:35.100Z"
+  },
+  {
+    "id": "34af4d65-fcd0-477a-98b6-6bf944c9f13f",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Nabeul Broderie\nDate: 2026-01-07\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 2c23963b-b173-4ef0-9468-fc1a804541b8\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "2c23963b-b173-4ef0-9468-fc1a804541b8",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T17:15:34.639Z"
+  },
+  {
+    "id": "4c67d7b8-66af-4265-99f6-b07f37ff344c",
+    "userId": "c9e9ebcf-027c-460b-882e-8f8b3861e625",
+    "email": "artsettraditions@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-15\nTime: 11:30\nType: traditional_clothes_women\nBooking ID: ba7af63b-2966-44f3-bbaa-bf5bc88e7b07\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "ba7af63b-2966-44f3-bbaa-bf5bc88e7b07",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T12:17:37.589Z"
+  },
+  {
+    "id": "e116649f-3ff9-4963-80fe-f40b319d4a10",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Arts et Traditions\nDate: 2026-01-15\nTime: 11:30\nType: traditional_clothes_women\nBooking ID: ba7af63b-2966-44f3-bbaa-bf5bc88e7b07\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "ba7af63b-2966-44f3-bbaa-bf5bc88e7b07",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T12:17:37.326Z"
+  },
+  {
+    "id": "8d3e2fe5-7fa6-4afc-be44-e212eea031d3",
+    "userId": "63e9a2ed-6db8-4405-9c93-ca1714257ec2",
+    "email": "tradisiana@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-13\nTime: 09:00\nType: traditional_clothes_women\nBooking ID: 2b90e2cf-abf3-416a-99aa-2d814531e6ff\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "2b90e2cf-abf3-416a-99aa-2d814531e6ff",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T12:01:11.248Z"
+  },
+  {
+    "id": "1e8f3d20-628b-4193-9d0d-6a0c38c43a4a",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Tradisiana\nDate: 2026-01-13\nTime: 09:00\nType: traditional_clothes_women\nBooking ID: 2b90e2cf-abf3-416a-99aa-2d814531e6ff\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "2b90e2cf-abf3-416a-99aa-2d814531e6ff",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T12:01:10.971Z"
+  },
+  {
+    "id": "794f6622-8221-4428-b59c-f6e2338b1a18",
+    "userId": "a2676bad-b6c1-4470-88f9-a0467efa1abf",
+    "email": "hotelloasisgabes@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-28\nTime: 10:00\nType: wedding_venue\nBooking ID: 80bf0ad2-06e1-402c-a36f-3d871c010b71\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "80bf0ad2-06e1-402c-a36f-3d871c010b71",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T11:28:09.171Z"
+  },
+  {
+    "id": "f10560f5-17e8-44cf-af1a-b88871e978d5",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Hotel l'Oasis Gabes\nDate: 2026-01-28\nTime: 10:00\nType: wedding_venue\nBooking ID: 80bf0ad2-06e1-402c-a36f-3d871c010b71\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "80bf0ad2-06e1-402c-a36f-3d871c010b71",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T11:28:08.762Z"
+  },
+  {
+    "id": "39127a63-f50c-4bf9-9936-648e71d2304f",
+    "userId": "0938a9a5-e011-4381-9282-033b66b28736",
+    "email": "elissar@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-09\nTime: 12:00\nType: traditional_clothes_women\nBooking ID: 1960231d-af86-4d5b-bf6b-9f39950fd786\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "1960231d-af86-4d5b-bf6b-9f39950fd786",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T11:27:04.348Z"
+  },
+  {
+    "id": "5d0941eb-d323-4914-a035-8aa78840292e",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Elissar\nDate: 2026-01-09\nTime: 12:00\nType: traditional_clothes_women\nBooking ID: 1960231d-af86-4d5b-bf6b-9f39950fd786\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "1960231d-af86-4d5b-bf6b-9f39950fd786",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T11:27:03.603Z"
+  },
+  {
+    "id": "7bde6750-b1ca-47ff-b74d-27a075233fd7",
+    "userId": "0938a9a5-e011-4381-9282-033b66b28736",
+    "email": "elissar@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-08\nTime: 12:00\nType: traditional_clothes_women\nBooking ID: 6c5b27e6-08aa-489b-ace2-2bf55572a8b8\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "6c5b27e6-08aa-489b-ace2-2bf55572a8b8",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:11:39.856Z"
+  },
+  {
+    "id": "406426f8-aa88-4b4c-a99f-ac44766fe449",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Elissar\nDate: 2026-01-08\nTime: 12:00\nType: traditional_clothes_women\nBooking ID: 6c5b27e6-08aa-489b-ace2-2bf55572a8b8\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "6c5b27e6-08aa-489b-ace2-2bf55572a8b8",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:11:39.602Z"
+  },
+  {
+    "id": "640912b6-3b23-4e57-afc4-ec22d1f4ec94",
+    "userId": "8105671d-edd4-4dee-8c76-0b9a490dc3d6",
+    "email": "mouradtouato@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-14\nTime: 09:00\nType: photographer\nBooking ID: bf64f68c-badb-4fb2-8c9b-c242bad8ac9f\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "bf64f68c-badb-4fb2-8c9b-c242bad8ac9f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:07:29.010Z"
+  },
+  {
+    "id": "8b3edf16-cdbd-4645-90bc-6379286c42ea",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Mourad Touato\nDate: 2026-01-14\nTime: 09:00\nType: photographer\nBooking ID: bf64f68c-badb-4fb2-8c9b-c242bad8ac9f\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "bf64f68c-badb-4fb2-8c9b-c242bad8ac9f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:07:28.757Z"
+  },
+  {
+    "id": "0be7431e-8640-4633-809c-50cf891c74fc",
+    "userId": "699cf7a7-d8fb-48f0-8406-9d6b988ecd77",
+    "email": "maisonturkie@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-15\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 316de4e3-8713-407e-bdc4-5b17d95faa30\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "316de4e3-8713-407e-bdc4-5b17d95faa30",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:02:39.213Z"
+  },
+  {
+    "id": "6b0d2c7f-e977-41a4-b5b2-fcc474dd40b2",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Maison Turkie\nDate: 2026-01-15\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: 316de4e3-8713-407e-bdc4-5b17d95faa30\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "316de4e3-8713-407e-bdc4-5b17d95faa30",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:02:38.953Z"
+  },
+  {
+    "id": "878a426b-49e8-4e34-92d1-a7aa9d62cac2",
+    "userId": "e8895e34-a898-4b6b-a5d0-fefce88c77f8",
+    "email": "lemiroirdor@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-07\nTime: 10:00\nType: hairdresser\nBooking ID: 4e8ed49b-74ba-40ed-b44b-26f60cb1976d\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "4e8ed49b-74ba-40ed-b44b-26f60cb1976d",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:01:17.269Z"
+  },
+  {
+    "id": "b4bb5dca-b81b-4005-831a-007a187addab",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Le Miroir Doré\nDate: 2026-01-07\nTime: 10:00\nType: hairdresser\nBooking ID: 4e8ed49b-74ba-40ed-b44b-26f60cb1976d\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "4e8ed49b-74ba-40ed-b44b-26f60cb1976d",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:01:16.997Z"
+  },
+  {
+    "id": "699e984c-c11c-4276-ac2a-323eab1c98b4",
+    "userId": "ba837f2e-c3ec-4f2f-b9ef-aefab31f7c9d",
+    "email": "rjeltounes@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-22\nTime: 18:00\nType: band\nBooking ID: dff4c13e-4b3b-4025-a4ff-7dc7d5ca1b91\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "dff4c13e-4b3b-4025-a4ff-7dc7d5ca1b91",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:00:55.564Z"
+  },
+  {
+    "id": "a03e4fce-90bf-4cbb-8207-755f4c5acdec",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Rjel Tounes\nDate: 2026-01-22\nTime: 18:00\nType: band\nBooking ID: dff4c13e-4b3b-4025-a4ff-7dc7d5ca1b91\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "dff4c13e-4b3b-4025-a4ff-7dc7d5ca1b91",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-15T09:00:54.967Z"
+  },
+  {
+    "id": "a95c93f4-cfe4-493b-a5d9-632aef5db910",
+    "userId": "7288e8d1-7f4e-45ba-be05-a9a522af713d",
+    "email": "4seasons@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-30\nTime: 10:00\nType: wedding_venue\nBooking ID: 4e2e3681-db9a-4e9b-a5bc-613591f2f5b3\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "4e2e3681-db9a-4e9b-a5bc-613591f2f5b3",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": false
+    },
+    "read": false,
+    "createdAt": "2026-01-15T01:27:33.024Z"
+  },
+  {
+    "id": "8f67c808-6e9e-4f88-9e7c-63cbb88298fa",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: 4 Seasons\nDate: 2026-01-30\nTime: 10:00\nType: wedding_venue\nBooking ID: 4e2e3681-db9a-4e9b-a5bc-613591f2f5b3\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "4e2e3681-db9a-4e9b-a5bc-613591f2f5b3",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": false
+    },
+    "read": false,
+    "createdAt": "2026-01-15T01:27:33.017Z"
+  },
+  {
+    "id": "4d698dd9-5e36-49d1-9789-08de725eb5b9",
+    "userId": "b63e9a27-483d-45c4-9bd3-2c42bfdd20f7",
+    "email": "fleurdelys@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-28\nTime: 10:00\nType: hairdresser\nBooking ID: 1caa7fc4-b9ca-48b7-8f12-63808b615c70\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "1caa7fc4-b9ca-48b7-8f12-63808b615c70",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": false
+    },
+    "read": false,
+    "createdAt": "2026-01-15T01:09:05.162Z"
+  }
+]

@@ -13,3 +13,4 @@ export const BOOKINGS_PATH = path.join(DATA_DIR, "bookings.json");
 export const BUDGETS_PATH = path.join(DATA_DIR, "budgets.json");
 export const LEGACY_VENDORS_PATH = path.join(DATA_DIR, "vendors.json");
 export const TRADITIONS_PATH = path.join(DATA_DIR, "traditions.json");
+export const NOTIFICATIONS_PATH = path.join(DATA_DIR, "notifications.json");

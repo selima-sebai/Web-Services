@@ -2,7 +2,7 @@
   {
     "id": "22dd0879-c28c-418a-a0e1-cae4d6996046",
     "email": "admin@eersi.tn",
-    "passwordHash": "$2b$10$KxS3KxSi8PykZ...gwUoS.4fR3zqE1K.KAA2vYhZ3LwCru5Q4cIaC",
+    "passwordHash": "$2b$10$fb6uhbfEzJHMRli1PKHcHOOSjPPdoiiQMM7src3kseZnhwqtgPNfq",
     "role": "admin",
     "createdAt": "2026-01-10T18:10:40.599Z"
   },
@@ -26,5 +26,999 @@
     "passwordHash": "$2b$10$i/JFEfYqDKkG3T07jwT5gu2KkPbO8Z0hs1I.9xFhWogITg/0gIbcS",
     "role": "vendor",
     "createdAt": "2026-01-10T19:40:32.403Z"
+  },
+  {
+    "id": "45a3a9e3-5bde-4629-9205-2e42952a2304",
+    "email": "salma@gmail.com",
+    "passwordHash": "$2b$10$Yeta3wba6J3TacRYqJHroOdkVsnMkLBx02X3Sf.IAdj26A5sxEWGe",
+    "role": "vendor",
+    "createdAt": "2026-01-14T11:35:49.766Z"
+  },
+  {
+    "id": "b63e9a27-483d-45c4-9bd3-2c42bfdd20f7",
+    "email": "fleurdelys@gmail.com",
+    "passwordHash": "$2b$10$fiDWSq2vSBoH1nLc.1oMcOLvvzEIkioR1EC/zws/.y8I89JkKcWxm",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:10.643Z"
+  },
+  {
+    "id": "287084ba-51a8-454d-a611-e5e789bffd8f",
+    "email": "fatenamouricenter@gmail.com",
+    "passwordHash": "$2b$10$cLwkdTrwrXPRdmIHqDV.LuQgTjIHxE4dSYWmKkO4Q2YwFrA8Y8sbS",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:10.752Z"
+  },
+  {
+    "id": "5d3b2387-30b6-4506-b8ea-52cb32cea3d1",
+    "email": "bellacosmetique@gmail.com",
+    "passwordHash": "$2b$10$P3uHor9Q0WvmKwAg/7saAOZn7QDLVapVlvMRJeLbSR4.qYWeM9Lre",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:10.820Z"
+  },
+  {
+    "id": "81c498a8-fb21-405f-baba-3201e7c27e63",
+    "email": "nouracoiffure@gmail.com",
+    "passwordHash": "$2b$10$1pF4DTBh9Ss/Yer0ttpl2eBqINOUZx72geKUvRDxBK5VNaOh3Ogfi",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:10.887Z"
+  },
+  {
+    "id": "c58654ef-3dfa-432c-9fee-49f6522517a8",
+    "email": "liliabenaziza@gmail.com",
+    "passwordHash": "$2b$10$g8k2tKSs1XGl9QjyOPGetuZStB0loB2LfFOdItv2AVcymgB0Lg3r2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:10.956Z"
+  },
+  {
+    "id": "db2e0d06-8150-4848-bdaf-dee5917acc4c",
+    "email": "salonelamira@gmail.com",
+    "passwordHash": "$2b$10$jLTsxCcx2nWF7PfN/pGXrecTjAbmWsPMvS4bLEhzdKLWfN/pMrTYC",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.024Z"
+  },
+  {
+    "id": "acff68c1-d181-41bb-a736-d63f12148921",
+    "email": "glamtouchstudio@gmail.com",
+    "passwordHash": "$2b$10$GUBlKPL6txbUKQJypBvVFOsMdpPP/HrKKbPX9PVmASSnjq9dWFlMW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.093Z"
+  },
+  {
+    "id": "e8895e34-a898-4b6b-a5d0-fefce88c77f8",
+    "email": "lemiroirdor@gmail.com",
+    "passwordHash": "$2b$10$0Bbdm6Z25rewJZHo2rMxYutluyy3b49GOIN6Rix3N4ikumUkL1yFG",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.161Z"
+  },
+  {
+    "id": "4cd7ceef-af51-4b57-a74b-7cba22b1c5fd",
+    "email": "beautyhouserim@gmail.com",
+    "passwordHash": "$2b$10$k3jr7yp4DPlcK9cvKXrkfOtK5qsNFDxaH0cfTNsehJT6.5gYUzzr2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.230Z"
+  },
+  {
+    "id": "8a75fcd6-5bc1-4baf-8ab2-857d90388ee5",
+    "email": "studioinesbeauty@gmail.com",
+    "passwordHash": "$2b$10$AaFTygCc9jaljbJhYyhxBel8dhrFX9HkpQ11I/DzyqD9tWve0QAWq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.299Z"
+  },
+  {
+    "id": "73fd95d7-9f3e-433a-b4b1-46445eb3f79d",
+    "email": "coiffurezahra@gmail.com",
+    "passwordHash": "$2b$10$jTHCTxLJIa/WWJ92FkhUbuVkLgQZP.KSXo8CsHjjYwy0RQabYp88q",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.368Z"
+  },
+  {
+    "id": "51ef73b3-ac5f-411b-8482-2ed99abe6a84",
+    "email": "elgancestudio@gmail.com",
+    "passwordHash": "$2b$10$o/NtuBVm97CEHLDmbAdeTufjIqOp8IsNAhmokwITCBFpW5INctHtS",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.437Z"
+  },
+  {
+    "id": "a09999bd-3a43-4787-87ba-2da3983138d6",
+    "email": "nesrinemakeupartist@gmail.com",
+    "passwordHash": "$2b$10$CfGsFBVtP.Goo/ALnrZvBuch.OaDJR2PptuvmPWWZaNRZErxV5bCq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.505Z"
+  },
+  {
+    "id": "e896e1f5-a667-4526-b8e3-a6ce4b8c4106",
+    "email": "roseshine@gmail.com",
+    "passwordHash": "$2b$10$jF/ipCtS9g1YvTH8DkcjbOm1TmfSK66qU3ypazodbjDcy59StOIdm",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.573Z"
+  },
+  {
+    "id": "88dd2fae-21c6-439f-9be1-2a2934f0e7d8",
+    "email": "lamiacoiffure@gmail.com",
+    "passwordHash": "$2b$10$d/ZlSS2MaCFwH4ytb5Twa.tP76f0JMQ54dqbIoAm1S6VGnGvwPq9i",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.641Z"
+  },
+  {
+    "id": "14059ee6-53db-4ab7-a6a7-1456588b9bc8",
+    "email": "ayabridalstudio@gmail.com",
+    "passwordHash": "$2b$10$FqSz2NLj3MkDWg5i4d.JBu6AgYcFTrRdzid1z.oj1phjhJ9avDPyu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.709Z"
+  },
+  {
+    "id": "823a0447-08e1-4e78-894f-b85ae011bba1",
+    "email": "nouhabeautycorner@gmail.com",
+    "passwordHash": "$2b$10$IvqM3QyxsRTA7nqdqwj7n.pbd5IjO9tnNbkIT6nZ5/eOp7e81pjN2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.778Z"
+  },
+  {
+    "id": "f82a1dd9-a7dd-4b78-a17e-ac4db4537f54",
+    "email": "saharglam@gmail.com",
+    "passwordHash": "$2b$10$LrD2nztNMuepLcufXmCEte.jIoOqrE53TMQIWXiY5yYg123QO6rSe",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.845Z"
+  },
+  {
+    "id": "a461d79f-b1c3-4b27-ba62-2b5af25ac12d",
+    "email": "djerbabeautyloft@gmail.com",
+    "passwordHash": "$2b$10$CI97Iu/z8sSHEyAdoYgv0easFRjnthjy0EIZHrTCketjFHf9Y7try",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.913Z"
+  },
+  {
+    "id": "869d6dc5-7915-4f23-959d-b9fd7c5b20de",
+    "email": "tozeurgoldentouch@gmail.com",
+    "passwordHash": "$2b$10$ZMhJ271Vkrd0KlrXuXhNo.HTV5eWidrhnglGUAQyLSocKm/3LE4Ve",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:11.981Z"
+  },
+  {
+    "id": "e390955f-0e38-4caf-9fb9-4f3bc6024d3e",
+    "email": "fatmabouchiba@gmail.com",
+    "passwordHash": "$2b$10$TYeSS.ep.1RILWxEyG0ntePyITvveOBPJDv8U7f6BL42q4he/8twq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.049Z"
+  },
+  {
+    "id": "699cf7a7-d8fb-48f0-8406-9d6b988ecd77",
+    "email": "maisonturkie@gmail.com",
+    "passwordHash": "$2b$10$5xZlpKL5qSzQ.Z9jdRlutuT0Id5W5n5EUEN5Zn2mnPNHtii9LnZ02",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.118Z"
+  },
+  {
+    "id": "0938a9a5-e011-4381-9282-033b66b28736",
+    "email": "elissar@gmail.com",
+    "passwordHash": "$2b$10$xUo2jA04KubIvdm6xun38etB.xZKbhCN0MmGb3UN.Ooqv5WrOsO9a",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.189Z"
+  },
+  {
+    "id": "63e9a2ed-6db8-4405-9c93-ca1714257ec2",
+    "email": "tradisiana@gmail.com",
+    "passwordHash": "$2b$10$TBtu03REV8wuqAk7KLdRFuRBsI3D22rUKdmW199f75GDWQtqg2Bm6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.259Z"
+  },
+  {
+    "id": "c9e9ebcf-027c-460b-882e-8f8b3861e625",
+    "email": "artsettraditions@gmail.com",
+    "passwordHash": "$2b$10$lT5Cq/.sq4FtY5ckF.L6Vut1RbFam.w0wro99IltYMtJBEC99ouqq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.332Z"
+  },
+  {
+    "id": "4f9db0f7-93d3-43a5-bc0b-86f745d29827",
+    "email": "darelfouta@gmail.com",
+    "passwordHash": "$2b$10$IqUzPdi7TSyqTXt5UOTiSeWU.UImfB5Jq7p1hDTE7YEYtQRBvkZNi",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.409Z"
+  },
+  {
+    "id": "c7e1f33e-5b90-44a9-b688-a17fa4fbca18",
+    "email": "marsatraditionalboutique@gmail.com",
+    "passwordHash": "$2b$10$FelWKyPLCXEb1JxtRrtjy.RRswR2ASPfZpi.J.UQToTJHScwaNCE6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.478Z"
+  },
+  {
+    "id": "7da03513-75f4-4dc7-9323-5455e4f8d47d",
+    "email": "nabeulbroderie@gmail.com",
+    "passwordHash": "$2b$10$auSPe19EoNMzEJyPmjBdPu3macgr.tzMDzhRDJZZ/PxqmhitnHPp2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.545Z"
+  },
+  {
+    "id": "91441d83-c2f7-4462-9869-c13f1835f417",
+    "email": "bizertezina@gmail.com",
+    "passwordHash": "$2b$10$kYg5E/zrkSOaJXrkpoxi8uSV8pyVz06qIBxO4Hd2GriPzvDfa5feC",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.613Z"
+  },
+  {
+    "id": "cc7bc017-c76d-4906-8901-fb7eef3e940e",
+    "email": "sousselella@gmail.com",
+    "passwordHash": "$2b$10$kPg/exKn96Et7cabPwYJtuZ5Nc71PWzp23HeDeFIojYHVKhHtiSCy",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.681Z"
+  },
+  {
+    "id": "cad56c04-934b-4f6f-bdf6-6b7b728fc359",
+    "email": "gabeshandcraftatelier@gmail.com",
+    "passwordHash": "$2b$10$9thabNsVFLVJQQH5FOlQIe3Cx5mYNV5DgPdNsquX2eqZLfgnuzrC.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.748Z"
+  },
+  {
+    "id": "76708b1a-a0d2-4698-947b-9c47ed38525c",
+    "email": "kefheritagedress@gmail.com",
+    "passwordHash": "$2b$10$CGMsjiREdLaJskfsqH.JIOJgg.364B2s99axWwRO6Lx.X.0G0oQFe",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.817Z"
+  },
+  {
+    "id": "d1b84981-f0ce-45e5-aba0-60c714fe855c",
+    "email": "mahdiapearlcaftans@gmail.com",
+    "passwordHash": "$2b$10$zRyH6lhyZR/m1mhaI./j9OihzdzvR.fPTItSNc6yQ6Sizu5Iai6Ym",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.884Z"
+  },
+  {
+    "id": "725cd701-9477-4b2c-b3ba-0d9f80f7d630",
+    "email": "monastirsilktouch@gmail.com",
+    "passwordHash": "$2b$10$1qEzhjTxJE1.Rl/0uzZl0.CxamahXeXLBfMalNpGomsoYka3fh5i.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:12.952Z"
+  },
+  {
+    "id": "5151fd42-acc6-4100-89d0-988ff34e6951",
+    "email": "gafsaoasiscouture@gmail.com",
+    "passwordHash": "$2b$10$jDewutGttjnfc4pzNpwBsufca9PRgJKf4epNtfq3BvSZs.fWeK3eu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.021Z"
+  },
+  {
+    "id": "34b4652b-832e-460b-83bf-6637ecf202c4",
+    "email": "tozeurpalmcollection@gmail.com",
+    "passwordHash": "$2b$10$wk/T8TD3nKbwNlybHUM7T.OQsSU7Hm7ZofhCX4DNKNTcsrzZ.gpd.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.090Z"
+  },
+  {
+    "id": "a29af31b-25fb-4bd2-b9e0-3d6980bf1b8d",
+    "email": "tataouinedesertchic@gmail.com",
+    "passwordHash": "$2b$10$yBTX2EL75B/I4VoQOvcSRelaVRxPGrlgR/zr2AqjjRTXpQRAgIWyC",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.158Z"
+  },
+  {
+    "id": "81b25287-ed9c-4359-8865-985577d426bd",
+    "email": "arianalelladressing@gmail.com",
+    "passwordHash": "$2b$10$abHjZ.dBrRgvt3i8xn8.C.Hj8URBgQfYVARBFreO5fQPhsi8UQSRu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.226Z"
+  },
+  {
+    "id": "a27cfb78-5a1e-4277-a382-443e36303147",
+    "email": "sidibouzidembroideryhouse@gmail.com",
+    "passwordHash": "$2b$10$ki0w/M1uyWaH8ON06NBi3.59Jzxk30476Pv10dxghEVWWDHQMYnkK",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.293Z"
+  },
+  {
+    "id": "c68f756f-1271-4874-8abf-8cf3843a8d7d",
+    "email": "jendoubalacetraditions@gmail.com",
+    "passwordHash": "$2b$10$x3bgr4Qru2v97uWlUI2bmu9yS.QrNlEMXyur0TR9PCBy/uhuZwU02",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.375Z"
+  },
+  {
+    "id": "725ba85f-c74e-491a-ac87-c31b2a66c83c",
+    "email": "heni@gmail.com",
+    "passwordHash": "$2b$10$3szvpMUDcCaC0ZI4SDk/Hu5/eXwxBYjMI/LH90dfYN3ra/WQFtSOO",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.445Z"
+  },
+  {
+    "id": "d0af8359-6be7-44a3-9742-47e6305246c9",
+    "email": "dareljebba@gmail.com",
+    "passwordHash": "$2b$10$SPIR5vr/SMNauV6NU32DiO/9cCAVoGZxIcbg6BGuxcwed0JkqgFj.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.513Z"
+  },
+  {
+    "id": "6f27cbf1-2c16-42d1-acde-4d4ec7168f50",
+    "email": "jebbawchehia@gmail.com",
+    "passwordHash": "$2b$10$v6KMJfvlbfPGk71QRUn3XOLgn977/9EUauOCFocDVMaWeV0t.hEZS",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.581Z"
+  },
+  {
+    "id": "2aa0fd2f-557a-4ac3-b43b-7cf8ec9f3b25",
+    "email": "hamdicouture@gmail.com",
+    "passwordHash": "$2b$10$NKVHVRwiqAQtjTDxZCiOKuj2P6HYC3uDvE4AJxBPF2yFW13BrtO.S",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.649Z"
+  },
+  {
+    "id": "ad2e76ad-f454-4aae-a5b2-3dd9e277e8f5",
+    "email": "darelhaj@gmail.com",
+    "passwordHash": "$2b$10$INWUX7jFYUKBQEXDEzoot..roajZrMfbjM.H7yHKPOgWkDcvsUrmu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.717Z"
+  },
+  {
+    "id": "46ff2219-78eb-4523-b82e-42b6e9c45605",
+    "email": "darchechiatunis@gmail.com",
+    "passwordHash": "$2b$10$a7/fugVvchv3dPfAXvW4/OO/..YQQz2uXWu8BQxfefVvmzffCKnia",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.785Z"
+  },
+  {
+    "id": "23e729e3-72f3-473e-b8c7-cfbe56809b7f",
+    "email": "sfaxjebbaatelier@gmail.com",
+    "passwordHash": "$2b$10$Ciryb34CyIbYg3moVVV5N./LIXvbzZQKtpWa00fcPDg7rq0jeST9a",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.853Z"
+  },
+  {
+    "id": "18906f45-0a97-4e3a-bbdb-da046a1a457d",
+    "email": "sousseclassicjebba@gmail.com",
+    "passwordHash": "$2b$10$gqTX95n3kX2CcOHOZpKBC./AduxU93maHH.TOftEOBtogIIirroHG",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.920Z"
+  },
+  {
+    "id": "e4217aad-147c-4cb2-a8ca-8c4e63984743",
+    "email": "kairouanbroderiehomme@gmail.com",
+    "passwordHash": "$2b$10$dUhi78ZkWd2O7lZkuxrkHu1jhuvJAgy/4COfruxdAXb8CSDm6orZW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:13.988Z"
+  },
+  {
+    "id": "a06330fd-2d78-4e43-8110-65d964adcf79",
+    "email": "bizertemenstrad@gmail.com",
+    "passwordHash": "$2b$10$pemW9cQriUytw7vWjJS73ORNypDCeeYI6KRfEOdY1BpV7ptdFaxgW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.056Z"
+  },
+  {
+    "id": "223d46d0-58ce-42e2-8f80-54a4bf81a095",
+    "email": "arianajebbacorner@gmail.com",
+    "passwordHash": "$2b$10$r7xxumW92Xxg86AsvI1j8.wlSBQfQflSuMMs5K1Ro2u.kboW9rAdi",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.124Z"
+  },
+  {
+    "id": "32e5f135-e517-4515-a7ad-4b031dce1eaf",
+    "email": "benaroustailorhouse@gmail.com",
+    "passwordHash": "$2b$10$zjBx0W8i3nMNsloweHMw.eKN1gLy1K6c5bbAYoC3DAHIhC5fykRkO",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.193Z"
+  },
+  {
+    "id": "47fa82d8-0095-40a0-8579-ce7b18b9983f",
+    "email": "bejaheritagewear@gmail.com",
+    "passwordHash": "$2b$10$uJfIlC.1FiT3P//ZzVVPvuGAub66UKwACqFzBo8UBoHHOMHP.KNCK",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.261Z"
+  },
+  {
+    "id": "9466b553-a2c7-4bfb-9bae-d4b84c04e09a",
+    "email": "jendoubatraditionalstyle@gmail.com",
+    "passwordHash": "$2b$10$62XmhVuFxAK51H9fzkkqa.YWoHQ8t2vmOZIXpxZC.cmOGIi/GGRPu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.329Z"
+  },
+  {
+    "id": "bb812d25-1d16-4071-a14b-411266a4a0e0",
+    "email": "kefjebbaartisan@gmail.com",
+    "passwordHash": "$2b$10$iO/WgP1OWLFFB4fIUHE6.epxN1SWU4.X8/JhgLXtRqiM6byP9bBoO",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.400Z"
+  },
+  {
+    "id": "40c130ad-e722-43b1-b8bf-1baa054b0b22",
+    "email": "silianaclassicchehia@gmail.com",
+    "passwordHash": "$2b$10$rUbjNrvXCpa1YePoKnrwY.AeFW4RIm59WM4WVhbF/AJRzwzOXYPOW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.478Z"
+  },
+  {
+    "id": "f2e351ed-4980-4745-af88-923c72b33e54",
+    "email": "gafsaoasismenwear@gmail.com",
+    "passwordHash": "$2b$10$xOI/j.Q9wIvvf.g90Nm5HeborvV8Hz2qEKayGpWJTG/NtrqwHxx3O",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.547Z"
+  },
+  {
+    "id": "8559751a-ac72-4918-8b30-f014d60a59f2",
+    "email": "tozeurpalmjebba@gmail.com",
+    "passwordHash": "$2b$10$M9/ORAeeP4ApTqH3d9VBxu4jBG8JNdeUblBJdtqWN2WfqIOK.YOTO",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.615Z"
+  },
+  {
+    "id": "ee66bac6-2340-4b47-8623-51fe4461c0ac",
+    "email": "medeninedesertjebba@gmail.com",
+    "passwordHash": "$2b$10$1EZkBR8Ra6YGi9V4QhYE5O7hqgoxaHT85Q76UdQd6wqiwN3LD7R2C",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.686Z"
+  },
+  {
+    "id": "d6fa0006-66ff-44ac-bf02-88420176948e",
+    "email": "tataouinepremiumjebba@gmail.com",
+    "passwordHash": "$2b$10$VQ3BkiDr..KgUy5/tDzTE.upV3gkMoBE12DwRbG6G8hTybmiI5Kdq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.754Z"
+  },
+  {
+    "id": "98955645-db78-46f2-b2f1-a7a04c2a605c",
+    "email": "tahaprod@gmail.com",
+    "passwordHash": "$2b$10$TeGu88TvaA6XW64dp1GZOuR055dFsflgFgMa5WAMd105eCYd6rD1a",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.824Z"
+  },
+  {
+    "id": "b83e9b2a-26b4-4e50-baae-015711d23579",
+    "email": "ziedkharrat@gmail.com",
+    "passwordHash": "$2b$10$6.z.lIqrUoZd1fnimo0hxe1L1uuQnxAY.bScyjGVp9x9vGHbYhEDu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.892Z"
+  },
+  {
+    "id": "c8566b5a-3a60-4fd9-a7fa-f5712f27586a",
+    "email": "mohamedsahli@gmail.com",
+    "passwordHash": "$2b$10$biV4xqroDaE6zSssn9xm8eM/0qZmaY8iFXWLvMBMPhohbVoE927vy",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:14.961Z"
+  },
+  {
+    "id": "8105671d-edd4-4dee-8c76-0b9a490dc3d6",
+    "email": "mouradtouato@gmail.com",
+    "passwordHash": "$2b$10$U8eN3i31DQAdcSmobw4uc.sIn.FGnVPC6fcFVJ4P6nnI2bKRSnmma",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.028Z"
+  },
+  {
+    "id": "7750dac3-3197-4496-a771-58c51859e8e0",
+    "email": "azizafli@gmail.com",
+    "passwordHash": "$2b$10$C7Ut5VmF7f0AJpF8hY.hj.vQn31xFUpiE/wju6sq4UFinAdoCqvDa",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.096Z"
+  },
+  {
+    "id": "c9d2290e-8896-4ef1-b208-85eee98278c4",
+    "email": "nabilstudio@gmail.com",
+    "passwordHash": "$2b$10$bCMlCnAwGpapi0za6tzmfebTBLppnU16mLjYppzV0Ex.VPEFCtTjK",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.164Z"
+  },
+  {
+    "id": "55d5caf9-328c-40ee-bf63-014c2bf5fc3f",
+    "email": "kaisframe@gmail.com",
+    "passwordHash": "$2b$10$ZyYlJkLd5z54Q4iQKmAVzOdrj1ihmNFlyDFH474gSIMUxRJ4tLemi",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.232Z"
+  },
+  {
+    "id": "132e6403-c171-4935-b531-04948f547cc0",
+    "email": "samarlens@gmail.com",
+    "passwordHash": "$2b$10$/Q8BJ86kBsGLhD7huo1nGeojDR3Fpm8yYrUIwCqPgFz2.HhBL5AwG",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.300Z"
+  },
+  {
+    "id": "646d1311-ae39-43a1-a856-743719670181",
+    "email": "youssefweddingfilms@gmail.com",
+    "passwordHash": "$2b$10$0r.xOJLGvX6HlUv4N0aZ7elY41I3d1qMO3uJqf5VTg/NG3SsL7Qdy",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.372Z"
+  },
+  {
+    "id": "e0de25bb-894d-4dab-aaa0-2f68f61e4b5f",
+    "email": "amelphotography@gmail.com",
+    "passwordHash": "$2b$10$oaIpygdiztjm5FnsFnBsFOCbieUFaZGSsY7IdawEEst/QBkIhpq3y",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.440Z"
+  },
+  {
+    "id": "d447779c-2950-47b2-bbf8-93cdd50fced6",
+    "email": "bizertephotohouse@gmail.com",
+    "passwordHash": "$2b$10$b2rxZpVNNMnMf3zjXAZsEe5vi8C3YkCfzPyPluMZ8Uw6mudpzAxpy",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.508Z"
+  },
+  {
+    "id": "3781a2e3-9abd-4081-be08-099ef1dce366",
+    "email": "kairouanheritageshots@gmail.com",
+    "passwordHash": "$2b$10$S7/qGjeC6SR95XCrcLueReerWW9pTddYj5vF2QJZgEAuxpPS33pvm",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.576Z"
+  },
+  {
+    "id": "9f8a9966-122d-4adb-a69c-b77e87221fe4",
+    "email": "mahdiasealightstudio@gmail.com",
+    "passwordHash": "$2b$10$8izfl3afzipA6YiAuNryje45oJLHjWf2hGmRKRtxPce6AUoYu1qcW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.644Z"
+  },
+  {
+    "id": "26ae6b0b-3c39-40d8-90d4-c34142f9a594",
+    "email": "monastirmoments@gmail.com",
+    "passwordHash": "$2b$10$NmUoU5SSdCHuLm1yhOMxfu7LCUHIsKOlJp9hFYI9un6nDhOiuuwOC",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.711Z"
+  },
+  {
+    "id": "0e1808d5-61c7-4cc5-8993-fd51066bd7d0",
+    "email": "gafsaoasisvisuals@gmail.com",
+    "passwordHash": "$2b$10$SZK3PWZfkStSvef.cQMOPOfYwdFm1yp6Z3.He2ROpFWWSWDAKppLO",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.780Z"
+  },
+  {
+    "id": "498657a2-7120-4a08-b029-71b8d7100bcb",
+    "email": "tozeurgoldenframe@gmail.com",
+    "passwordHash": "$2b$10$TkYHGgzKsw1r7aV3u4y6WuqVvVt8EwfHBCAWtENNbzJWLtSqIULXG",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.847Z"
+  },
+  {
+    "id": "0bec0fc3-3cde-4b9e-b585-fc3b042a43dc",
+    "email": "kebilidesertdrone@gmail.com",
+    "passwordHash": "$2b$10$Xbh6ETgtlPnUw5GVZLsB1.cVd0mfGkccXRMO.PHKELa/DWq6ORy.C",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.915Z"
+  },
+  {
+    "id": "de7cc0a0-af24-4d19-88b6-d0723f58e2e2",
+    "email": "medeninestorytellers@gmail.com",
+    "passwordHash": "$2b$10$EHKQUjiyrOwfdB/D./w7iuONER2x9a7XdJsxjEuYtYS4jTHv1on8a",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:15.984Z"
+  },
+  {
+    "id": "ef10583d-ee69-4e92-8ee8-bfa9392ec734",
+    "email": "zarzisbeachstudio@gmail.com",
+    "passwordHash": "$2b$10$4xaJGR1A3MRyE8kynf6oiu8U9BpMNfyNWt0vbbaCkEPFMpDYEO2jS",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.052Z"
+  },
+  {
+    "id": "34d68e14-c7e6-47b5-9a6f-5b7ce646e1b3",
+    "email": "tataouinenightshots@gmail.com",
+    "passwordHash": "$2b$10$1e/lViGDbp3lPjHLD5iPNelZa48TefO85RcYmXjiwAkacVz/xCwSu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.119Z"
+  },
+  {
+    "id": "7288e8d1-7f4e-45ba-be05-a9a522af713d",
+    "email": "4seasons@gmail.com",
+    "passwordHash": "$2b$10$IfrKQXcxujLk2LRpJSaSUuGIDbtyJ9lbyZpnyMEG7atq/naNLOpN2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.187Z"
+  },
+  {
+    "id": "993170f8-ba8d-4ed3-a311-09ab7793cdf4",
+    "email": "zifef@gmail.com",
+    "passwordHash": "$2b$10$Gu/oigpBLiYpKMuEupsyJOddknYmAd7PjnQ/qI4bcRb/IuseWErj6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.255Z"
+  },
+  {
+    "id": "a77d045e-591f-4983-8b96-98bd9b163911",
+    "email": "alflilawalila@gmail.com",
+    "passwordHash": "$2b$10$Ng6J.FtKJcc/LCBFbydTKuMryMFZ.UmRwtI1nMVMGLY8vZsp4xTQ6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.324Z"
+  },
+  {
+    "id": "d32544c6-1957-41a4-bc55-d43c01962c1c",
+    "email": "raddisonblue@gmail.com",
+    "passwordHash": "$2b$10$ZN/dbREbtmOljQlAaFLyzOrBALhIVbSL.jupOhqsOplqPC9.jawom",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.394Z"
+  },
+  {
+    "id": "a2676bad-b6c1-4470-88f9-a0467efa1abf",
+    "email": "hotelloasisgabes@gmail.com",
+    "passwordHash": "$2b$10$54N6LbIDngp4aDZ3TkjUpe3OBxXVHsFg2KKTe0xfX3nBvRFCBWqCe",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.462Z"
+  },
+  {
+    "id": "c9ff8cdb-b0f5-42b5-a01d-f48e71268bbe",
+    "email": "palaiscarthageevents@gmail.com",
+    "passwordHash": "$2b$10$hXqrs7bhlRxT9mgczv2iF.UUNZAMpZjEBX9X7bLuctN/N/zSibBBi",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.530Z"
+  },
+  {
+    "id": "fcb3700f-30f8-4608-a0b1-5159b83f76bf",
+    "email": "darlamarsa@gmail.com",
+    "passwordHash": "$2b$10$iYnVRiRsmrUaspnOJNizo.4RjXFjpUyto7IWIWyUr7gppN5p5Ajri",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.597Z"
+  },
+  {
+    "id": "8c3b2dc5-8b82-4ff1-bc62-eca2b906dcae",
+    "email": "hammametgardenpalace@gmail.com",
+    "passwordHash": "$2b$10$XdJFG92pLMtx5kxwfLotA.KFIN3SnWJUZ/ZYHi8uHC6R7Y6sUp7Qi",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.665Z"
+  },
+  {
+    "id": "f30a9097-4f7a-4381-ab06-8019a04d4755",
+    "email": "nabeulcrystalhall@gmail.com",
+    "passwordHash": "$2b$10$RXyAoldvJpRU/hrefCyK.u2IpQwgh2dWtPorVKaHbP9SPO8ZlUU5W",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.732Z"
+  },
+  {
+    "id": "c2d3706c-f706-4471-94a0-90b0f63fc886",
+    "email": "bizertemarinaresort@gmail.com",
+    "passwordHash": "$2b$10$y46gMwQ.aCgJ0Q.fusaLC.0Aprc1hDXEST1TIJbd8UCI4QOKv1LG.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.800Z"
+  },
+  {
+    "id": "d59fce7a-2dc2-4f5f-a0fc-5e179b6944f4",
+    "email": "kairouanandalushall@gmail.com",
+    "passwordHash": "$2b$10$JTIPkYcRD.KHMzV/wOhUX.8ay3YcYswKU38XhfR.MqNY35h2RiWYi",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.868Z"
+  },
+  {
+    "id": "c5d648f6-3a3b-492a-ba10-f5565274733c",
+    "email": "mahdiapearlhotel@gmail.com",
+    "passwordHash": "$2b$10$QQyKv.HSCW3zUu7OQmnwwOMU08MGm7iX.lfJWbXkT1tWJspwAGNaa",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:16.935Z"
+  },
+  {
+    "id": "2881fe4c-af9b-48c8-b5d8-c1f271715d3d",
+    "email": "monastirbayresort@gmail.com",
+    "passwordHash": "$2b$10$SuPcOFL1s8OQReDH5VFarOXCldsW9bzIbcyHkjZrrZx0xFd0RqJe2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.003Z"
+  },
+  {
+    "id": "c58e04e5-4e64-4797-8701-43118d04da6c",
+    "email": "gafsaoasishotel@gmail.com",
+    "passwordHash": "$2b$10$qWSkJh/cef/9v25nnRZB7OjPqd4gmhEOzY0LWwr5LJmXpEq6ENo/6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.070Z"
+  },
+  {
+    "id": "21f4ea6c-d4fc-40c0-b70e-6fab644e1f59",
+    "email": "tozeurpalmresort@gmail.com",
+    "passwordHash": "$2b$10$eAp0y.z7tMJgBLMnOymRzu8VBMWPBvrzRp/YtlVQFdH2NwGAFqVdW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.138Z"
+  },
+  {
+    "id": "6c527449-6f40-406d-96c1-fdfbe61d273f",
+    "email": "kebilidesertlodge@gmail.com",
+    "passwordHash": "$2b$10$0f9mtl.onE4Qr7rQCTEAPO7u14ZmnBrPAQsodbgof0K18.nw.KwsS",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.206Z"
+  },
+  {
+    "id": "448e0bbc-6971-4402-a46a-b94d5c9dde89",
+    "email": "kasserinemountainhall@gmail.com",
+    "passwordHash": "$2b$10$Poc615hscbUc7gsRCqMmD.HIc/l4asG7ddZHLXePd5WDnp9HX3glS",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.274Z"
+  },
+  {
+    "id": "2f1ef3b0-ea8e-4664-9498-ff46f8ae5c0e",
+    "email": "sidibouzideventspace@gmail.com",
+    "passwordHash": "$2b$10$wYsQFRM5O5WrFgY9ara7EeFONlORGtHpXh0jQVcoRW7dANIs7g3d6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.344Z"
+  },
+  {
+    "id": "abe03fa8-6a94-451a-be30-307197a423ab",
+    "email": "zarzisseabreezeresort@gmail.com",
+    "passwordHash": "$2b$10$RXpt1S4nXhDSO58E5G.mkuQ3LK8YnoeIE6.DE4O1RmalWbLhBYPdO",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.418Z"
+  },
+  {
+    "id": "6c923dea-78d9-4cdd-9ed1-e2da72b3e99b",
+    "email": "tataouineksourpalace@gmail.com",
+    "passwordHash": "$2b$10$xwEklOtwWhwUzrSkvOKPvODpd6wurCljjY6jQtCbB2MXK4G8ZZavS",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.492Z"
+  },
+  {
+    "id": "ba837f2e-c3ec-4f2f-b9ef-aefab31f7c9d",
+    "email": "rjeltounes@gmail.com",
+    "passwordHash": "$2b$10$G15sH14qH.7drwWHlIsUE.lurbLplW5tzdpLmn.WRpW5hTBVIIhiW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.567Z"
+  },
+  {
+    "id": "a60beee2-2c27-4beb-b27c-57319cc9a93d",
+    "email": "maestro@gmail.com",
+    "passwordHash": "$2b$10$aiMed3wFrVXtZjBOdBdpTeJNSAhUNnbRCTJbwkKCHK04lOsLaQX8e",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.639Z"
+  },
+  {
+    "id": "be0adf4f-fbf2-4aa4-9b5e-b6df5f97821e",
+    "email": "taratata@gmail.com",
+    "passwordHash": "$2b$10$s3xRN9Za0w/cL0OliJcgbuHcEmKqY39kspn7lUafLGZUrYZiAaB.2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.710Z"
+  },
+  {
+    "id": "4cd22bab-2df7-478d-8b6d-41309bb3b749",
+    "email": "zifefmusic@gmail.com",
+    "passwordHash": "$2b$10$WubwIl.2Jl2MJjMbRK6FG.V1wC.5hFF6//o00.PPtu6hMZAOUoXBy",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.781Z"
+  },
+  {
+    "id": "6649d684-2b34-4bff-8616-d2f98b5f9113",
+    "email": "lafiesta@gmail.com",
+    "passwordHash": "$2b$10$VfxIiHOYeKJ963Hd.E.zS.xNc5LcE9uJ7RcPwaFZblYCCV2On6dUy",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.849Z"
+  },
+  {
+    "id": "06b61ddb-20fd-4622-ae6e-6188c90cf004",
+    "email": "orchestreelfen@gmail.com",
+    "passwordHash": "$2b$10$Gx5DaVyoqFzh.IOnyNbqde0vrTczNKuTm041lVIVvP4J4gHFCCGUC",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.918Z"
+  },
+  {
+    "id": "5ee32b5d-9fb8-4c2f-8944-a35fb9f02fae",
+    "email": "sfaxmezouedcrew@gmail.com",
+    "passwordHash": "$2b$10$/sntK0z2MBJF30zOxt1sZOqt5NeElLVUtR5hNqnspT72MDeRLdJWe",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:17.986Z"
+  },
+  {
+    "id": "3807f0f9-0e55-44c9-9e0e-6631f3a0986e",
+    "email": "soussegroovedjs@gmail.com",
+    "passwordHash": "$2b$10$KbvRofiyNWqElgQd/txvH.rhbZg0yW7Q7.7atDTvfTFlilV3MmcnG",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.054Z"
+  },
+  {
+    "id": "fa3bc48c-dcf5-4f86-8b86-6f7b61b7dbfb",
+    "email": "djerbastambelinights@gmail.com",
+    "passwordHash": "$2b$10$ksvXP8/UcDQ0cJXFPzot6OcUN/OqRYG2BWWI8GESoddaQWBX5Wfem",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.122Z"
+  },
+  {
+    "id": "e34bb77f-38a6-4fe6-84f6-6d35fe9debfa",
+    "email": "gabesfolkensemble@gmail.com",
+    "passwordHash": "$2b$10$sPYSH0hsMvRxiiOT1qWdm.uWGj5WL4w2LTZISsWF2LRMIH4mIpy.m",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.192Z"
+  },
+  {
+    "id": "93525a82-3e38-4f79-8cab-9c066ec994f7",
+    "email": "hammametsunsetband@gmail.com",
+    "passwordHash": "$2b$10$lRtacWKSqZSjrhkqdeKbc.hi04vbhcnd8aTNjmZxnj9jtoYk3p.i6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.263Z"
+  },
+  {
+    "id": "0c62e7bf-36e0-4312-a243-18428e20b39d",
+    "email": "nabeulandalusi@gmail.com",
+    "passwordHash": "$2b$10$s0tjbsnESqQlOzJL25.kR.EralJAXmjfXRCjQCJrzP7uN4W9AQ9oe",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.331Z"
+  },
+  {
+    "id": "f76cbb87-fe38-4ef2-8ec4-9d7442560613",
+    "email": "bizertebrassbendir@gmail.com",
+    "passwordHash": "$2b$10$S4krUHafwALr51AG/qJu.OI1LPN1AfnZQJRJhTr3QOn0fRozvLgNq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.399Z"
+  },
+  {
+    "id": "5fdcea0e-ee24-44e6-af6b-270e991a0ab8",
+    "email": "kairouanhadragroup@gmail.com",
+    "passwordHash": "$2b$10$Vh1NfUZIibZ8SwTVdAJq2uVxF6wv7TEwWlIWpIKu6Wa0wD2Kv8f2S",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.467Z"
+  },
+  {
+    "id": "86f34417-ab13-4f73-8d7e-05ef9aae0dd5",
+    "email": "mahdiacoastalbeats@gmail.com",
+    "passwordHash": "$2b$10$CRcKChe87MLpT6i9QS634.i.kWy4nAGrA661x1jNe9N2VyKjrBuBq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.535Z"
+  },
+  {
+    "id": "c48214df-80d3-4ebc-880d-9285938cf84e",
+    "email": "monastirweddingorchestra@gmail.com",
+    "passwordHash": "$2b$10$2/Y7pK8X8Gt/7Cd4dqLQbOLP2.m2Ng3zvdhGbjFYqiq.6sLKHMv1W",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.602Z"
+  },
+  {
+    "id": "af44bd8e-6da0-4cba-a64f-c4781c6807fa",
+    "email": "gafsasahararhythms@gmail.com",
+    "passwordHash": "$2b$10$pBhQlI3ENS5wZY.js5cwr.OBc9jDbyjWXRDaXJsMD0lKquFz5FKyq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.670Z"
+  },
+  {
+    "id": "d4ea1018-6d12-4eeb-b6fc-74a535681810",
+    "email": "tozeurdesertdj@gmail.com",
+    "passwordHash": "$2b$10$lfoQflligy8DE7yOkdgwbO/0iI0iKXgiK2ssxLyB/ebyzwn4AHy9m",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.741Z"
+  },
+  {
+    "id": "d2c6438b-6c04-4963-a20c-60cc21e0ea88",
+    "email": "kefmountainmezoued@gmail.com",
+    "passwordHash": "$2b$10$JVEE8JKjhVhhVlVmVz/DbOIAvowe56jWuyPp83/65x8YY0KRuxAti",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.809Z"
+  },
+  {
+    "id": "d57c5f22-e2aa-4bf2-88e7-9c0c9806dd58",
+    "email": "zarzisbeachparty@gmail.com",
+    "passwordHash": "$2b$10$qq.q2CMbsp1kCUa.1omIZeYEihA9tNzlysaAwcyKLb2EtsUnMyowO",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.877Z"
+  },
+  {
+    "id": "ae5f1e63-771d-4bcc-aea7-5b55c7a37bdb",
+    "email": "dlicesrannoucha@gmail.com",
+    "passwordHash": "$2b$10$4MACEwH..rqQhvgj7KkfGuv80hC/yvaBlsEd0EMSqrHqr4LT8uIF.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:18.945Z"
+  },
+  {
+    "id": "b6f218dd-39c0-4fd9-8502-d75e77ceb3fb",
+    "email": "intissartoujani@gmail.com",
+    "passwordHash": "$2b$10$HVUH6sGrnqgR1VxZ.0AFyuu6M2cSCVfnuXMstEehxpP3uxQzgAt1O",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.013Z"
+  },
+  {
+    "id": "5fc9cfb5-78d5-43f3-b80d-9d096edf5aa4",
+    "email": "maisongourmand@gmail.com",
+    "passwordHash": "$2b$10$T34qr3v/fwTw85rIUc6RpOqcfltKJ1pq95bc2eMIE7gwhZ0FHMnpq",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.081Z"
+  },
+  {
+    "id": "03dfc074-e36d-40b0-908c-a20809c850b0",
+    "email": "patisseriemasmoudi@gmail.com",
+    "passwordHash": "$2b$10$.weiOs76fa5jFP.mY/Tso.RRFurjxZqpcd8UtA2I4Dt.E67HOr4pG",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.149Z"
+  },
+  {
+    "id": "7c755f03-1ae1-4611-9b71-2556c4874c35",
+    "email": "madamehachicha@gmail.com",
+    "passwordHash": "$2b$10$IqwHx4XqUACl3ACUzCgZGOxiLZFZCRa6P9F0Viz2me9q8RZFyUYP6",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.217Z"
+  },
+  {
+    "id": "a4bb095a-ba8d-44c4-8544-d1dc2894cafd",
+    "email": "traiteurcarthage@gmail.com",
+    "passwordHash": "$2b$10$U9Qelohp/4/z.XykAcMsGOvz3efMnU1vmZaQkOHSDO5RHZyX0DXKe",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.285Z"
+  },
+  {
+    "id": "2422d007-4dd1-4f1e-a5d3-718e7ef9021f",
+    "email": "hammametsaveurs@gmail.com",
+    "passwordHash": "$2b$10$bTiZrXc/2gG3ZJKhUQnqPu6jPvcYX3mcl5/ZEtR77MaeZ.6mJplrK",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.352Z"
+  },
+  {
+    "id": "0c58c451-f02f-43e4-9d42-c9478e20b935",
+    "email": "nabeuldarelmakla@gmail.com",
+    "passwordHash": "$2b$10$Gjnfd8.nHQJSNN1He2MJEe.4xRAF0L34sPDZQksU1drmpKBIQqOG2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.420Z"
+  },
+  {
+    "id": "d29cb206-989b-4060-9c7e-cd23759a4ee3",
+    "email": "bizertemarinacatering@gmail.com",
+    "passwordHash": "$2b$10$EDIg7bKQww4O7x66bzvpxuVSq3a3Zv5yfaOFXZRj5asVK.ZLt/LLu",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.491Z"
+  },
+  {
+    "id": "52c2823a-7bd1-44ed-8058-ecc17511c912",
+    "email": "kairouanbrikcouscous@gmail.com",
+    "passwordHash": "$2b$10$jIrjga383iUw5vKi7plrMen8i2edvk2lLypmuu5wydLo0.8Y4T6h.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.563Z"
+  },
+  {
+    "id": "ad3db88c-de20-4689-9889-731e422e85b9",
+    "email": "soussemodernplates@gmail.com",
+    "passwordHash": "$2b$10$bz1CRq8wQebT50X3bK9j3uyEOSYUcyTl95xRPKgqTMAlFg0WC4oRm",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.635Z"
+  },
+  {
+    "id": "4af3e9f6-3a48-4038-9eea-1f5778929d8b",
+    "email": "sfaxfestin@gmail.com",
+    "passwordHash": "$2b$10$vEWbXjrglRPvxlpk4u9ld.4Sp6dtkW2.4WMLcrJukJ8A3Mt/q8FGW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.706Z"
+  },
+  {
+    "id": "ce4a67b2-5dca-4c2f-b332-8b4b72461e76",
+    "email": "mahdiaoceanmenu@gmail.com",
+    "passwordHash": "$2b$10$vIAZrew.0b3oMreo5MF4weeDnWAaziG1gQkCeLgj7j0AdXZSBf2m2",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.778Z"
+  },
+  {
+    "id": "4b5ef1e9-10c4-480a-ad93-ae9da5f8c6b6",
+    "email": "monastirgoldenbuffet@gmail.com",
+    "passwordHash": "$2b$10$MmlRqK9Anq6z6.Or5ttd0ORnOeMV1dyDfckXDahG1GfbRRX2Cn5qa",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.847Z"
+  },
+  {
+    "id": "9f8c865e-a0a4-453e-b2e0-b22d4ec8e8b5",
+    "email": "gafsaoasiscatering@gmail.com",
+    "passwordHash": "$2b$10$vz2BfMZuclorEhvTbgIL6ulN3vXLTrjGqZcNpvRrPzBPBbW1qww1.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.915Z"
+  },
+  {
+    "id": "df11cb08-ea7e-45f6-b8d9-428b58c4cd16",
+    "email": "tozeurpalmtraiteur@gmail.com",
+    "passwordHash": "$2b$10$y.vN7qhpxTD0EiR/o2ZIC.mPSvSNR7yY.XVIiddaWy6RA1GmWJFH.",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:19.983Z"
+  },
+  {
+    "id": "d9769b45-2130-4684-b35d-d924256be05b",
+    "email": "kebilidesertbanquet@gmail.com",
+    "passwordHash": "$2b$10$6SONcyeeuDSM51vAt5PChuXwiyT0QDG2I0h43X2mfni5xdi67IBry",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:20.054Z"
+  },
+  {
+    "id": "bab7c6a1-591d-472c-b5ba-14ebaf7a3f7e",
+    "email": "kasserinefamilycatering@gmail.com",
+    "passwordHash": "$2b$10$FJ1DYJS5JRR0hegCt8uC5e1zQkQMo7/ac7QJWVO986ITFiE2qj3ma",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:20.125Z"
+  },
+  {
+    "id": "7504eb6a-59dd-401e-80e5-8b04b5a47f8b",
+    "email": "sidibouzidweddingskitchen@gmail.com",
+    "passwordHash": "$2b$10$P/oIA/TYyvJDNV0L3JfWF.65hSQL82xmStzqJwuqzYeZ1Kd0/vCim",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:20.195Z"
+  },
+  {
+    "id": "79e1a907-4396-49ec-afdb-332fb587459b",
+    "email": "zarzisbeachcatering@gmail.com",
+    "passwordHash": "$2b$10$CXYXUAWNbbu/c1zUu/73aedaRO4dwgQnIR7VBovgYhCAbOrrj86IW",
+    "role": "vendor",
+    "createdAt": "2026-01-14T12:18:20.265Z"
+  },
+  {
+    "id": "cc4bfd23-9f6b-4622-9899-8146aaa737f9",
+    "email": "yakine@gmail.com",
+    "passwordHash": "$2b$10$2Nz7trS575PM1V3wtnQFv.52QD0KtvroCoZDupYSPxR5ed3pUE2yq",
+    "role": "client",
+    "createdAt": "2026-01-14T15:54:16.232Z"
   }
 ]

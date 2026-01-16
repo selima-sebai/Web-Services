@@ -9,25 +9,28 @@ import {
 const router = express.Router();
 
 function normalizeListingFromService(service, profile) {
+  const serviceTitle = (service.title || "").trim();
+  const displayName = serviceTitle ? `${profile.storeName} — ${serviceTitle}` : profile.storeName;
+
   return {
     id: service.id,
-    name: `${profile.storeName} — ${service.title}`,
+    name: displayName,
     category: service.category,
     region: profile.region,
     price: service.price,
     description: service.description || profile.description || "",
     timeSlots: service.timeSlots || [],
-    // extra fields (won't break frontend)
     vendorProfileId: profile.id,
     ownerId: profile.ownerId,
     listingType: "service",
   };
 }
 
+
 router.get("/", (req, res) => {
   const { category, region, maxPrice } = req.query;
 
-  const legacy = readJson(LEGACY_VENDORS_PATH, []) || [];
+  const legacy = (readJson(LEGACY_VENDORS_PATH, []) || []).filter(v => !v.migrated);
   const profiles = readJson(VENDOR_PROFILES_PATH, []) || [];
   const services = readJson(SERVICES_PATH, []) || [];
 

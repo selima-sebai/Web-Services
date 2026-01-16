@@ -1,16 +1,30 @@
 import express from "express";
 import { v4 as uuid } from "uuid";
 import { readJson, writeJson } from "../utils/fileDB.js";
-import { requireAuth } from "../middleware/auth.js";
+import { requireAuth, requireRole } from "../middleware/auth.js";
 import { BUDGETS_PATH } from "../lib/paths.js";
 
 const router = express.Router();
+
+/**
+ * IMPORTANT LOGIC:
+ * - Budget is a CLIENT feature only.
+ * - Vendors/Admin cannot access it.
+ */
+router.use(requireAuth, requireRole("client"));
 
 function getOrCreate(clientId) {
   const budgets = readJson(BUDGETS_PATH, []) || [];
   let b = budgets.find((x) => x.clientId === clientId);
   if (!b) {
-    b = { clientId, total: 0, allocations: {}, actuals: {}, records: [], updatedAt: new Date().toISOString() };
+    b = {
+      clientId,
+      total: 0,
+      allocations: {},
+      actuals: {},
+      records: [],
+      updatedAt: new Date().toISOString(),
+    };
     budgets.push(b);
     writeJson(BUDGETS_PATH, budgets);
   }
@@ -26,27 +40,33 @@ function save(budget) {
   writeJson(BUDGETS_PATH, budgets);
 }
 
-router.get("/", requireAuth, (req, res) => {
+router.get("/", (req, res) => {
   res.json(getOrCreate(req.user.id));
 });
 
-router.put("/", requireAuth, (req, res) => {
+router.put("/", (req, res) => {
   const b = getOrCreate(req.user.id);
   const { total, allocations, actuals } = req.body || {};
 
   if (typeof total === "number") b.total = total;
-  if (allocations && typeof allocations === "object") b.allocations = { ...(b.allocations || {}), ...allocations };
-  if (actuals && typeof actuals === "object") b.actuals = { ...(b.actuals || {}), ...actuals };
+  if (allocations && typeof allocations === "object")
+    b.allocations = { ...(b.allocations || {}), ...allocations };
+  if (actuals && typeof actuals === "object")
+    b.actuals = { ...(b.actuals || {}), ...actuals };
 
   save(b);
   res.json(b);
 });
 
-router.post("/record", requireAuth, (req, res) => {
+router.post("/record", (req, res) => {
   const b = getOrCreate(req.user.id);
   const { category, amount, date } = req.body || {};
 
-  if (!category || typeof amount !== "number") return res.status(400).json({ error: "category and numeric amount required" });
+  if (!category || typeof amount !== "number") {
+    return res
+      .status(400)
+      .json({ error: "category and numeric amount required" });
+  }
 
   b.actuals[category] = (b.actuals[category] || 0) + amount;
   b.records.unshift({

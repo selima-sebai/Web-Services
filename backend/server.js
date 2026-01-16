@@ -1,4 +1,6 @@
+// backend/server.js
 import "dotenv/config";
+
 import express from "express";
 import cors from "cors";
 import path from "path";
@@ -10,12 +12,26 @@ import bookingsRoutes from "./routes/bookings.routes.js";
 import traditionsRoutes from "./routes/traditions.routes.js";
 import budgetRoutes from "./routes/budget.routes.js";
 import categoriesRoutes from "./routes/categories.routes.js";
+import notificationsRoutes from "./routes/notifications.routes.js";
 import vendorRoutes from "./routes/vendor.routes.js";
 import adminRoutes from "./routes/admin.routes.js";
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+  origin: true, // allow all origins
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
+
+app.use(cors(corsOptions));
+
+// ✅ Preflight handler (Express 5 safe, no "*" patterns)
+app.use((req, res, next) => {
+  if (req.method === "OPTIONS") return res.sendStatus(204);
+  next();
+});
+
 app.use(express.json());
 
 const __filename = fileURLToPath(import.meta.url);
@@ -34,10 +50,14 @@ app.use("/api/bookings", bookingsRoutes);
 app.use("/api/traditions", traditionsRoutes);
 app.use("/api/budget", budgetRoutes);
 app.use("/api/categories", categoriesRoutes);
+app.use("/api/notifications", notificationsRoutes);
 
 // Role portals
 app.use("/api/vendor", vendorRoutes);
 app.use("/api/admin", adminRoutes);
 
-const PORT = 3000;
+// helpful API 404
+app.use("/api", (req, res) => res.status(404).json({ error: "API route not found" }));
+
+const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 app.listen(PORT, () => console.log(`✅ Server running on http://localhost:${PORT}`));
