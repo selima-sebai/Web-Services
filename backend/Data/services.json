@@ -2277,5 +2277,47 @@
     ],
     "createdAt": "2026-01-14T17:46:51.995Z",
     "updatedAt": "2026-01-14T17:46:51.995Z"
+  },
+  {
+    "id": "381921d3-9a99-4f6b-b334-63d7cfa4bc4d",
+    "vendorProfileId": "0276e3f8-d651-44c1-8441-79e3369514a0",
+    "title": "Trad dresses",
+    "category": "Women’s Traditional Clothes",
+    "price": 200,
+    "description": "traditional women's wear",
+    "timeSlots": [
+      "10:00",
+      "12:00",
+      "13:00"
+    ],
+    "createdAt": "2026-01-17T03:26:45.129Z",
+    "updatedAt": "2026-01-17T03:26:45.129Z"
+  },
+  {
+    "id": "70335241-b56c-4aec-91d3-e77a7a63a6c8",
+    "vendorProfileId": "d9b6936e-2a9a-41e9-81cd-02f7068c0dfb",
+    "title": "espace zahra",
+    "category": "Wedding Venues",
+    "price": 1500,
+    "description": "spacious wedding space",
+    "timeSlots": [],
+    "createdAt": "2026-01-17T03:51:09.612Z",
+    "updatedAt": "2026-01-17T03:51:09.612Z"
+  },
+  {
+    "id": "c2019876-c357-4e5e-ab01-28e59ffdee06",
+    "vendorProfileId": "7dab54a0-bd5c-4aec-96c5-f8161c4f6775",
+    "title": "chechiaa",
+    "category": "traditional_clothes_men",
+    "price": 500,
+    "description": "Men's traditional wear",
+    "timeSlots": [
+      "10:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "createdAt": "2026-01-17T08:37:52.712Z",
+    "updatedAt": "2026-01-17T08:37:52.712Z"
   }
 ]

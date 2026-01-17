@@ -1041,5 +1041,54 @@
     "passwordHash": "$2b$10$wGIbebhak5MCGcCesfVVyOm1phd05HpznP8W3Re5ZIXJKT1iocSlK",
     "role": "vendor",
     "createdAt": "2026-01-17T01:27:30.792Z"
+  },
+  {
+    "id": "a30cf69e-ebf3-491e-bd6b-dcb98a5326d6",
+    "email": "dar etriza",
+    "passwordHash": "$2b$10$Mrx5Uxt5BJA75tXbIKr0luqwkc8k2z6Rdbf./Nrh1fmKb0uRJswoO",
+    "role": "vendor",
+    "createdAt": "2026-01-17T02:55:42.473Z"
+  },
+  {
+    "id": "d33353d9-0f88-4093-8633-f4f64f6ee2e7",
+    "email": "koftanek",
+    "passwordHash": "$2b$10$D7VbuEgjP..rktFMpiH9l.aDyEkVyf.6s2eJhNeuNOnTdIkTKIjgi",
+    "role": "vendor",
+    "createdAt": "2026-01-17T03:03:18.342Z"
+  },
+  {
+    "id": "3cb14002-a22b-461b-bf3a-b64e5de34e32",
+    "email": "koftani",
+    "passwordHash": "$2b$10$RToO/.qOTmAnOOuR84fBM..WaO0rfPJI4QSnzmf0BNYjjPcA3xa6O",
+    "role": "vendor",
+    "createdAt": "2026-01-17T03:13:16.838Z"
+  },
+  {
+    "id": "c1ebcc0c-60ad-44ec-ba58-58ba26694826",
+    "email": "dar laarousa",
+    "passwordHash": "$2b$10$FNGOrq58FHB69/gHcxAwLO.pXquD8DcLAjwE3/aUt3f5BqKMWEa8S",
+    "role": "vendor",
+    "createdAt": "2026-01-17T03:45:10.632Z"
+  },
+  {
+    "id": "f4a92293-6099-4f8b-922b-2b4c0dbf087d",
+    "email": "espace zahra",
+    "passwordHash": "$2b$10$0iHsYT7sVLViMt4sp16TXuOMIl5DUovFEjzWPxpXhtQpT8tL4VOj2",
+    "role": "vendor",
+    "createdAt": "2026-01-17T03:49:19.457Z"
+  },
+  {
+    "id": "afd4d381-fc74-4d41-8b46-a543853d5983",
+    "email": "koftan@gmail.com",
+    "passwordHash": "$2b$10$QpdKEWXcWR8RUdAzjZkBAe7qWxRgnlYsDqpZjBL7DhOwHJYSXL0VC",
+    "role": "vendor",
+    "createdAt": "2026-01-17T04:03:27.620Z"
+  },
+  {
+    "id": "8cb97fcb-62b3-4aeb-8e52-867284c33c16",
+    "email": "chechia@gmail.com",
+    "passwordHash": "$2b$10$HJd3CB0w2wTIgRAbZZZ9NeJxrLmPpXZjg4sJfw8/zJfDK.vUwBuw2",
+    "role": "vendor",
+    "createdAt": "2026-01-17T08:33:22.897Z"
   }
 ]

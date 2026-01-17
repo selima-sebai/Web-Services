@@ -48,6 +48,12 @@
           <div style="display:grid;gap:10px;max-width:640px;">
             <input class="input" id="storeName" placeholder="Store name" />
             <input class="input" id="region" placeholder="Region (e.g., Tunis)" />
+
+            <!-- NEW: category dropdown -->
+            <select class="input" id="profileCategory">
+              <option value="">Loading categories...</option>
+            </select>
+
             <textarea class="input" id="description" placeholder="Description"></textarea>
 
             <button class="btn primary" id="applyBtn">Apply / Create Profile</button>
@@ -65,10 +71,17 @@
           <h3>2) Add Service</h3>
           <div style="display:grid;gap:10px;max-width:640px;">
             <input class="input" id="svcTitle" placeholder="Service title (e.g., Bridal Makeup Package)" />
-            <input class="input" id="svcCategory" placeholder="Category (e.g., hairdresser, photographer...)" />
+
+            <!-- CHANGED: category dropdown (prevents typos / mismatch) -->
+            <select class="input" id="svcCategory">
+              <option value="">Loading categories...</option>
+            </select>
+
             <input class="input" id="svcPrice" placeholder="Price (TND)" />
             <textarea class="input" id="svcDesc" placeholder="Service description"></textarea>
-            <input class="input" id="svcSlots" placeholder="Time slots CSV (e.g., 10:00,12:00,14:00)" />
+
+            <!-- UPDATED: allow comma or spaces -->
+            <input class="input" id="svcSlots" placeholder="Time slots (comma OR spaces) e.g., 10:00,12:00,14:00 or 10:00 12:00 14:00" />
 
             <button class="btn primary" id="addSvcBtn">Add Service</button>
             <div id="svcMsg" class="meta"></div>
@@ -93,4 +106,3 @@
   <script type="module" src="./js/vendorDashboard.js"></script>
 </body>
 </html>
-

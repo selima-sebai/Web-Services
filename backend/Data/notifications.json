@@ -1,5 +1,275 @@
 [
   {
+    "id": "6c771b4e-63ce-4ff3-81b3-b60a243a524e",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Vendor accepted your booking",
+    "message": "Vendor accepted your booking\n\nDate: 2026-01-21\nTime: 10:00\nType: traditional_clothes_men\nBooking ID: af002873-0f60-4bbe-a91e-910c0ae27ecb\nStatus: accepted",
+    "event": "booking_accepted",
+    "refId": "af002873-0f60-4bbe-a91e-910c0ae27ecb",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T08:54:35.261Z"
+  },
+  {
+    "id": "884f40e3-9dbc-483f-9a88-2b72c2137b37",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Vendor accepted your booking",
+    "message": "Vendor accepted your booking\n\nDate: 2026-01-15\nTime: 12:00\nType: traditional_clothes_men\nBooking ID: e74f8ecb-8d80-4d4f-b283-18f5f2cfc75f\nStatus: accepted",
+    "event": "booking_accepted",
+    "refId": "e74f8ecb-8d80-4d4f-b283-18f5f2cfc75f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T08:54:31.809Z"
+  },
+  {
+    "id": "b71644a6-91a7-45c5-ab20-e9a7361f6c1b",
+    "userId": "8cb97fcb-62b3-4aeb-8e52-867284c33c16",
+    "email": "chechia@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-21\nTime: 10:00\nType: traditional_clothes_men\nBooking ID: af002873-0f60-4bbe-a91e-910c0ae27ecb\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "af002873-0f60-4bbe-a91e-910c0ae27ecb",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T08:53:14.395Z"
+  },
+  {
+    "id": "0f43d239-8d1f-408e-8118-2b64e9f2348d",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: chechia — chechiaa\nDate: 2026-01-21\nTime: 10:00\nType: traditional_clothes_men\nBooking ID: af002873-0f60-4bbe-a91e-910c0ae27ecb\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "af002873-0f60-4bbe-a91e-910c0ae27ecb",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T08:53:13.852Z"
+  },
+  {
+    "id": "2d8b7a5b-f89d-4086-835b-762de8ff63d0",
+    "userId": "8cb97fcb-62b3-4aeb-8e52-867284c33c16",
+    "email": "chechia@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-15\nTime: 12:00\nType: traditional_clothes_men\nBooking ID: e74f8ecb-8d80-4d4f-b283-18f5f2cfc75f\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "e74f8ecb-8d80-4d4f-b283-18f5f2cfc75f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T08:38:25.851Z"
+  },
+  {
+    "id": "8208cd20-35ae-47d8-b1e3-ca13d34be2b5",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: chechia — chechiaa\nDate: 2026-01-15\nTime: 12:00\nType: traditional_clothes_men\nBooking ID: e74f8ecb-8d80-4d4f-b283-18f5f2cfc75f\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "e74f8ecb-8d80-4d4f-b283-18f5f2cfc75f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T08:38:25.633Z"
+  },
+  {
+    "id": "e18b72a0-ed54-4eb1-b79a-08d29f87dbb8",
+    "userId": "8cb97fcb-62b3-4aeb-8e52-867284c33c16",
+    "email": "chechia@gmail.com",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: chechia\nRegion: Sfax\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "7dab54a0-bd5c-4aec-96c5-f8161c4f6775",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T08:36:24.019Z"
+  },
+  {
+    "id": "94d3dd91-c871-4a1b-bffe-aec5baa1ce32",
+    "userId": "afd4d381-fc74-4d41-8b46-a543853d5983",
+    "email": "koftan@gmail.com",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: koftan\nRegion: Sfax\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "d3fde004-be26-4b32-9612-25955a081f91",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T04:04:28.280Z"
+  },
+  {
+    "id": "79169db3-747e-4180-b67f-54c054a45b69",
+    "userId": "f4a92293-6099-4f8b-922b-2b4c0dbf087d",
+    "email": "espace zahra",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: espace zahra\nRegion: Sfax\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "d9b6936e-2a9a-41e9-81cd-02f7068c0dfb",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T03:50:17.987Z"
+  },
+  {
+    "id": "40210c3a-5b22-40fa-a927-404e69d7ba46",
+    "userId": "c1ebcc0c-60ad-44ec-ba58-58ba26694826",
+    "email": "dar laarousa",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: dar laarousa\nRegion: tunis\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "d4390227-7a38-4abb-bff9-f49c48ead7d5",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T03:46:30.524Z"
+  },
+  {
+    "id": "82b572fc-7dce-464c-9200-9e802f6bc4b4",
+    "userId": "3cb14002-a22b-461b-bf3a-b64e5de34e32",
+    "email": "koftani",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: koftani\nRegion: Sfax\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "0276e3f8-d651-44c1-8441-79e3369514a0",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T03:18:21.912Z"
+  },
+  {
+    "id": "216bf073-6b05-4f4b-b600-3f726cdc0044",
+    "userId": "d33353d9-0f88-4093-8633-f4f64f6ee2e7",
+    "email": "koftanek",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: KOFTANEK\nRegion: Tunis\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "37d7bdda-2262-4447-8de7-cc1b3c53a0c2",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T03:04:42.543Z"
+  },
+  {
+    "id": "d3948975-2eb3-4491-bf17-2e31ca38f728",
+    "userId": "a30cf69e-ebf3-491e-bd6b-dcb98a5326d6",
+    "email": "dar etriza",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: Dar etriza\nRegion: Sfax\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "72dfd7ec-2c9b-44cf-8fd3-238c67120888",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T02:57:47.760Z"
+  },
+  {
+    "id": "f8ac4d81-1f5c-4d62-bbaf-2bfacbf442c5",
+    "userId": "c7e1f33e-5b90-44a9-b688-a17fa4fbca18",
+    "email": "marsatraditionalboutique@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-28\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: b70a84eb-3a95-46b6-a8ba-da662e1df0ec\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "b70a84eb-3a95-46b6-a8ba-da662e1df0ec",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T02:26:22.847Z"
+  },
+  {
+    "id": "62540c4a-f37e-4d61-8983-55b5fd7cc54b",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Marsa Traditional Boutique\nDate: 2026-01-28\nTime: 10:00\nType: traditional_clothes_women\nBooking ID: b70a84eb-3a95-46b6-a8ba-da662e1df0ec\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "b70a84eb-3a95-46b6-a8ba-da662e1df0ec",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T02:26:22.294Z"
+  },
+  {
     "id": "c18d01f7-c2b6-4f52-aa3b-8fb6c49d685e",
     "userId": "345170d0-693c-4465-865e-2204941cabf7",
     "email": "mahdisaidi@gmail.com",

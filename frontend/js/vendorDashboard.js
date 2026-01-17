@@ -14,6 +14,7 @@ document.getElementById("logout").addEventListener("click", () => {
 const storeName = document.getElementById("storeName");
 const region = document.getElementById("region");
 const description = document.getElementById("description");
+const profileCategory = document.getElementById("profileCategory"); // NEW
 const applyBtn = document.getElementById("applyBtn");
 const updateBtn = document.getElementById("updateBtn");
 const profileMsg = document.getElementById("profileMsg");
@@ -46,6 +47,49 @@ function setServicesEnabled(enabled) {
 
 let currentProfile = null;
 
+// NEW: load categories and fill both dropdowns (profile + services)
+// Load categories and fill BOTH dropdowns (profile + services)
+// IMPORTANT: the <option value> must be the *category key* (e.g. "hairdresser"),
+// not the human title (e.g. "Hairdressers"). Otherwise the UI creates new categories.
+async function loadCategories() {
+  const empty = `<option value="">-- Select Category --</option>`;
+
+  try {
+    const cats = await apiGet("/categories");
+    const arr = Array.isArray(cats) ? cats : [];
+
+    const options =
+      empty +
+      arr
+        .map((c) => {
+          // Backend returns: { key, title, desc }
+          if (c && typeof c === "object") {
+            const key = String(c.key ?? "").trim();
+            const label = String(c.title ?? c.key ?? "").trim();
+            if (!key) return "";
+            return `<option value="${key}">${label}</option>`;
+          }
+
+          // Fallback if backend returns strings
+          if (typeof c === "string") {
+            const key = c.trim();
+            if (!key) return "";
+            return `<option value="${key}">${key}</option>`;
+          }
+
+          return "";
+        })
+        .filter(Boolean)
+        .join("");
+
+    profileCategory.innerHTML = options || empty;
+    svcCategory.innerHTML = options || empty;
+  } catch {
+    profileCategory.innerHTML = empty;
+    svcCategory.innerHTML = empty;
+  }
+}
+
 async function loadProfile() {
   try {
     const p = await apiGet("/vendor/me");
@@ -55,6 +99,7 @@ async function loadProfile() {
     storeName.value = p.storeName || "";
     region.value = p.region || "";
     description.value = p.description || "";
+    profileCategory.value = p.category || ""; // NEW
 
     // UX logic
     if (p.status === "approved") {
@@ -88,6 +133,7 @@ async function loadProfile() {
     storeName.value = "";
     region.value = "";
     description.value = "";
+    profileCategory.value = ""; // NEW
 
     applyBtn.style.display = "inline-block";
     updateBtn.style.display = "none";
@@ -99,11 +145,18 @@ async function loadProfile() {
 
 applyBtn.addEventListener("click", async () => {
   try {
+    if (!profileCategory.value) {
+      msg(profileMsg, "Please select a category before applying.", false);
+      return;
+    }
+
     const p = await apiPost("/vendor/apply", {
       storeName: storeName.value,
       region: region.value,
+      category: profileCategory.value, // NEW
       description: description.value,
     });
+
     msg(profileMsg, `Applied. Status: ${p.status}`, true);
     await loadProfile();
   } catch (e) {
@@ -113,9 +166,11 @@ applyBtn.addEventListener("click", async () => {
 
 updateBtn.addEventListener("click", async () => {
   try {
+    // If profile exists, allow updating category too
     const p = await apiPatch("/vendor/me", {
       storeName: storeName.value,
       region: region.value,
+      category: profileCategory.value, // NEW
       description: description.value,
     });
     msg(profileMsg, `Updated. Status: ${p.status}`, true);
@@ -148,14 +203,26 @@ async function loadServices() {
 
 addSvcBtn.addEventListener("click", async () => {
   try {
+    // Accept comma OR whitespace-separated slots
     const slots = (svcSlots.value || "")
-      .split(",")
+      .split(/[,\s]+/)
       .map((s) => s.trim())
       .filter(Boolean);
 
+    // Default service category to profile category if user didn’t choose
+    const cat =
+      (svcCategory.value && svcCategory.value.trim()) ||
+      (profileCategory.value && profileCategory.value.trim()) ||
+      "";
+
+    if (!cat) {
+      msg(svcMsg, "Please select a category for the service.", false);
+      return;
+    }
+
     await apiPost("/vendor/services", {
       title: svcTitle.value,
-      category: svcCategory.value,
+      category: cat,
       price: Number(svcPrice.value) || 0,
       description: svcDesc.value,
       timeSlots: slots,
@@ -267,11 +334,13 @@ async function loadVendorBookings() {
   }
 }
 
+// Init: load categories first (so dropdowns are ready), then profile
+await loadCategories();
 await loadProfile();
+
 if (currentProfile && currentProfile.status === "approved") {
   await loadServices();
   await loadVendorBookings();
 } else {
-  // still show bookings if you want, but usually vendors can't until approved
   bookingsList.innerHTML = `<div class="meta">Bookings will appear after approval.</div>`;
 }

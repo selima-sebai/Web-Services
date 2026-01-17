@@ -7,6 +7,83 @@ import { notifyUser } from "../utils/mailer.js";
 
 const router = express.Router();
 router.use(requireAuth, requireRole("vendor"));
+// Keep categories consistent across the app.
+// We store categories as canonical *keys* (e.g. "hairdresser"),
+// even if the UI sends the human title (e.g. "Hairdressers").
+const CATEGORY_META = {
+  hairdresser: { title: "Hairdressers" },
+  traditional_clothes_women: { title: "Women’s Traditional Clothes" },
+  traditional_clothes_men: { title: "Men’s Traditional Clothes" },
+  photographer: { title: "Photographers" },
+  wedding_venue: { title: "Wedding Venues" },
+  band: { title: "Bands" },
+  caterer: { title: "Caterers" },
+  decor: { title: "Decor" },
+  makeup: { title: "Makeup" },
+};
+
+function slugifyCategory(s) {
+  return String(s || "")
+    .toLowerCase()
+    .trim()
+    .replace(/[’']/g, "")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+}
+
+function normalizeCategoryKey(input) {
+  if (!input) return "";
+  const raw = String(input).trim();
+  if (!raw) return "";
+
+  // Already a known key
+  if (CATEGORY_META[raw]) return raw;
+
+  const lower = raw.toLowerCase();
+
+  // Match known titles (case-insensitive)
+  for (const [k, meta] of Object.entries(CATEGORY_META)) {
+    if (String(meta.title || "").toLowerCase() === lower) return k;
+  }
+
+  // Common synonyms (extend freely)
+  const synonyms = {
+    "beauty salon": "hairdresser",
+    "hair salon": "hairdresser",
+    salon: "hairdresser",
+    coiffure: "hairdresser",
+    "make up": "makeup",
+    "make-up": "makeup",
+  };
+  if (synonyms[lower]) return synonyms[lower];
+
+  // If it slugifies to a known key, use it
+  const slug = slugifyCategory(raw);
+  if (CATEGORY_META[slug]) return slug;
+
+  // Otherwise keep as slug (URL-safe + consistent)
+  return slug || raw;
+}
+
+function normalizeTimeSlots(input) {
+  // Accept array OR string. Return array of clean strings.
+  if (!input) return [];
+
+  // If already array: flatten and split any "10:00 12:00" single-string entries
+  if (Array.isArray(input)) {
+    return input
+      .flatMap((x) => String(x).split(/[,\s]+/))
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+
+  // If string: allow "10:00,12:00" OR "10:00 12:00"
+  return String(input)
+    .split(/[,\s]+/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
 
 function getMyProfile(ownerId) {
   const profiles = readJson(VENDOR_PROFILES_PATH, []) || [];
@@ -20,24 +97,35 @@ function findUserById(userId) {
 
 // Apply/create vendor profile
 router.post("/apply", (req, res) => {
-  const { storeName, region, description } = req.body || {};
-  if (!storeName || !region) return res.status(400).json({ error: "storeName and region are required" });
+  const { storeName, region, description, category } = req.body || {};
+if (!storeName || !region || !category) {
+  return res.status(400).json({ error: "storeName, region, and category are required" });
+}
+
 
   const profiles = readJson(VENDOR_PROFILES_PATH, []) || [];
   if (profiles.some((p) => p.ownerId === req.user.id)) {
     return res.status(409).json({ error: "Vendor profile already exists" });
   }
 
-  const profile = {
-    id: uuid(),
-    ownerId: req.user.id,
-    storeName: String(storeName),
-    region: String(region),
-    description: description ? String(description) : "",
-    status: "pending",
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-  };
+  const normalizedCategory = normalizeCategoryKey(category);
+if (!normalizedCategory) {
+  return res.status(400).json({ error: "category is invalid" });
+}
+
+const profile = {
+  id: uuid(),
+  ownerId: req.user.id,
+  storeName: String(storeName),
+  region: String(region),
+  category: normalizedCategory,
+  description: description ? String(description) : "",
+  status: "pending",
+  createdAt: new Date().toISOString(),
+  updatedAt: new Date().toISOString(),
+};
+
+
 
   profiles.push(profile);
   writeJson(VENDOR_PROFILES_PATH, profiles);
@@ -59,7 +147,15 @@ router.patch("/me", (req, res) => {
   if (idx < 0) return res.status(404).json({ error: "Vendor profile not found. Apply first." });
 
   const p = profiles[idx];
-  const { storeName, region, description } = req.body || {};
+  const { storeName, region, description, category } = req.body || {};
+
+  if (category !== undefined) {
+  const normalizedCategory = normalizeCategoryKey(category);
+  if (!normalizedCategory) {
+    return res.status(400).json({ error: "category is invalid" });
+  }
+  p.category = normalizedCategory;
+}
 
   if (storeName !== undefined) p.storeName = String(storeName);
   if (region !== undefined) p.region = String(region);
@@ -79,16 +175,22 @@ router.post("/services", (req, res) => {
   if (profile.status !== "approved") return res.status(403).json({ error: "Vendor not approved yet" });
 
   const { title, category, price, description, timeSlots } = req.body || {};
-  if (!title || !category) return res.status(400).json({ error: "title and category are required" });
+if (!title) return res.status(400).json({ error: "title is required" });
+
+const finalCategory = normalizeCategoryKey(
+  category ? String(category) : (profile.category ? String(profile.category) : "")
+);
+if (!finalCategory) return res.status(400).json({ error: "category is required" });
+
 
   const svc = {
     id: uuid(),
     vendorProfileId: profile.id,
     title: String(title),
-    category: String(category),
+    category: finalCategory,
     price: Number(price) || 0,
     description: description ? String(description) : "",
-    timeSlots: Array.isArray(timeSlots) ? timeSlots.map(String) : [],
+    timeSlots: normalizeTimeSlots(timeSlots),
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
   };

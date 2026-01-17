@@ -1554,9 +1554,87 @@
     "ownerId": "345170d0-693c-4465-865e-2204941cabf7",
     "storeName": "Keswa Zemneya",
     "region": "Sfax",
+    "category": "traditional_clothes_men",
     "description": "Store for traditional men's wear",
     "status": "approved",
     "createdAt": "2026-01-17T01:28:33.797Z",
     "updatedAt": "2026-01-17T01:29:04.321Z"
+  },
+  {
+    "id": "72dfd7ec-2c9b-44cf-8fd3-238c67120888",
+    "ownerId": "a30cf69e-ebf3-491e-bd6b-dcb98a5326d6",
+    "storeName": "Dar etriza",
+    "region": "Sfax",
+    "category": "traditional_clothes_women",
+    "description": "traditional women's wear",
+    "status": "approved",
+    "createdAt": "2026-01-17T02:57:18.105Z",
+    "updatedAt": "2026-01-17T02:57:44.379Z"
+  },
+  {
+    "id": "37d7bdda-2262-4447-8de7-cc1b3c53a0c2",
+    "ownerId": "d33353d9-0f88-4093-8633-f4f64f6ee2e7",
+    "storeName": "KOFTANEK",
+    "region": "Tunis",
+    "category": "traditional_clothes_women",
+    "description": "Traditional women's wear",
+    "status": "approved",
+    "createdAt": "2026-01-17T03:03:46.484Z",
+    "updatedAt": "2026-01-17T03:04:41.011Z"
+  },
+  {
+    "id": "0276e3f8-d651-44c1-8441-79e3369514a0",
+    "ownerId": "3cb14002-a22b-461b-bf3a-b64e5de34e32",
+    "storeName": "koftani",
+    "region": "Sfax",
+    "category": "traditional_clothes_women",
+    "description": "traditional women's wear",
+    "status": "approved",
+    "createdAt": "2026-01-17T03:17:58.398Z",
+    "updatedAt": "2026-01-17T03:18:20.282Z"
+  },
+  {
+    "id": "d4390227-7a38-4abb-bff9-f49c48ead7d5",
+    "ownerId": "c1ebcc0c-60ad-44ec-ba58-58ba26694826",
+    "storeName": "dar laarousa",
+    "region": "tunis",
+    "category": "hairdresser",
+    "description": "Big spacious",
+    "status": "approved",
+    "createdAt": "2026-01-17T03:45:58.165Z",
+    "updatedAt": "2026-01-17T03:46:27.177Z"
+  },
+  {
+    "id": "d9b6936e-2a9a-41e9-81cd-02f7068c0dfb",
+    "ownerId": "f4a92293-6099-4f8b-922b-2b4c0dbf087d",
+    "storeName": "espace zahra",
+    "region": "Sfax",
+    "category": "hairdresser",
+    "description": "spacious",
+    "status": "approved",
+    "createdAt": "2026-01-17T03:49:44.689Z",
+    "updatedAt": "2026-01-17T03:50:16.903Z"
+  },
+  {
+    "id": "d3fde004-be26-4b32-9612-25955a081f91",
+    "ownerId": "afd4d381-fc74-4d41-8b46-a543853d5983",
+    "storeName": "koftan",
+    "region": "Sfax",
+    "category": "hairdresser",
+    "description": "koftans for weddings",
+    "status": "approved",
+    "createdAt": "2026-01-17T04:03:56.032Z",
+    "updatedAt": "2026-01-17T04:04:25.755Z"
+  },
+  {
+    "id": "7dab54a0-bd5c-4aec-96c5-f8161c4f6775",
+    "ownerId": "8cb97fcb-62b3-4aeb-8e52-867284c33c16",
+    "storeName": "chechia",
+    "region": "Sfax",
+    "category": "traditional_clothes_men",
+    "description": "traditional men's wear",
+    "status": "approved",
+    "createdAt": "2026-01-17T08:35:59.379Z",
+    "updatedAt": "2026-01-17T08:36:21.865Z"
   }
 ]
