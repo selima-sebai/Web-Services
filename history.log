@@ -1,0 +1,304 @@
+================================================================================
+EERSI.TN BACKEND & FRONTEND DEVELOPMENT – PROMPT HISTORY LOG
+================================================================================
+Project: EERSI.TN – Wedding Planning Platform
+Technology: Node.js, Express, JWT, File-based JSON Storage, HTML/CSS/JavaScript
+Period: December 2025 – January 2026
+Log Generated: January 17, 2026
+================================================================================
+
+This document records AI-assisted prompts, debugging sessions, and architectural
+decisions made during the development of the EERSI.TN wedding planning platform.
+
+================================================================================
+PHASE 1: PROJECT INITIALIZATION & ARCHITECTURE
+================================================================================
+
+[2025-12-05] Project Setup
+--------------------------------------------------------------------------------
+Prompts:
+USER: "I want to build a wedding planning web services project with multiple roles"
+USER: "Should I use Node.js or Python for a REST API?"
+USER: "How do I structure an Express project?"
+USER: "What folders should I separate for routes and middleware?"
+USER: "Do I need a database for a school project?"
+USER: "Can I use JSON files instead of a database?"
+
+ACTIONS TAKEN:
+[✓] Initialized Node.js project
+[✓] Installed Express
+[✓] Chose file-based JSON storage for simplicity
+[✓] Created backend/frontend separation
+
+FILES CREATED:
+- server.js
+- package.json
+- routes/
+- middleware/
+- utils/
+
+[SUCCESS] Project base initialized
+
+
+================================================================================
+PHASE 2: AUTHENTICATION & USER ROLES
+================================================================================
+
+[2025-12-10] Authentication Design
+--------------------------------------------------------------------------------
+Prompts:
+USER: "How do I implement login with JWT in Express?"
+USER: "What should I store inside the JWT payload?"
+USER: "How do I protect routes using middleware?"
+USER: "How can I support multiple roles (client, vendor, admin)?"
+USER: "Where should I store JWT tokens on the frontend?"
+
+ACTIONS TAKEN:
+[✓] Installed jsonwebtoken
+[✓] Created auth middleware
+[✓] Added JWT_SECRET support via environment variables
+[✓] Implemented requireAuth and requireRole middleware
+
+SECURITY DECISIONS:
+- JWT stored in localStorage
+- Token includes id, email, role
+- Authorization header uses Bearer scheme
+
+FILES CREATED:
+- middleware/auth.js
+- routes/auth.routes.js
+
+[SUCCESS] Authentication system implemented
+
+
+================================================================================
+PHASE 3: FRONTEND SESSION HANDLING
+================================================================================
+
+[2025-12-15] Frontend Auth Integration
+--------------------------------------------------------------------------------
+Prompts:
+USER: "How do I store JWT tokens in localStorage?"
+USER: "How do I redirect users based on role?"
+USER: "Why does my index.html redirect immediately?"
+USER: "Should index.html be a router or a login page?"
+USER: "How do I prevent users from accessing pages without login?"
+
+ACTIONS TAKEN:
+[✓] Implemented session storage helpers
+[✓] Created index.html as role-based redirect page
+[✓] Added requireLogin / requireRole logic in frontend
+[✓] Created authGate.js utility
+
+FILES CREATED:
+- frontend/js/api.js
+- frontend/js/authGate.js
+- frontend/js/login.js
+
+[SUCCESS] Frontend authentication wired
+
+
+================================================================================
+PHASE 4: BOOKINGS FEATURE IMPLEMENTATION
+================================================================================
+
+[2025-12-20] Booking System
+--------------------------------------------------------------------------------
+Prompts:
+USER: "How can a client book a vendor?"
+USER: "How do I prevent double booking?"
+USER: "How do I link bookings to vendors and clients?"
+USER: "Should bookings be confirmed automatically?"
+USER: "How do I allow cancellation?"
+
+ACTIONS TAKEN:
+[✓] Designed booking object schema
+[✓] Implemented booking creation endpoint
+[✓] Added conflict detection
+[✓] Added cancel and confirm endpoints
+
+FILES CREATED:
+- routes/bookings.routes.js
+- Data/bookings.json
+
+FEATURES:
+- Client-only booking creation
+- Status tracking (requested, confirmed, cancelled)
+- Ownership checks
+
+[SUCCESS] Booking system completed
+
+
+================================================================================
+PHASE 5: VENDOR & ADMIN MANAGEMENT
+================================================================================
+
+[2025-12-23] Vendor Approval Workflow
+--------------------------------------------------------------------------------
+Prompts:
+USER: "How do vendors register their services?"
+USER: "How does admin approve vendors?"
+USER: "Should vendors be visible before approval?"
+USER: "How do I separate vendor profile and service?"
+
+ACTIONS TAKEN:
+[✓] Created vendor profiles
+[✓] Added approval status
+[✓] Restricted admin-only approval routes
+[✓] Linked services to approved profiles
+
+FILES CREATED:
+- routes/vendor.routes.js
+- routes/admin.routes.js
+- Data/vendorProfiles.json
+- Data/services.json
+
+[SUCCESS] Vendor/admin flow implemented
+
+
+================================================================================
+PHASE 6: NOTIFICATIONS & EMAIL INTEGRATION
+================================================================================
+
+[2026-01-05] Notifications System
+--------------------------------------------------------------------------------
+Prompts:
+USER: "How do I notify users when something happens?"
+USER: "Should notifications be stored in database?"
+USER: "Can I store notifications in JSON files?"
+USER: "How do I send email notifications?"
+USER: "What triggers notifications?"
+
+ACTIONS TAKEN:
+[✓] Implemented notification storage
+[✓] Created notifications routes
+[✓] Added email delivery support
+[✓] Stored email delivery status per notification
+
+FILES CREATED:
+- routes/notifications.routes.js
+- utils/notifications.js
+- utils/mailer.js
+- Data/notifications.json
+
+EVENTS COVERED:
+- Booking requested
+- Booking confirmed
+- Booking cancelled
+- Vendor approval
+
+[SUCCESS] Notifications & email implemented
+
+
+================================================================================
+PHASE 7: DEBUGGING & AUTHORIZATION ISSUES
+================================================================================
+
+[2026-01-08] 401 Unauthorized Errors
+--------------------------------------------------------------------------------
+Prompts:
+USER: "After adding notifications my API returns 401"
+USER: "Why is my token suddenly invalid?"
+USER: "Is my token expired?"
+USER: "How do I check Authorization headers?"
+USER: "What is the difference between 401 and 403?"
+
+ISSUES IDENTIFIED:
+- Multiple token keys in localStorage
+- Inconsistent API request handling
+- Role mismatch between frontend and backend
+
+ACTIONS TAKEN:
+[✓] Standardized token key (eersi_token)
+[✓] Unified API request logic
+[✓] Removed legacy token usage
+[✓] Fixed ES module return errors
+
+FILES MODIFIED:
+- frontend/js/api.js
+- frontend/js/notifications.js
+- frontend/js/bookings.js
+
+[SUCCESS] Authentication issues resolved
+
+
+================================================================================
+PHASE 8: API CLIENT REFACTOR
+================================================================================
+
+[2026-01-10] API Layer Cleanup
+--------------------------------------------------------------------------------
+Prompts:
+USER: "Why do GET requests fail but POST works?"
+USER: "Why is apiGet different from apiPost?"
+USER: "How do I centralize fetch logic?"
+
+ACTIONS TAKEN:
+[✓] Refactored apiGet to reuse shared request() function
+[✓] Ensured Authorization header is always attached
+[✓] Standardized error handling
+
+RESULT:
+- All API calls use same pipeline
+- Predictable authentication behavior
+
+[SUCCESS] API client stabilized
+
+
+================================================================================
+PHASE 9: FINAL TESTING & VERIFICATION
+================================================================================
+
+[2026-01-12] End-to-End Testing
+--------------------------------------------------------------------------------
+Prompts:
+USER: "Test client booking flow"
+USER: "Test vendor dashboard"
+USER: "Test admin approval"
+USER: "Test notifications page"
+USER: "Verify role-based access"
+
+ACTIONS TAKEN:
+[✓] Tested all roles independently
+[✓] Verified route protection
+[✓] Verified notifications visibility
+[✓] Tested logout/login cycles
+
+RESULT:
+- System behaves as expected
+- No unauthorized access
+- No token conflicts
+
+[SUCCESS] System verified
+
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+
+FEATURES IMPLEMENTED:
+✓ JWT Authentication
+✓ Role-Based Authorization
+✓ Booking System
+✓ Vendor Approval
+✓ Notifications (In-App + Email)
+✓ Budget Tracking
+✓ File-Based Persistence
+
+TECHNOLOGIES USED:
+- Node.js / Express
+- JWT
+- HTML / CSS / JavaScript
+- JSON File Storage
+- Nodemailer (email)
+
+DEVELOPMENT STATUS:
+Backend: COMPLETE
+Frontend: COMPLETE
+Testing: COMPLETE
+Stability: VERIFIED
+
+================================================================================
+END OF PROMPT HISTORY LOG
+================================================================================
+
