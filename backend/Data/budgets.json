@@ -3,12 +3,22 @@
     "clientId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
     "total": 5000,
     "allocations": {
-      "hairdresses": 100
+      "hairdresses": 100,
+      "venue": 2000,
+      "makeup": 500
     },
     "actuals": {
-      "hairdresser": 150
+      "hairdresser": 300
     },
     "records": [
+      {
+        "id": "2e15d0d4-09e4-4c33-b71b-9cbac6a84486",
+        "date": "2026-01-17",
+        "category": "hairdresser",
+        "amount": 150,
+        "bookingId": "44f22b68-4355-4a1f-a722-d30603844996",
+        "vendorId": 2
+      },
       {
         "id": "cb644261-4e8e-4545-b492-53d7de03d382",
         "date": "2026-01-14",
@@ -18,7 +28,7 @@
         "vendorId": 2
       }
     ],
-    "updatedAt": "2026-01-14T15:49:49.651Z"
+    "updatedAt": "2026-01-17T14:38:52.810Z"
   },
   {
     "clientId": "6692da87-8b06-491e-811e-19a8c1ef4d13",
@@ -38,10 +48,21 @@
   },
   {
     "clientId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
-    "total": 0,
+    "total": 500000,
     "allocations": {},
-    "actuals": {},
-    "records": [],
-    "updatedAt": "2026-01-17T01:30:45.958Z"
+    "actuals": {
+      "wedding_venue": 12000
+    },
+    "records": [
+      {
+        "id": "38584fc7-9c96-426e-b1e3-af2d5482e754",
+        "date": "2026-01-17",
+        "category": "wedding_venue",
+        "amount": 12000,
+        "bookingId": "0d189721-2374-41fb-9f96-3f12c7b7540f",
+        "vendorId": "04e66565-66b3-4cb9-ac8b-437b9f7ffbc7"
+      }
+    ],
+    "updatedAt": "2026-01-17T10:06:11.721Z"
   }
 ]

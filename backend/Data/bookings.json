@@ -438,10 +438,11 @@
     "date": "2026-01-13",
     "timeSlot": "10:00",
     "type": "wedding_venue",
-    "status": "requested",
+    "status": "confirmed",
     "createdAt": "2026-01-16T23:37:58.352Z",
     "vendorOwnerId": "d32544c6-1957-41a4-bc55-d43c01962c1c",
-    "vendorProfileId": "948fbe00-dc31-48d9-8150-5b24cb9dca76"
+    "vendorProfileId": "948fbe00-dc31-48d9-8150-5b24cb9dca76",
+    "confirmedAt": "2026-01-17T10:05:55.046Z"
   },
   {
     "id": "5beea6e8-1aff-49e7-9c6e-d71c159d0380",
@@ -506,5 +507,55 @@
     "vendorProfileId": "7dab54a0-bd5c-4aec-96c5-f8161c4f6775",
     "updatedAt": "2026-01-17T08:54:34.987Z",
     "acceptedAt": "2026-01-17T08:54:34.988Z"
+  },
+  {
+    "id": "f1c36a27-a331-47f8-9e22-7ccda8462446",
+    "clientId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "vendorId": 1,
+    "date": "2026-01-20",
+    "timeSlot": null,
+    "type": "hairdresser",
+    "status": "cancelled",
+    "createdAt": "2026-01-17T14:24:28.837Z",
+    "vendorOwnerId": null,
+    "vendorProfileId": null,
+    "cancelledAt": "2026-01-17T14:30:20.602Z"
+  },
+  {
+    "id": "44f22b68-4355-4a1f-a722-d30603844996",
+    "clientId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "vendorId": 2,
+    "date": "2026-01-20",
+    "timeSlot": null,
+    "type": "hairdresser",
+    "status": "confirmed",
+    "createdAt": "2026-01-17T14:33:16.813Z",
+    "vendorOwnerId": null,
+    "vendorProfileId": null,
+    "confirmedAt": "2026-01-17T14:33:57.842Z"
+  },
+  {
+    "id": "b3faf6db-c67a-4fc7-91d5-4ea7ba40f270",
+    "clientId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "vendorId": "2d9b59c4-c452-44b7-ad81-38e2666073de",
+    "date": "2026-01-22",
+    "timeSlot": "09:30",
+    "type": "hairdresser",
+    "status": "requested",
+    "createdAt": "2026-01-17T21:16:32.526Z",
+    "vendorOwnerId": "73fd95d7-9f3e-433a-b4b1-46445eb3f79d",
+    "vendorProfileId": "2c45c0c8-76ab-45b1-928a-23ebd1e72074"
+  },
+  {
+    "id": "2ed86440-4a82-4c52-9629-9858a7c0c501",
+    "clientId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "vendorId": "b5ccd6ed-eda9-49ef-ad10-6b0215b4cb24",
+    "date": "2026-01-13",
+    "timeSlot": "09:00",
+    "type": "photographer",
+    "status": "requested",
+    "createdAt": "2026-01-17T21:27:40.046Z",
+    "vendorOwnerId": "e0de25bb-894d-4dab-aaa0-2f68f61e4b5f",
+    "vendorProfileId": "60951afa-a1ab-4981-8625-0076b2d73d34"
   }
 ]

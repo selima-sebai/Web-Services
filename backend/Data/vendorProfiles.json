@@ -1636,5 +1636,38 @@
     "status": "approved",
     "createdAt": "2026-01-17T08:35:59.379Z",
     "updatedAt": "2026-01-17T08:36:21.865Z"
+  },
+  {
+    "id": "c8bddcb9-f499-436d-b8e4-915aed6bafbd",
+    "ownerId": "9bfdd051-d79b-449c-a2e2-93c5a8d3c7aa",
+    "storeName": "Salon Nour",
+    "region": "Tunis",
+    "category": "hairdresser",
+    "description": "Bridal hair + makeup.",
+    "status": "approved",
+    "createdAt": "2026-01-17T20:08:15.882Z",
+    "updatedAt": "2026-01-17T21:15:54.053Z"
+  },
+  {
+    "id": "19551f7e-c972-4d49-ab68-8490aa118c4e",
+    "ownerId": "2c6aea6c-efdc-4675-b061-68728ea75d96",
+    "storeName": "vendor",
+    "region": "tunis",
+    "category": "wedding_venue",
+    "description": "desciption",
+    "status": "rejected",
+    "createdAt": "2026-01-17T21:15:28.008Z",
+    "updatedAt": "2026-01-17T21:15:57.389Z"
+  },
+  {
+    "id": "a7d8ef2a-a71f-4f2c-bd19-6e3f88a41435",
+    "ownerId": "519a546c-aca5-432b-a988-c3220e329388",
+    "storeName": "vendor",
+    "region": "tunis",
+    "category": "photographer",
+    "description": "fff",
+    "status": "approved",
+    "createdAt": "2026-01-17T21:26:57.991Z",
+    "updatedAt": "2026-01-17T21:27:18.126Z"
   }
 ]

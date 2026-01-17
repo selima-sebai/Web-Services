@@ -1090,5 +1090,40 @@
     "passwordHash": "$2b$10$HJd3CB0w2wTIgRAbZZZ9NeJxrLmPpXZjg4sJfw8/zJfDK.vUwBuw2",
     "role": "vendor",
     "createdAt": "2026-01-17T08:33:22.897Z"
+  },
+  {
+    "id": "35d90c2a-7869-4f3a-b365-ef3fae46f92e",
+    "email": "client1@test.com",
+    "passwordHash": "$2b$10$ppcnn04hQpHFYDxymuDNQeLkl.Z466R62g75HkCYanZfTwqYJLyuG",
+    "role": "user",
+    "createdAt": "2026-01-17T13:41:37.478Z"
+  },
+  {
+    "id": "e71a46b1-0410-49db-9312-6590b36fa22f",
+    "email": "moufida@gmail.com",
+    "passwordHash": "$2b$10$SdmiR7pNWuwzf2pSFtfrdObugx5hH42pyGXN8Ipyp1QxIh6MOs1H6",
+    "role": "vendor",
+    "createdAt": "2026-01-17T15:05:11.567Z"
+  },
+  {
+    "id": "9bfdd051-d79b-449c-a2e2-93c5a8d3c7aa",
+    "email": "vendor1@test.com",
+    "passwordHash": "$2b$10$8ZESsIJ01DDWsWRCw5YMq.FxWFxvyBPPdbJ0SsiAzfldvnY3SPMl2",
+    "role": "vendor",
+    "createdAt": "2026-01-17T20:02:43.495Z"
+  },
+  {
+    "id": "2c6aea6c-efdc-4675-b061-68728ea75d96",
+    "email": "new vendor@gmail.com",
+    "passwordHash": "$2b$10$CAlV2tyXUU4zs8rQuDOJ5ebyJbl2CdBMuHqZHOou7lHdEkW0naUKW",
+    "role": "vendor",
+    "createdAt": "2026-01-17T21:15:03.241Z"
+  },
+  {
+    "id": "519a546c-aca5-432b-a988-c3220e329388",
+    "email": "vendor@eersi.tn",
+    "passwordHash": "$2b$10$WJOq1zsNlgL2.sHE0SJKoeEZy1cmmsH0E1sbgqcytGu9rOatDLjNq",
+    "role": "vendor",
+    "createdAt": "2026-01-17T21:26:38.792Z"
   }
 ]

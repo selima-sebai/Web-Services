@@ -1,5 +1,243 @@
 [
   {
+    "id": "093ec066-fe8e-4cac-95ff-e326da1dec0d",
+    "userId": "e0de25bb-894d-4dab-aaa0-2f68f61e4b5f",
+    "email": "amelphotography@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-13\nTime: 09:00\nType: photographer\nBooking ID: 2ed86440-4a82-4c52-9629-9858a7c0c501\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "2ed86440-4a82-4c52-9629-9858a7c0c501",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T21:27:40.645Z"
+  },
+  {
+    "id": "4955e5bc-051b-4d09-826b-489c651538e1",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Amel Photography\nDate: 2026-01-13\nTime: 09:00\nType: photographer\nBooking ID: 2ed86440-4a82-4c52-9629-9858a7c0c501\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "2ed86440-4a82-4c52-9629-9858a7c0c501",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T21:27:40.391Z"
+  },
+  {
+    "id": "2618c88b-4342-4289-ab1b-286c08f8caa3",
+    "userId": "519a546c-aca5-432b-a988-c3220e329388",
+    "email": "vendor@eersi.tn",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: vendor\nRegion: tunis\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "a7d8ef2a-a71f-4f2c-bd19-6e3f88a41435",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T21:27:19.103Z"
+  },
+  {
+    "id": "a2fa41ad-4574-4d1b-b052-89e35be1619d",
+    "userId": "73fd95d7-9f3e-433a-b4b1-46445eb3f79d",
+    "email": "coiffurezahra@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-22\nTime: 09:30\nType: hairdresser\nBooking ID: b3faf6db-c67a-4fc7-91d5-4ea7ba40f270\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "b3faf6db-c67a-4fc7-91d5-4ea7ba40f270",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T21:16:33.455Z"
+  },
+  {
+    "id": "a30aad79-4478-48fa-b61f-b394e700d72d",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Coiffure Zahra\nDate: 2026-01-22\nTime: 09:30\nType: hairdresser\nBooking ID: b3faf6db-c67a-4fc7-91d5-4ea7ba40f270\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "b3faf6db-c67a-4fc7-91d5-4ea7ba40f270",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T21:16:33.215Z"
+  },
+  {
+    "id": "26b68332-fe3d-416d-ad8b-4939f5b97001",
+    "userId": "2c6aea6c-efdc-4675-b061-68728ea75d96",
+    "email": "new vendor@gmail.com",
+    "role": "vendor",
+    "title": "Vendor application rejected",
+    "message": "Your vendor application was rejected ❌\n\nStore: vendor\nRegion: tunis\n\nUpdate your info and re-apply from Vendor Dashboard.",
+    "event": "vendor_rejected",
+    "refId": "19551f7e-c972-4d49-ab68-8490aa118c4e",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T21:15:57.619Z"
+  },
+  {
+    "id": "6c7c68c8-0344-4b53-b477-a9a9e88cb208",
+    "userId": "9bfdd051-d79b-449c-a2e2-93c5a8d3c7aa",
+    "email": "vendor1@test.com",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: Salon Nour\nRegion: Tunis\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "c8bddcb9-f499-436d-b8e4-915aed6bafbd",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T21:15:55.949Z"
+  },
+  {
+    "id": "a59dae23-9a40-4fcd-beba-c95e98236084",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking confirmed",
+    "message": "Your booking is confirmed ✅\n\nDate: 2026-01-20\nTime: N/A\nType: hairdresser\nBooking ID: 44f22b68-4355-4a1f-a722-d30603844996\n\nRecorded in budget: 150 TND (hairdresser).",
+    "event": "booking_confirmed_client",
+    "refId": "44f22b68-4355-4a1f-a722-d30603844996",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": true,
+    "createdAt": "2026-01-17T14:33:58.236Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
+  },
+  {
+    "id": "f2c36586-4c44-48ba-b939-b78bf77fe32a",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Faten Amouri Center\nDate: 2026-01-20\nTime: N/A\nType: hairdresser\nBooking ID: 44f22b68-4355-4a1f-a722-d30603844996\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "44f22b68-4355-4a1f-a722-d30603844996",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": true,
+    "createdAt": "2026-01-17T14:33:17.363Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
+  },
+  {
+    "id": "51147c26-01a0-4236-805e-2ee1d8fa1cd4",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking cancelled",
+    "message": "Your booking was cancelled ❌\n\nDate: 2026-01-20\nTime: N/A\nType: hairdresser\nBooking ID: f1c36a27-a331-47f8-9e22-7ccda8462446",
+    "event": "booking_cancelled_client",
+    "refId": "f1c36a27-a331-47f8-9e22-7ccda8462446",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": true,
+    "createdAt": "2026-01-17T14:30:21.417Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
+  },
+  {
+    "id": "99fc485e-7ce5-4444-b01c-4b8c8979ca82",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Fleur de Lys\nDate: 2026-01-20\nTime: N/A\nType: hairdresser\nBooking ID: f1c36a27-a331-47f8-9e22-7ccda8462446\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "f1c36a27-a331-47f8-9e22-7ccda8462446",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": true,
+    "createdAt": "2026-01-17T14:24:30.141Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
+  },
+  {
+    "id": "512229bf-8748-461c-89cc-82237599cfca",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking confirmed",
+    "message": "Your booking is confirmed ✅\n\nDate: 2026-01-13\nTime: 10:00\nType: wedding_venue\nBooking ID: 0d189721-2374-41fb-9f96-3f12c7b7540f\n\nRecorded in budget: 12000 TND (wedding_venue).",
+    "event": "booking_confirmed_client",
+    "refId": "0d189721-2374-41fb-9f96-3f12c7b7540f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T10:05:57.185Z"
+  },
+  {
+    "id": "472056bf-1030-4f60-ae28-2c7838b0d35f",
+    "userId": "d32544c6-1957-41a4-bc55-d43c01962c1c",
+    "email": "raddisonblue@gmail.com",
+    "role": "vendor",
+    "title": "Booking confirmed",
+    "message": "A client confirmed the booking ✅\n\nDate: 2026-01-13\nTime: 10:00\nType: wedding_venue\nBooking ID: 0d189721-2374-41fb-9f96-3f12c7b7540f",
+    "event": "booking_confirmed",
+    "refId": "0d189721-2374-41fb-9f96-3f12c7b7540f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T10:05:56.933Z"
+  },
+  {
     "id": "6c771b4e-63ce-4ff3-81b3-b60a243a524e",
     "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
     "email": "nediamnajja@gmail.com",
@@ -428,8 +666,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T21:09:11.759Z"
+    "read": true,
+    "createdAt": "2026-01-16T21:09:11.759Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "4c5a5595-a906-4c60-b06c-5676c82dc62c",
@@ -464,8 +703,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T20:42:33.571Z"
+    "read": true,
+    "createdAt": "2026-01-16T20:42:33.571Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "6ab1ad0b-c17e-4be9-b178-d1bb941a8041",
@@ -500,8 +740,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T20:42:04.389Z"
+    "read": true,
+    "createdAt": "2026-01-16T20:42:04.389Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "733514cf-863b-4a02-9694-99ba8d287eba",
@@ -536,8 +777,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T20:01:14.130Z"
+    "read": true,
+    "createdAt": "2026-01-16T20:01:14.130Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "bc4ab811-1481-4adc-bc8c-208f786c616b",
@@ -572,8 +814,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:58:39.459Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:58:39.459Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "d6f276a0-9e83-4bb7-b300-6d0857093a3f",
@@ -608,8 +851,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:51:07.862Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:51:07.862Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "4313aa39-811f-47b0-aa24-144b01204c1a",
@@ -644,8 +888,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:46:26.383Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:46:26.383Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "22bb3f34-0664-4330-8a38-c4de99cc2491",
@@ -680,8 +925,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:45:35.971Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:45:35.971Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "406e48ca-af84-473b-b898-a9b5219b817e",
@@ -716,8 +962,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:43:14.781Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:43:14.781Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "1c44823d-336d-422e-acac-a08e5dee62cc",
@@ -752,8 +999,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:42:42.322Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:42:42.322Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "29c31548-6185-48a4-94d8-383229f9cfaf",
@@ -788,8 +1036,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:37:38.786Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:37:38.786Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "728fd6a2-0b84-458c-bf4e-63fb731decf8",
@@ -824,8 +1073,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:35:19.722Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:35:19.722Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "8f4d78d7-75a2-4a30-aceb-d7004f410b5c",
@@ -860,8 +1110,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:29:21.773Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:29:21.773Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "35d7a0fc-46ad-49dd-b408-3b1820a88b35",
@@ -896,8 +1147,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T19:29:05.912Z"
+    "read": true,
+    "createdAt": "2026-01-16T19:29:05.912Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "254c8308-a011-4c84-b418-04df7d4d93ef",
@@ -932,8 +1184,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:45:17.704Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:45:17.704Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "1184f41f-8baa-4bf7-8401-c5e4520fdba8",
@@ -968,8 +1221,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:44:46.912Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:44:46.912Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "c3e405e7-7370-45c0-a69b-c0b2c200865e",
@@ -1004,8 +1258,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:42:23.492Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:42:23.492Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "c0be5b94-53e5-4464-a51a-59ac06f0c325",
@@ -1040,8 +1295,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:41:00.654Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:41:00.654Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "11611c1f-59d2-478b-afa6-b255e748ac2b",
@@ -1076,8 +1332,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:40:53.920Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:40:53.920Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "19e07861-8621-45db-b360-95e4a4ff0844",
@@ -1112,8 +1369,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:38:29.779Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:38:29.779Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "b820373c-70bd-4ed3-917d-b6748466f2d9",
@@ -1148,8 +1406,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:27:27.663Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:27:27.663Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "ec39d473-978e-49d4-b929-1982d45ed5e3",
@@ -1184,8 +1443,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T18:19:48.911Z"
+    "read": true,
+    "createdAt": "2026-01-16T18:19:48.911Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "56667c66-7ec4-4f35-bfe9-cc03c7126241",
@@ -1220,8 +1480,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T17:45:46.720Z"
+    "read": true,
+    "createdAt": "2026-01-16T17:45:46.720Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "af43070b-987a-4171-9787-37d4e7a7cfee",
@@ -1256,8 +1517,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T17:37:19.535Z"
+    "read": true,
+    "createdAt": "2026-01-16T17:37:19.535Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "0bc00592-08d0-4fcc-9be6-fb76d6f6ba91",
@@ -1292,8 +1554,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-16T17:15:34.639Z"
+    "read": true,
+    "createdAt": "2026-01-16T17:15:34.639Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "4c67d7b8-66af-4265-99f6-b07f37ff344c",
@@ -1328,8 +1591,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T12:17:37.326Z"
+    "read": true,
+    "createdAt": "2026-01-15T12:17:37.326Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "8d3e2fe5-7fa6-4afc-be44-e212eea031d3",
@@ -1364,8 +1628,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T12:01:10.971Z"
+    "read": true,
+    "createdAt": "2026-01-15T12:01:10.971Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "794f6622-8221-4428-b59c-f6e2338b1a18",
@@ -1400,8 +1665,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T11:28:08.762Z"
+    "read": true,
+    "createdAt": "2026-01-15T11:28:08.762Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "39127a63-f50c-4bf9-9936-648e71d2304f",
@@ -1436,8 +1702,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T11:27:03.603Z"
+    "read": true,
+    "createdAt": "2026-01-15T11:27:03.603Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "7bde6750-b1ca-47ff-b74d-27a075233fd7",
@@ -1472,8 +1739,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T09:11:39.602Z"
+    "read": true,
+    "createdAt": "2026-01-15T09:11:39.602Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "640912b6-3b23-4e57-afc4-ec22d1f4ec94",
@@ -1508,8 +1776,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T09:07:28.757Z"
+    "read": true,
+    "createdAt": "2026-01-15T09:07:28.757Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "0be7431e-8640-4633-809c-50cf891c74fc",
@@ -1544,8 +1813,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T09:02:38.953Z"
+    "read": true,
+    "createdAt": "2026-01-15T09:02:38.953Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "878a426b-49e8-4e34-92d1-a7aa9d62cac2",
@@ -1580,8 +1850,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T09:01:16.997Z"
+    "read": true,
+    "createdAt": "2026-01-15T09:01:16.997Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "699e984c-c11c-4276-ac2a-323eab1c98b4",
@@ -1616,8 +1887,9 @@
       "emailSent": true,
       "provider": "resend"
     },
-    "read": false,
-    "createdAt": "2026-01-15T09:00:54.967Z"
+    "read": true,
+    "createdAt": "2026-01-15T09:00:54.967Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "a95c93f4-cfe4-493b-a5d9-632aef5db910",
@@ -1650,8 +1922,9 @@
       "emailAttempted": true,
       "emailSent": false
     },
-    "read": false,
-    "createdAt": "2026-01-15T01:27:33.017Z"
+    "read": true,
+    "createdAt": "2026-01-15T01:27:33.017Z",
+    "readAt": "2026-01-17T14:46:39.923Z"
   },
   {
     "id": "4d698dd9-5e36-49d1-9789-08de725eb5b9",
