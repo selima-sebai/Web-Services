@@ -1548,5 +1548,15 @@
     "createdAt": "2026-01-14T12:18:20.265Z",
     "updatedAt": "2026-01-14T12:18:20.265Z",
     "migratedFromVendorId": "140"
+  },
+  {
+    "id": "c5271fda-4ff9-4566-a14f-7e7f096ab927",
+    "ownerId": "345170d0-693c-4465-865e-2204941cabf7",
+    "storeName": "Keswa Zemneya",
+    "region": "Sfax",
+    "description": "Store for traditional men's wear",
+    "status": "approved",
+    "createdAt": "2026-01-17T01:28:33.797Z",
+    "updatedAt": "2026-01-17T01:29:04.321Z"
   }
 ]

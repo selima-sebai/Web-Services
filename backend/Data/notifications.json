@@ -1,5 +1,239 @@
 [
   {
+    "id": "c18d01f7-c2b6-4f52-aa3b-8fb6c49d685e",
+    "userId": "345170d0-693c-4465-865e-2204941cabf7",
+    "email": "mahdisaidi@gmail.com",
+    "role": "vendor",
+    "title": "Vendor application approved",
+    "message": "Congratulations! Your vendor application has been approved ✅\n\nStore: Keswa Zemneya\nRegion: Sfax\n\nYou can now add services and receive bookings.",
+    "event": "vendor_approved",
+    "refId": "c5271fda-4ff9-4566-a14f-7e7f096ab927",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-17T01:29:06.577Z"
+  },
+  {
+    "id": "36001fd7-94fd-4963-9b3d-0d6901499584",
+    "userId": "45a3a9e3-5bde-4629-9205-2e42952a2304",
+    "email": "salma@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-21\nTime: 10:00 12:00 13:00\nType: haidresser\nBooking ID: 9b10c232-b19f-4e32-90dc-9c7af4516738\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "9b10c232-b19f-4e32-90dc-9c7af4516738",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T23:46:32.583Z"
+  },
+  {
+    "id": "a2cbac11-7b28-4b67-bdd0-11b28a24fad8",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Salma beauty — bridal makeup\nDate: 2026-01-21\nTime: 10:00 12:00 13:00\nType: haidresser\nBooking ID: 9b10c232-b19f-4e32-90dc-9c7af4516738\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "9b10c232-b19f-4e32-90dc-9c7af4516738",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T23:46:31.504Z"
+  },
+  {
+    "id": "ae858646-dda3-4921-9867-3e3e473fa336",
+    "userId": "a60beee2-2c27-4beb-b27c-57319cc9a93d",
+    "email": "maestro@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-07\nTime: 18:00\nType: band\nBooking ID: 5beea6e8-1aff-49e7-9c6e-d71c159d0380\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "5beea6e8-1aff-49e7-9c6e-d71c159d0380",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T23:40:55.216Z"
+  },
+  {
+    "id": "20a1ad90-39d5-4e15-92ac-a6095370515f",
+    "userId": "2d931138-7c14-4b61-8dd5-c79d07f0c032",
+    "email": "nadahenchir@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Maestro\nDate: 2026-01-07\nTime: 18:00\nType: band\nBooking ID: 5beea6e8-1aff-49e7-9c6e-d71c159d0380\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "5beea6e8-1aff-49e7-9c6e-d71c159d0380",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T23:40:52.182Z"
+  },
+  {
+    "id": "9e2b976b-534b-4326-8e71-6f5ea0b29100",
+    "userId": "d32544c6-1957-41a4-bc55-d43c01962c1c",
+    "email": "raddisonblue@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-13\nTime: 10:00\nType: wedding_venue\nBooking ID: 0d189721-2374-41fb-9f96-3f12c7b7540f\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "0d189721-2374-41fb-9f96-3f12c7b7540f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T23:38:01.239Z"
+  },
+  {
+    "id": "88c87cdd-3b1a-4b4f-a04e-2be3a56aad7f",
+    "userId": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Raddison Blue\nDate: 2026-01-13\nTime: 10:00\nType: wedding_venue\nBooking ID: 0d189721-2374-41fb-9f96-3f12c7b7540f\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "0d189721-2374-41fb-9f96-3f12c7b7540f",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T23:38:00.747Z"
+  },
+  {
+    "id": "581bcb91-6c2d-4b61-8be9-cfc46f31ef55",
+    "userId": "993170f8-ba8d-4ed3-a311-09ab7793cdf4",
+    "email": "zifef@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-29\nTime: 10:00\nType: wedding_venue\nBooking ID: 75bf65bb-aa14-43ad-aadf-dfc69d909e1e\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "75bf65bb-aa14-43ad-aadf-dfc69d909e1e",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T21:09:11.960Z"
+  },
+  {
+    "id": "7c0dc0b8-0c50-4865-bba1-d17a06162620",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Zifef\nDate: 2026-01-29\nTime: 10:00\nType: wedding_venue\nBooking ID: 75bf65bb-aa14-43ad-aadf-dfc69d909e1e\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "75bf65bb-aa14-43ad-aadf-dfc69d909e1e",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T21:09:11.759Z"
+  },
+  {
+    "id": "4c5a5595-a906-4c60-b06c-5676c82dc62c",
+    "userId": "e390955f-0e38-4caf-9fb9-4f3bc6024d3e",
+    "email": "fatmabouchiba@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-22\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: 2a5ba14f-5748-4eaa-8c12-a3e6afff15b9\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "2a5ba14f-5748-4eaa-8c12-a3e6afff15b9",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T20:42:34.060Z"
+  },
+  {
+    "id": "9d266855-46b7-4a3d-8254-b91b86197eeb",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Fatma Bouchiba\nDate: 2026-01-22\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: 2a5ba14f-5748-4eaa-8c12-a3e6afff15b9\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "2a5ba14f-5748-4eaa-8c12-a3e6afff15b9",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T20:42:33.571Z"
+  },
+  {
+    "id": "6ab1ad0b-c17e-4be9-b178-d1bb941a8041",
+    "userId": "e390955f-0e38-4caf-9fb9-4f3bc6024d3e",
+    "email": "fatmabouchiba@gmail.com",
+    "role": "vendor",
+    "title": "New booking request",
+    "message": "You received a new booking request.\n\nDate: 2026-01-14\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: 167f9831-4e1b-4409-ad58-8a205257da59\n\nOpen Vendor Dashboard to accept/decline.",
+    "event": "booking_requested",
+    "refId": "167f9831-4e1b-4409-ad58-8a205257da59",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T20:42:04.627Z"
+  },
+  {
+    "id": "ce012d1d-bf93-4c2f-b79e-aff8477bd317",
+    "userId": "8548a693-6ebc-4166-88d1-4c9ceddba017",
+    "email": "sebaiselima@gmail.com",
+    "role": "client",
+    "title": "Booking request sent",
+    "message": "Your booking request was sent ✅\n\nVendor/Service: Fatma Bouchiba\nDate: 2026-01-14\nTime: 11:00\nType: traditional_clothes_women\nBooking ID: 167f9831-4e1b-4409-ad58-8a205257da59\n\nYou can track updates in Notifications.",
+    "event": "booking_requested_client",
+    "refId": "167f9831-4e1b-4409-ad58-8a205257da59",
+    "meta": {},
+    "delivery": {
+      "emailAttempted": true,
+      "emailSent": true,
+      "provider": "resend"
+    },
+    "read": false,
+    "createdAt": "2026-01-16T20:42:04.389Z"
+  },
+  {
     "id": "733514cf-863b-4a02-9694-99ba8d287eba",
     "userId": "ae5f1e63-771d-4bcc-aea7-5b55c7a37bdb",
     "email": "dlicesrannoucha@gmail.com",

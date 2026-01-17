@@ -15,7 +15,8 @@ import {
 import { notifyUser } from "../utils/mailer.js";
 
 const router = express.Router();
-router.use(requireAuth, requireRole("client"));
+router.use(requireAuth, requireRole("client", "user"));
+
 
 function findUserById(userId) {
   const users = readJson(USERS_PATH, []) || [];

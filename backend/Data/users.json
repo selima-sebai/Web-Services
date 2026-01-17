@@ -1020,5 +1020,26 @@
     "passwordHash": "$2b$10$2Nz7trS575PM1V3wtnQFv.52QD0KtvroCoZDupYSPxR5ed3pUE2yq",
     "role": "client",
     "createdAt": "2026-01-14T15:54:16.232Z"
+  },
+  {
+    "id": "d9069e9d-0dd8-42e8-9b6f-26965327b241",
+    "email": "nediamnajja@gmail.com",
+    "passwordHash": "$2b$10$FZ0RZ82GukVodaBM9VzUQ.8IGjfgwkm3pm3UcKuzyTVvMKozVLBDu",
+    "role": "user",
+    "createdAt": "2026-01-16T23:31:05.975Z"
+  },
+  {
+    "id": "2d931138-7c14-4b61-8dd5-c79d07f0c032",
+    "email": "nadahenchir@gmail.com",
+    "passwordHash": "$2b$10$UK3rrFARXSjNTyw/BakBgeZRh0BJoAFzUg7w3Lg6dspH2DBoAoJKu",
+    "role": "user",
+    "createdAt": "2026-01-16T23:38:29.858Z"
+  },
+  {
+    "id": "345170d0-693c-4465-865e-2204941cabf7",
+    "email": "mahdisaidi@gmail.com",
+    "passwordHash": "$2b$10$wGIbebhak5MCGcCesfVVyOm1phd05HpznP8W3Re5ZIXJKT1iocSlK",
+    "role": "vendor",
+    "createdAt": "2026-01-17T01:27:30.792Z"
   }
 ]

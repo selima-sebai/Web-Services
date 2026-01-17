@@ -11,7 +11,8 @@ const router = express.Router();
  * - Budget is a CLIENT feature only.
  * - Vendors/Admin cannot access it.
  */
-router.use(requireAuth, requireRole("client"));
+router.use(requireAuth, requireRole("client", "user"));
+
 
 function getOrCreate(clientId) {
   const budgets = readJson(BUDGETS_PATH, []) || [];
